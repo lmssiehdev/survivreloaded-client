@@ -1,84 +1,84 @@
 "use strict";
 
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var helpers = __webpack_require__("26be8056");
-var AnalyticsService = __webpack_require__("04b0444b");
+var helpers = require("./26be8056.js");
+var AnalyticsService = require("./04b0444b.js");
 // Disable logging in production
 if ( true && !helpers.getParameterByName('debug')) {
     console.log = function () {};
 }
 
-var $ = __webpack_require__("8ee62bea");
-var PIXI = __webpack_require__("8b1dfb45");
+var $ = require("./8ee62bea.js");
+var PIXI = require("./8b1dfb45.js");
 PIXI.utils.skipHello();
 
-__webpack_require__("deb4ca7e");
+require("./deb4ca7e.js");
 
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var net = __webpack_require__("300e2704");
-var MapDefs = __webpack_require__("b1f6ba3c");
-var GeneralDefs = __webpack_require__("3fef0c67");
-var Account = __webpack_require__("a68e9107");
-var Ads = __webpack_require__("2d958752");
-var api = __webpack_require__("259eae5b");
-var Ambience = __webpack_require__("0b12821e");
-var AudioManager = __webpack_require__("4b528868");
-var Config = __webpack_require__("6ffe8b70");
-var device = __webpack_require__("ce29f17f");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var Game = __webpack_require__("9b5f96fd");
-var Input = __webpack_require__("4b8d140f");
-var InputBinds = __webpack_require__("d306eab6");
-var LoadoutDisplay = __webpack_require__("d15c07f3");
-var HomeLoadoutDisplay = __webpack_require__("1919cb88");
-var LoadoutMenu = __webpack_require__("153d9481");
-var Localization = __webpack_require__("7d64d541");
-var Eventhandler = __webpack_require__("289e8b9e");
-var menu = __webpack_require__("484b3444");
-var MenuModal = __webpack_require__("fa71fb59");
-var Pass = __webpack_require__("4f38df20");
-var PingTest = __webpack_require__("c4623452");
-var ProfileUi = __webpack_require__("3c92d644");
-var proxy = __webpack_require__("6743143a");
-var resources = __webpack_require__("76205fa7");
-var SiteInfo = __webpack_require__("4bc2cf35");
-var TeamMenu = __webpack_require__("61fc98e9");
-var Ui2 = __webpack_require__("d3da5587");
-var webview = __webpack_require__("f4d48896");
-var Spinner = __webpack_require__("b8ef459b");
-var IAP = __webpack_require__("6eaef6cf");
-var Market = __webpack_require__("f822dced");
-var OpponentMenu = __webpack_require__("851f35c5");
-var OpponentDisplay = __webpack_require__("3f40fc69");
-var SpineObjManager = __webpack_require__("1fd13749");
-var WeaponSelector = __webpack_require__("17ac315d");
-var GearForge = __webpack_require__("4d789253");
-var RewardsModal = __webpack_require__("ab8b5da7");
-var BugBattleService = __webpack_require__("77bea4d7");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var net = require("./300e2704.js");
+var MapDefs = require("./b1f6ba3c.js");
+var GeneralDefs = require("./3fef0c67.js");
+var Account = require("./a68e9107.js");
+var Ads = require("./2d958752.js");
+var api = require("./259eae5b.js");
+var Ambience = require("./0b12821e.js");
+var AudioManager = require("./4b528868.js");
+var Config = require("./6ffe8b70.js");
+var device = require("./ce29f17f.js");
+var FirebaseManager = require("./f398b7c7.js");
+var Game = require("./9b5f96fd.js");
+var Input = require("./4b8d140f.js");
+var InputBinds = require("./d306eab6.js");
+var LoadoutDisplay = require("./d15c07f3.js");
+var HomeLoadoutDisplay = require("./1919cb88.js");
+var LoadoutMenu = require("./153d9481.js");
+var Localization = require("./7d64d541.js");
+var Eventhandler = require("./289e8b9e.js");
+var menu = require("./484b3444.js");
+var MenuModal = require("./fa71fb59.js");
+var Pass = require("./4f38df20.js");
+var PingTest = require("./c4623452.js");
+var ProfileUi = require("./3c92d644.js");
+var proxy = require("./6743143a.js");
+var resources = require("./76205fa7.js");
+var SiteInfo = require("./4bc2cf35.js");
+var TeamMenu = require("./61fc98e9.js");
+var Ui2 = require("./d3da5587.js");
+var webview = require("./f4d48896.js");
+var Spinner = require("./b8ef459b.js");
+var IAP = require("./6eaef6cf.js");
+var Market = require("./f822dced.js");
+var OpponentMenu = require("./851f35c5.js");
+var OpponentDisplay = require("./3f40fc69.js");
+var SpineObjManager = require("./1fd13749.js");
+var WeaponSelector = require("./17ac315d.js");
+var GearForge = require("./4d789253.js");
+var RewardsModal = require("./ab8b5da7.js");
+var BugBattleService = require("./77bea4d7.js");
 window.addEventListener("error", function (e) {
     console.log("Error occurred: " + e.error.message);
     return false;
@@ -1999,18 +1999,18 @@ m_App.prototype = {
 
     // Required to get webpack to process this dep
     //If device is mobile change css
-    var menuCssTmp = __webpack_require__("927ff3fc");
-    var gameCssTmp = __webpack_require__("b4f03d8a");
+    var menuCssTmp = require("./927ff3fc.js");
+    var gameCssTmp = require("./b4f03d8a.js");
 
     if (device.mobile && device.screenWidth >= 1024) {
-        gameCssTmp = __webpack_require__("40698162");
-        menuCssTmp = __webpack_require__("fc8e50ad");
+        gameCssTmp = require("./40698162.js");
+        menuCssTmp = require("./fc8e50ad.js");
     }
     if (device.model == "ipadpro" || device.mobile && device.screenWidth <= 1024) {
-        gameCssTmp = __webpack_require__("7b004068");
+        gameCssTmp = require("./7b004068.js");
     }
     if (device.mobile && device.screenWidth < 1024) {
-        menuCssTmp = __webpack_require__("a01ce6cc");
+        menuCssTmp = require("./a01ce6cc.js");
     }
 
     function loadCss(elem) {

@@ -12,38 +12,38 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 //Imports
-var v2 = __webpack_require__("c2a798c8");
-var assert = __webpack_require__("0e566746");
-var net = __webpack_require__("300e2704");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var collider = __webpack_require__("6b42806d");
+var v2 = require("./c2a798c8.js");
+var assert = require("./0e566746.js");
+var net = require("./300e2704.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var collider = require("./6b42806d.js");
 
-var SkillsEnum = __webpack_require__("e6306c81");
-var GameConfig = __webpack_require__("989ad62a");
-var GameObject = __webpack_require__("8649e148");
-var StatusEffect = __webpack_require__("877e3f79");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var SkillsEnum = require("./e6306c81.js");
+var GameConfig = require("./989ad62a.js");
+var GameObject = require("./8649e148.js");
+var StatusEffect = require("./877e3f79.js");
+var GameObjectDefs = require("./721a96bf.js");
 
-var Anim = __webpack_require__("1c877798").EnumPlayerAnimType;
+var Anim = require("./1c877798.js").EnumPlayerAnimType;
 
 //Attack behaviours
-var DeployTrap = __webpack_require__("7cf065b6");
-var CrusherAttack = __webpack_require__("508ded96");
-var CycloneAttack = __webpack_require__("58064a0b");
-var OrbitalAttack = __webpack_require__("738520b0");
-var DashAttackMelee = __webpack_require__("45d72c2c");
-var HeavyAttackStaff = __webpack_require__("4757149d");
-var HeavyAttackSword = __webpack_require__("97507a20");
-var RangeAttackSword = __webpack_require__("dcd24002");
-var NormalAttackRange = __webpack_require__("0972c173");
-var NormalAttackMelee = __webpack_require__("ec9679c6");
-var ApplyStatusEffect = __webpack_require__("d20ab944");
-var BladeFlurryAttack = __webpack_require__("9d2748cb");
-var VariableDamageRange = __webpack_require__("632fe679");
-var ApplyEffectToNearbyEnemies = __webpack_require__("37f05490");
-var DashAttackWithAnticipation = __webpack_require__("e80038a7");
-var ThrowablesAttack = __webpack_require__("c4078172");
+var DeployTrap = require("./7cf065b6.js");
+var CrusherAttack = require("./508ded96.js");
+var CycloneAttack = require("./58064a0b.js");
+var OrbitalAttack = require("./738520b0.js");
+var DashAttackMelee = require("./45d72c2c.js");
+var HeavyAttackStaff = require("./4757149d.js");
+var HeavyAttackSword = require("./97507a20.js");
+var RangeAttackSword = require("./dcd24002.js");
+var NormalAttackRange = require("./0972c173.js");
+var NormalAttackMelee = require("./ec9679c6.js");
+var ApplyStatusEffect = require("./d20ab944.js");
+var BladeFlurryAttack = require("./9d2748cb.js");
+var VariableDamageRange = require("./632fe679.js");
+var ApplyEffectToNearbyEnemies = require("./37f05490.js");
+var DashAttackWithAnticipation = require("./e80038a7.js");
+var ThrowablesAttack = require("./c4078172.js");
 
 var WeaponManager = function () {
     /**

@@ -1,9 +1,9 @@
 "use strict";
 
 
-var assert = __webpack_require__("0e566746");
-var earcut = __webpack_require__("66141f52");
-var v2 = __webpack_require__("c2a798c8");
+var assert = require("./0e566746.js");
+var earcut = require("./66141f52.js");
+var v2 = require("./c2a798c8.js");
 
 var kEpsilon = 0.000001;
 

@@ -1,30 +1,30 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = __webpack_require__("8ee62bea");
+var $ = require("./8ee62bea.js");
 // @ts-ignore
-var GameConfig = __webpack_require__("989ad62a");
-var helpers = __webpack_require__("26be8056");
-var MenuModal = __webpack_require__("fa71fb59");
+var GameConfig = require("./989ad62a.js");
+var helpers = require("./26be8056.js");
+var MenuModal = require("./fa71fb59.js");
 // @ts-ignore
-var GameObjectDefs = __webpack_require__("721a96bf");
-var Player = __webpack_require__("a508b62a");
-var PieTimer = __webpack_require__("feb8fc30");
+var GameObjectDefs = require("./721a96bf.js");
+var Player = require("./a508b62a.js");
+var PieTimer = require("./feb8fc30.js");
 
 var WeaponSelector = function () {
 

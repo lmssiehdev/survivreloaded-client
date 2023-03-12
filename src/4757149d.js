@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Shoot a burst of projectiles based on the attack hold time
  */
 
-var math = __webpack_require__("10899aea");
+var math = require("./10899aea.js");
 
-var SkillsEnum = __webpack_require__("e6306c81");
-var AnimationData = __webpack_require__("1c877798");
+var SkillsEnum = require("./e6306c81.js");
+var AnimationData = require("./1c877798.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

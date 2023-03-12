@@ -1,15 +1,15 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -20,28 +20,28 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * This updates all the active bullets client side
  */
 
-var PIXI = __webpack_require__("8b1dfb45");
-var assert = __webpack_require__("0e566746");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var coldet = __webpack_require__("34e32c48");
-var DebugLines = __webpack_require__("af8ba00f");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
-var MapObjectDefs = __webpack_require__("03f4982a");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var BulletDefs = __webpack_require__("beeed8a4");
-var BehaviourEnum = __webpack_require__("b2f0419a");
-var NpcDefinitions = __webpack_require__("20caaef9");
-var BulletBehaviourDefaults = __webpack_require__("0c46af0d");
+var PIXI = require("./8b1dfb45.js");
+var assert = require("./0e566746.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var coldet = require("./34e32c48.js");
+var DebugLines = require("./af8ba00f.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
+var MapObjectDefs = require("./03f4982a.js");
+var GameObjectDefs = require("./721a96bf.js");
+var BulletDefs = require("./beeed8a4.js");
+var BehaviourEnum = require("./b2f0419a.js");
+var NpcDefinitions = require("./20caaef9.js");
+var BulletBehaviourDefaults = require("./0c46af0d.js");
 
 //Import behaviours
-var BaseBullet = __webpack_require__("ea2f7f0c");
-var SpreadShot = __webpack_require__("1c8eddbe");
-var ArcTrajectory = __webpack_require__("594790ff");
-var SinusoidalBullet = __webpack_require__("9c3e26cf");
-var RectangularHitboxSized = __webpack_require__("bd69bd01");
+var BaseBullet = require("./ea2f7f0c.js");
+var SpreadShot = require("./1c8eddbe.js");
+var ArcTrajectory = require("./594790ff.js");
+var SinusoidalBullet = require("./9c3e26cf.js");
+var RectangularHitboxSized = require("./bd69bd01.js");
 
 var kMaxSpineObjects = 80;
 var kTimesToKillBullet = 20;

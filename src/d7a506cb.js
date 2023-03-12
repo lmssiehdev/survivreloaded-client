@@ -1,8 +1,8 @@
 "use strict";
 
 
-var collider = __webpack_require__("6b42806d");
-var EnumNpcs = __webpack_require__("063efab9");
+var collider = require("./6b42806d.js");
+var EnumNpcs = require("./063efab9.js");
 
 var npcSpawnersDefs = {
     'skeleto_7x7': {

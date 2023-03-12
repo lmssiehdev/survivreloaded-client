@@ -1,7 +1,7 @@
 "use strict";
 
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -9,7 +9,7 @@ var _NpcAnimObjects;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var EnumNpcAnim = __webpack_require__("8f04ede1").EnumNpcAnimations;
+var EnumNpcAnim = require("./8f04ede1.js").EnumNpcAnimations;
 
 var NpcAnimObjects = (_NpcAnimObjects = {}, (0, _defineProperty3.default)(_NpcAnimObjects, EnumNpcAnim.Idle, {
     animName: 'idle',

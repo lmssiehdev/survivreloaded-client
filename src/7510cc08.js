@@ -1,13 +1,13 @@
 "use strict";
 
 
-var assert = __webpack_require__("0e566746");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var assert = require("./0e566746.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
-var MapObjectDefs = __webpack_require__("03f4982a");
+var MapObjectDefs = require("./03f4982a.js");
 
 // Anti-cheat vars
 var m_kMinSmokeAlpha = 0.8;

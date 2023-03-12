@@ -1,22 +1,22 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
 var GasMode = GameConfig.GasMode;
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
-var helpers = __webpack_require__("26be8056");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
+var helpers = require("./26be8056.js");
 
 var kOverdraw = 100 * 1000;
 var kSegments = 512;

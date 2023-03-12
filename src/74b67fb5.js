@@ -10,14 +10,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Status effect that inmobilizes a player
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var GameObject = __webpack_require__("8649e148");
-var AnimationData = __webpack_require__("1c877798");
-var StatusEffects = __webpack_require__("41b5258b");
-var EnumNpcAnimations = __webpack_require__("8f04ede1").EnumNpcAnimations;
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var GameObject = require("./8649e148.js");
+var AnimationData = require("./1c877798.js");
+var StatusEffects = require("./41b5258b.js");
+var EnumNpcAnimations = require("./8f04ede1.js").EnumNpcAnimations;
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     StatusEffectAttackType = _require.StatusEffectAttackType;
 
 var Anim = AnimationData.EnumPlayerAnimType;

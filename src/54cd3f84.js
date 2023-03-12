@@ -11,10 +11,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * while the player is inside the trap
  */
 
-var assert = __webpack_require__("0e566746");
-var v2 = __webpack_require__("c2a798c8");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
+var assert = require("./0e566746.js");
+var v2 = require("./c2a798c8.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
 
 var DamageOverTimeTrap = function () {
     function DamageOverTimeTrap(id, definition, trapManager, params, explosionBarn) {

@@ -1,30 +1,30 @@
 "use strict";
 
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _toConsumableArray2 = __webpack_require__("998a712f");
+var _toConsumableArray2 = require("./998a712f.js");
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var uuidv4 = __webpack_require__("8581e282");
-var UaParser = __webpack_require__("9e80df5c");
-var device = __webpack_require__("ce29f17f");
-var GameConfig = __webpack_require__("989ad62a");
-var $ = __webpack_require__("8ee62bea");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var uuidv4 = require("./8581e282.js");
+var UaParser = require("./9e80df5c.js");
+var device = require("./ce29f17f.js");
+var GameConfig = require("./989ad62a.js");
+var $ = require("./8ee62bea.js");
+var GameObjectDefs = require("./721a96bf.js");
 
 var devEndPoint = "https://web.archive.org/web/20211102160635/https://analytics.kongregate.io/tonic/bit-heroes-arena/dev";
 var prodEndPoint = "https://web.archive.org/web/20211102160635/https://analytics.kongregate.io/tonic/bit-heroes-arena/live";

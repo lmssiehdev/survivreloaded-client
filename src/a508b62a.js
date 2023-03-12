@@ -1,87 +1,87 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _slicedToArray2 = __webpack_require__("9bc388c8");
+var _slicedToArray2 = require("./9bc388c8.js");
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _entries = __webpack_require__("160ad6a9");
+var _entries = require("./160ad6a9.js");
 
 var _entries2 = _interopRequireDefault(_entries);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
 var Action = GameConfig.Action;
 var Anim = GameConfig.Anim;
 var GameInput = GameConfig.Input;
 var HasteType = GameConfig.HasteType;
 var Role = GameConfig.Role;
-var net = __webpack_require__("300e2704");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var animData = __webpack_require__("6bad552e");
-var collisionHelpers = __webpack_require__("6d494b5c");
-var device = __webpack_require__("ce29f17f");
-var DebugLines = __webpack_require__("af8ba00f");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var helpers = __webpack_require__("26be8056");
-var ObjectPool = __webpack_require__("753d6e4b");
-var shot = __webpack_require__("6e43d1d7");
-var InGameNotification = __webpack_require__("954c3bdb");
+var net = require("./300e2704.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var animData = require("./6bad552e.js");
+var collisionHelpers = require("./6d494b5c.js");
+var device = require("./ce29f17f.js");
+var DebugLines = require("./af8ba00f.js");
+var FirebaseManager = require("./f398b7c7.js");
+var helpers = require("./26be8056.js");
+var ObjectPool = require("./753d6e4b.js");
+var shot = require("./6e43d1d7.js");
+var InGameNotification = require("./954c3bdb.js");
 
-var AnimationController = __webpack_require__("4c22ec9b");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var MapObjectDefs = __webpack_require__("03f4982a");
-var StatusEffects = __webpack_require__("41b5258b");
+var AnimationController = require("./4c22ec9b.js");
+var GameObjectDefs = require("./721a96bf.js");
+var MapObjectDefs = require("./03f4982a.js");
+var StatusEffects = require("./41b5258b.js");
 
 // Effects
-var StatusEffect = __webpack_require__("877e3f79");
+var StatusEffect = require("./877e3f79.js");
 
-var WeaponManager = __webpack_require__("665aedb2");
-var SkillTelegraph = __webpack_require__("8d2ac16e");
-var GameObject = __webpack_require__("8649e148");
-var GearPerksController = __webpack_require__("e54dae39");
+var WeaponManager = require("./665aedb2.js");
+var SkillTelegraph = require("./8d2ac16e.js");
+var GameObject = require("./8649e148.js");
+var GearPerksController = require("./e54dae39.js");
 
-var _require = __webpack_require__("989ad62a"),
+var _require = require("./989ad62a.js"),
     CharacterSkins = _require.CharacterSkins;
 
-var _require2 = __webpack_require__("1c877798"),
+var _require2 = require("./1c877798.js"),
     EnumPlayerAnimType = _require2.EnumPlayerAnimType;
 
-var loadouts = __webpack_require__("0503bedc");
+var loadouts = require("./0503bedc.js");
 
 var Pose = animData.Pose;
 var Bones = animData.Bones;

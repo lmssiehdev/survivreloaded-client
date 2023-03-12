@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
@@ -21,31 +21,31 @@ var _SlotsInputBindings, _WeaponSlotToBind;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
+var $ = require("./8ee62bea.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
 var GameInput = GameConfig.Input;
 var Action = GameConfig.Action;
-var math = __webpack_require__("10899aea");
-var net = __webpack_require__("300e2704");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
+var math = require("./10899aea.js");
+var net = require("./300e2704.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
 var DamageType = GameConfig.DamageType;
 var PickupMsgType = net.PickupMsgType;
-var SkillCooldown = __webpack_require__("17a97f13");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var Levels = __webpack_require__("a680f13f");
-var MapObjectDefs = __webpack_require__("03f4982a");
+var SkillCooldown = require("./17a97f13.js");
+var GameObjectDefs = require("./721a96bf.js");
+var Levels = require("./a680f13f.js");
+var MapObjectDefs = require("./03f4982a.js");
 
-var _require = __webpack_require__("989ad62a"),
+var _require = require("./989ad62a.js"),
     SlotsByIndex = _require.SlotsByIndex;
 
-var StatusEffects = __webpack_require__("41b5258b");
-var StatusEffect = __webpack_require__("877e3f79");
+var StatusEffects = require("./41b5258b.js");
+var StatusEffect = require("./877e3f79.js");
 
-var _require2 = __webpack_require__("35dbdceb"),
+var _require2 = require("./35dbdceb.js"),
     getGearItems = _require2.getGearItems;
 
 //

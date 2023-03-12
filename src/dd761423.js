@@ -1,7 +1,7 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
+var PIXI = require("./8b1dfb45.js");
 
 function createSprite(_ref) {
     var image = _ref.image,

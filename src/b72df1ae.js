@@ -2,7 +2,7 @@
 
 
 // @ts-check
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 
 var getItemValue = function getItemValue(objDef) {
     var priceList = GameObjectDefs['prices_1'];

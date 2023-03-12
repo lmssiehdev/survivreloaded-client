@@ -1,45 +1,45 @@
 "use strict";
 
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _set = __webpack_require__("ed9971da");
+var _set = require("./ed9971da.js");
 
 var _set2 = _interopRequireDefault(_set);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var GearCardItem = __webpack_require__("189d6a05");
-var GearDefs = __webpack_require__("4ead53e6");
+var GearCardItem = require("./189d6a05.js");
+var GearDefs = require("./4ead53e6.js");
 
-var _require = __webpack_require__("35dbdceb"),
+var _require = require("./35dbdceb.js"),
     getUniqueGearPerks = _require.getUniqueGearPerks;
 
-var WindowModal = __webpack_require__("057c1011");
-var gear = __webpack_require__("4ead53e6");
+var WindowModal = require("./057c1011.js");
+var gear = require("./4ead53e6.js");
 
 /**
  * 

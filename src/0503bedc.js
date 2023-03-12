@@ -4,11 +4,11 @@
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 // @ts-check
-var GameConfig = __webpack_require__("989ad62a");
-var deepEqual = __webpack_require__("259e794b");
+var GameConfig = require("./989ad62a.js");
+var deepEqual = require("./259e794b.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var math = __webpack_require__("10899aea");
+var GameObjectDefs = require("./721a96bf.js");
+var math = require("./10899aea.js");
 
 var LoadoutTypes = {
     outfit: 'outfit',

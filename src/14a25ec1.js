@@ -5,7 +5,7 @@
  * Replace Math.min and Math.max with a ternary for performance
  * -NSC 09-05-18
  */
-var math = __webpack_require__("10899aea");
+var math = require("./10899aea.js");
 
 (function (root) {
     /**********************************************************
@@ -472,4 +472,4 @@ var math = __webpack_require__("10899aea");
         BitStream: BitStream
     };
 })(undefined);
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("a5e2faae").Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, require("./a5e2faae.js").Buffer))

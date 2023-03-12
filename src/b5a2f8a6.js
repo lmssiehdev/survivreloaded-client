@@ -3,9 +3,9 @@
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var gameConfig = __webpack_require__("989ad62a");
+var gameConfig = require("./989ad62a.js");
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     WeaponAttackType = _require.WeaponAttackType,
     StatusEffectAttackType = _require.StatusEffectAttackType;
 

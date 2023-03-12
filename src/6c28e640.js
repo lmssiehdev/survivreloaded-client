@@ -11,9 +11,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * After certain time, set in the definition, the trap will disappear
  */
 
-var assert = __webpack_require__("0e566746");
-var v2 = __webpack_require__("c2a798c8");
-var collider = __webpack_require__("6b42806d");
+var assert = require("./0e566746.js");
+var v2 = require("./c2a798c8.js");
+var collider = require("./6b42806d.js");
 
 var BaseTrap = function () {
     function BaseTrap(id, definition, trapManager, params) {

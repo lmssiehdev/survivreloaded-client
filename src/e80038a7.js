@@ -10,12 +10,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Do a melee attack with a dash, waiting for the animation anticipation first
  */
 
-var assert = __webpack_require__("0e566746");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
+var assert = require("./0e566746.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
 
-var SkillsEnum = __webpack_require__("e6306c81");
-var AnimationData = __webpack_require__("1c877798");
+var SkillsEnum = require("./e6306c81.js");
+var AnimationData = require("./1c877798.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

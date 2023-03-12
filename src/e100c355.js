@@ -1,13 +1,13 @@
 "use strict";
 
 
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var River = __webpack_require__("be22c643");
-var Terrain = __webpack_require__("6912809e");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var River = require("./be22c643.js");
+var Terrain = require("./6912809e.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
 
 function generateJaggedAabbPoints(aabb, divisionsX, divisionsY, variation, rand) {
     var ll = v2.create(aabb.min.x, aabb.min.y);

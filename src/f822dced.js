@@ -1,29 +1,29 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var api = __webpack_require__("259eae5b");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
-var MenuModal = __webpack_require__("fa71fb59");
-var survivLoading = __webpack_require__("127a6ef3");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var Rarities = __webpack_require__("e2fbbd42");
-var MarketConfig = __webpack_require__("e38a0ead");
+var $ = require("./8ee62bea.js");
+var api = require("./259eae5b.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
+var MenuModal = require("./fa71fb59.js");
+var survivLoading = require("./127a6ef3.js");
+var GameObjectDefs = require("./721a96bf.js");
+var Rarities = require("./e2fbbd42.js");
+var MarketConfig = require("./e38a0ead.js");
 
 //
 // ajaxRequest

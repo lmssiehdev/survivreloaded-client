@@ -6,9 +6,9 @@
  * Contains all the special behaviour to apply the projectiles
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var assert = __webpack_require__("0e566746");
-var math = __webpack_require__("10899aea");
+var v2 = require("./c2a798c8.js");
+var assert = require("./0e566746.js");
+var math = require("./10899aea.js");
 
 var getSinusoidalDirection = function getSinusoidalDirection(dir) {
     //TODO rename and get the direction in 90 degree more precise in diagonals

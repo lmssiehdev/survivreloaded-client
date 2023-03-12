@@ -1,54 +1,54 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _slicedToArray2 = __webpack_require__("9bc388c8");
+var _slicedToArray2 = require("./9bc388c8.js");
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _entries = __webpack_require__("160ad6a9");
+var _entries = require("./160ad6a9.js");
 
 var _entries2 = _interopRequireDefault(_entries);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var device = __webpack_require__("ce29f17f");
-var GameConfig = __webpack_require__("989ad62a");
+var $ = require("./8ee62bea.js");
+var device = require("./ce29f17f.js");
+var GameConfig = require("./989ad62a.js");
 var EmoteSlot = GameConfig.EmoteSlot;
-var loadouts = __webpack_require__("0503bedc");
-var Emote = __webpack_require__("e5d16b4d");
-var crosshair = __webpack_require__("c9e7c67c");
-var helpers = __webpack_require__("26be8056");
-var MenuModal = __webpack_require__("fa71fb59");
-var util = __webpack_require__("1901e2d9");
-var colorpicker = __webpack_require__("692a679e");
+var loadouts = require("./0503bedc.js");
+var Emote = require("./e5d16b4d.js");
+var crosshair = require("./c9e7c67c.js");
+var helpers = require("./26be8056.js");
+var MenuModal = require("./fa71fb59.js");
+var util = require("./1901e2d9.js");
+var colorpicker = require("./692a679e.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var LootBoxesDefs = __webpack_require__("1c57769f");
-var Rarities = __webpack_require__("e2fbbd42");
-var ArmoryGearMenu = __webpack_require__("2646e65d");
+var GameObjectDefs = require("./721a96bf.js");
+var LootBoxesDefs = require("./1c57769f.js");
+var Rarities = require("./e2fbbd42.js");
+var ArmoryGearMenu = require("./2646e65d.js");
 
-var _require = __webpack_require__("0503bedc"),
+var _require = require("./0503bedc.js"),
     LoadoutTypes = _require.LoadoutTypes;
 
-var EditUsernameBubble = __webpack_require__("67e921b2");
-var ModalRecycle = __webpack_require__("3280f174");
+var EditUsernameBubble = require("./67e921b2.js");
+var ModalRecycle = require("./3280f174.js");
 
 var kMeleeLockedItems = {
     'fists': 0

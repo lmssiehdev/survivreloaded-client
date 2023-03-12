@@ -1,16 +1,16 @@
 "use strict";
 
 
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var mapHelpers = __webpack_require__("7510cc08");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var debugHelpers = __webpack_require__("c347b8dd");
-var DebugLines = __webpack_require__("af8ba00f");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var mapHelpers = require("./7510cc08.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var debugHelpers = require("./c347b8dd.js");
+var DebugLines = require("./af8ba00f.js");
 
-var MapObjectDefs = __webpack_require__("03f4982a");
+var MapObjectDefs = require("./03f4982a.js");
 
 //
 // Structure

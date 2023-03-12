@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var api = __webpack_require__("259eae5b");
-var device = __webpack_require__("ce29f17f");
+var $ = require("./8ee62bea.js");
+var api = require("./259eae5b.js");
+var device = require("./ce29f17f.js");
 
 // Bundle 'events.js' with the app
 //set deafualt english as event lang
-var EnJs = __webpack_require__("a0389b4e");
+var EnJs = require("./a0389b4e.js");
 
 //
 // Helpers

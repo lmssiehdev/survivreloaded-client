@@ -1,8 +1,8 @@
 "use strict";
 
 
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 function m_Camera() {
     this.m_mangle = 0;

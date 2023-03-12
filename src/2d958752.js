@@ -1,27 +1,27 @@
 "use strict";
 
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _set = __webpack_require__("ed9971da");
+var _set = require("./ed9971da.js");
 
 var _set2 = _interopRequireDefault(_set);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _promise = __webpack_require__("2f756df0");
+var _promise = require("./2f756df0.js");
 
 var _promise2 = _interopRequireDefault(_promise);
 
@@ -29,11 +29,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // @ts-check
 
-var $ = __webpack_require__("8ee62bea");
-var device = __webpack_require__("ce29f17f");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var helpers = __webpack_require__("26be8056");
-var webview = __webpack_require__("f4d48896");
+var $ = require("./8ee62bea.js");
+var device = require("./ce29f17f.js");
+var FirebaseManager = require("./f398b7c7.js");
+var helpers = require("./26be8056.js");
+var webview = require("./f4d48896.js");
 
 /**
  * @typedef {Window & globalThis & { tyche: any }} ExtendedWindow

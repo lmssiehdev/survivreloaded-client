@@ -1,18 +1,18 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
-var GameObject = __webpack_require__("8649e148");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var device = __webpack_require__("ce29f17f");
-var DebugLines = __webpack_require__("af8ba00f");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
+var GameObject = require("./8649e148.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var device = require("./ce29f17f.js");
+var DebugLines = require("./af8ba00f.js");
 
-var BulletDefs = __webpack_require__("beeed8a4");
+var BulletDefs = require("./beeed8a4.js");
 
 //
 // FlareBarn

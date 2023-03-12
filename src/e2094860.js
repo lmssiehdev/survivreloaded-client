@@ -1,29 +1,29 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var PIXI = __webpack_require__("8b1dfb45");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var helpers = __webpack_require__("26be8056");
-var device = __webpack_require__("ce29f17f");
-var DebugLines = __webpack_require__("af8ba00f");
+var $ = require("./8ee62bea.js");
+var PIXI = require("./8b1dfb45.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var helpers = require("./26be8056.js");
+var device = require("./ce29f17f.js");
+var DebugLines = require("./af8ba00f.js");
 
-var BulletDefs = __webpack_require__("beeed8a4");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var BulletDefs = require("./beeed8a4.js");
+var GameObjectDefs = require("./721a96bf.js");
 
 var kDeadZone = 2.0;
 

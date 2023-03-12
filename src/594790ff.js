@@ -11,14 +11,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 //Imports
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
-var math = __webpack_require__("10899aea");
-var collider = __webpack_require__("6b42806d");
-var GameObject = __webpack_require__("8649e148");
-var GameConfig = __webpack_require__("989ad62a");
-var BehaviourEnum = __webpack_require__("b2f0419a");
-var BehaviourMethods = __webpack_require__("7b4c6cc8");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
+var math = require("./10899aea.js");
+var collider = require("./6b42806d.js");
+var GameObject = require("./8649e148.js");
+var GameConfig = require("./989ad62a.js");
+var BehaviourEnum = require("./b2f0419a.js");
+var BehaviourMethods = require("./7b4c6cc8.js");
 
 var ArcTrajectory = function () {
     /**

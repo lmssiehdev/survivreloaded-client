@@ -10,12 +10,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * This apply an effect to all enemies nearby (area specified in skill definition)
  */
 
-var math = __webpack_require__("10899aea");
-var SkillsEnum = __webpack_require__("e6306c81");
-var GameConfig = __webpack_require__("989ad62a");
-var GameObject = __webpack_require__("8649e148");
-var StatusEffect = __webpack_require__("877e3f79");
-var AnimationData = __webpack_require__("1c877798");
+var math = require("./10899aea.js");
+var SkillsEnum = require("./e6306c81.js");
+var GameConfig = require("./989ad62a.js");
+var GameObject = require("./8649e148.js");
+var StatusEffect = require("./877e3f79.js");
+var AnimationData = require("./1c877798.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

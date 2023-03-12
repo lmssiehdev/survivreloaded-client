@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _toConsumableArray2 = __webpack_require__("998a712f");
+var _toConsumableArray2 = require("./998a712f.js");
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -24,9 +24,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Controls the animations of the npc spineObj. Animations: idle, walking, attacking
  */
 
-var AnimObjects = __webpack_require__("ad7bf251");
-var Enums = __webpack_require__("8f04ede1");
-var defStatusEffects = __webpack_require__("41b5258b");
+var AnimObjects = require("./ad7bf251.js");
+var Enums = require("./8f04ede1.js");
+var defStatusEffects = require("./41b5258b.js");
 
 var EnumNpcAnimations = Enums.EnumNpcAnimations;
 

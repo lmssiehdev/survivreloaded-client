@@ -1,14 +1,14 @@
 "use strict";
 
 
-var $ = __webpack_require__("8ee62bea");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var MenuModal = __webpack_require__("fa71fb59");
-var proxy = __webpack_require__("6743143a");
-var Ads = __webpack_require__("2d958752");
-var Config = __webpack_require__("6ffe8b70");
+var $ = require("./8ee62bea.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
+var FirebaseManager = require("./f398b7c7.js");
+var MenuModal = require("./fa71fb59.js");
+var proxy = require("./6743143a.js");
+var Ads = require("./2d958752.js");
+var Config = require("./6ffe8b70.js");
 
 var adManager;
 

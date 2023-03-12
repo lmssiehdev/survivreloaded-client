@@ -1,29 +1,29 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var GameConfig = __webpack_require__("989ad62a");
+var $ = require("./8ee62bea.js");
+var GameConfig = require("./989ad62a.js");
 var GameInput = GameConfig.Input;
 var EmoteSlot = GameConfig.EmoteSlot;
-var PIXI = __webpack_require__("8b1dfb45");
-var coldet = __webpack_require__("34e32c48");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
-var Particles = __webpack_require__("119e8c4c");
-var Input = __webpack_require__("4b8d140f");
+var PIXI = require("./8b1dfb45.js");
+var coldet = require("./34e32c48.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
+var Particles = require("./119e8c4c.js");
+var Input = require("./4b8d140f.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var EmoteDefs = __webpack_require__("0d20ab8e");
-var PingDefs = __webpack_require__("5857a73f");
+var GameObjectDefs = require("./721a96bf.js");
+var EmoteDefs = require("./0d20ab8e.js");
+var PingDefs = require("./5857a73f.js");
 
 var kEmoteTimeout = 10.0;
 var kAirdropIdx = 4;

@@ -1,30 +1,30 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var mapHelpers = __webpack_require__("7510cc08");
-var Spline = __webpack_require__("7b5bbf6e");
-var TerrainGen = __webpack_require__("e100c355");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var ObjectPool = __webpack_require__("753d6e4b");
-var Particles = __webpack_require__("119e8c4c");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
-var net = __webpack_require__("300e2704");
-var math = __webpack_require__("10899aea");
-var GameConfig = __webpack_require__("989ad62a");
-var Building = __webpack_require__("33375c30");
-var DebugLines = __webpack_require__("af8ba00f");
-var DebugHelpers = __webpack_require__("c347b8dd");
-var Obstacle = __webpack_require__("0c8ffd27");
-var Structure = __webpack_require__("ce089fd5");
-var Npc = __webpack_require__("d91174e5");
+var PIXI = require("./8b1dfb45.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var mapHelpers = require("./7510cc08.js");
+var Spline = require("./7b5bbf6e.js");
+var TerrainGen = require("./e100c355.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var ObjectPool = require("./753d6e4b.js");
+var Particles = require("./119e8c4c.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
+var net = require("./300e2704.js");
+var math = require("./10899aea.js");
+var GameConfig = require("./989ad62a.js");
+var Building = require("./33375c30.js");
+var DebugLines = require("./af8ba00f.js");
+var DebugHelpers = require("./c347b8dd.js");
+var Obstacle = require("./0c8ffd27.js");
+var Structure = require("./ce089fd5.js");
+var Npc = require("./d91174e5.js");
 
-var MapDefs = __webpack_require__("b1f6ba3c");
-var MapObjectDefs = __webpack_require__("03f4982a");
+var MapDefs = require("./b1f6ba3c.js");
+var MapObjectDefs = require("./03f4982a.js");
 
 //
 // Drawing

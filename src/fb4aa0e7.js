@@ -1,7 +1,7 @@
 "use strict";
 
-var GameConfig = __webpack_require__("989ad62a");
-var v2 = __webpack_require__("c2a798c8");
+var GameConfig = require("./989ad62a.js");
+var v2 = require("./c2a798c8.js");
 
 // @NOTE: Entries defined as single-element arrays, like fixedSpawns: [{ }],
 // are done this way so that util.mergeDeep(...) will function as expected

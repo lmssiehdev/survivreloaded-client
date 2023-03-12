@@ -5,12 +5,12 @@ var _NpcDefinitions;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var v2 = __webpack_require__("c2a798c8");
-var EnumBTNodes = __webpack_require__("23e0cc61");
-var EnumNpcs = __webpack_require__("063efab9");
-var collider = __webpack_require__("6b42806d");
+var v2 = require("./c2a798c8.js");
+var EnumBTNodes = require("./23e0cc61.js");
+var EnumNpcs = require("./063efab9.js");
+var collider = require("./6b42806d.js");
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     WeaponAttackType = _require.WeaponAttackType;
 
 //

@@ -1,16 +1,16 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var collider = __webpack_require__("6b42806d");
-var coldet = __webpack_require__("34e32c48");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var device = __webpack_require__("ce29f17f");
-var DebugLines = __webpack_require__("af8ba00f");
+var PIXI = require("./8b1dfb45.js");
+var collider = require("./6b42806d.js");
+var coldet = require("./34e32c48.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var device = require("./ce29f17f.js");
+var DebugLines = require("./af8ba00f.js");
 
-var ExplosionDefs = __webpack_require__("ea3b9366");
+var ExplosionDefs = require("./ea3b9366.js");
 
 var kMaxSpineObjects = 20;
 //
