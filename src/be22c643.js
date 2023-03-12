@@ -5,12 +5,12 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var GameConfig = __webpack_require__("989ad62a");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var math = __webpack_require__("10899aea");
-var Spline = __webpack_require__("7b5bbf6e");
-var v2 = __webpack_require__("c2a798c8");
+var GameConfig = require("./989ad62a.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var math = require("./10899aea.js");
+var Spline = require("./7b5bbf6e.js");
+var v2 = require("./c2a798c8.js");
 
 //
 // Helpers

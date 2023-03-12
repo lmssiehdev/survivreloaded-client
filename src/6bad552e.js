@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -21,14 +21,14 @@ var _fists, _slash, _meleeTwoHanded, _meleeLasrSwrd, _meleeKatana, _meleeNaginat
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var GameConfig = __webpack_require__("989ad62a");
+var GameConfig = require("./989ad62a.js");
 var Anim = GameConfig.Anim;
-var assert = __webpack_require__("0e566746");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var assert = require("./0e566746.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var StatusEffects = __webpack_require__("41b5258b");
+var GameObjectDefs = require("./721a96bf.js");
+var StatusEffects = require("./41b5258b.js");
 
 //
 // Helpers

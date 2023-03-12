@@ -5,9 +5,9 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var crypto = __webpack_require__("991178d3");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var crypto = require("./991178d3.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 var util = {
     //
@@ -391,4 +391,4 @@ var util = {
 };
 
 module.exports = util;
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__("a5e2faae").Buffer))
+/* WEBPACK VAR INJECTION */}.call(this, require("./a5e2faae.js").Buffer))

@@ -1,26 +1,26 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
-var v2 = __webpack_require__("c2a798c8");
-var collider = __webpack_require__("6b42806d");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var TrapDefs = __webpack_require__("6f6b413b");
-var SkillBehaviourEnum = __webpack_require__("e6306c81");
-var TelegraphDefs = __webpack_require__("cf5f8b5c");
+var PIXI = require("./8b1dfb45.js");
+var v2 = require("./c2a798c8.js");
+var collider = require("./6b42806d.js");
+var GameObjectDefs = require("./721a96bf.js");
+var TrapDefs = require("./6f6b413b.js");
+var SkillBehaviourEnum = require("./e6306c81.js");
+var TelegraphDefs = require("./cf5f8b5c.js");
 
-var ArrowTelegraph = __webpack_require__("558f3cac");
-var CircularTelegraph = __webpack_require__("6ba00ec5");
+var ArrowTelegraph = require("./558f3cac.js");
+var CircularTelegraph = require("./6ba00ec5.js");
 
 var SkillTelegraphTypes = {
     'arrow': 0,

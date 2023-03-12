@@ -1,35 +1,35 @@
 "use strict";
 
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
-var GameObject = __webpack_require__("8649e148");
-var loadouts = __webpack_require__("0503bedc");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
-var device = __webpack_require__("ce29f17f");
+var PIXI = require("./8b1dfb45.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
+var GameObject = require("./8649e148.js");
+var loadouts = require("./0503bedc.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
+var device = require("./ce29f17f.js");
 
-var Camera = __webpack_require__("1ad3d2a4");
-var DebugLines = __webpack_require__("af8ba00f");
-var Decal = __webpack_require__("172c57dc");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var Map = __webpack_require__("d49cd95c");
-var ObjectPool = __webpack_require__("753d6e4b");
-var Particles = __webpack_require__("119e8c4c");
-var Player = __webpack_require__("a508b62a");
-var Renderer = __webpack_require__("c60b5e9f");
-var Smoke = __webpack_require__("0955a76e");
+var Camera = require("./1ad3d2a4.js");
+var DebugLines = require("./af8ba00f.js");
+var Decal = require("./172c57dc.js");
+var FirebaseManager = require("./f398b7c7.js");
+var Map = require("./d49cd95c.js");
+var ObjectPool = require("./753d6e4b.js");
+var Particles = require("./119e8c4c.js");
+var Player = require("./a508b62a.js");
+var Renderer = require("./c60b5e9f.js");
+var Smoke = require("./0955a76e.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var StatusEffects = __webpack_require__("41b5258b");
+var GameObjectDefs = require("./721a96bf.js");
+var StatusEffects = require("./41b5258b.js");
 
 //
 // Game

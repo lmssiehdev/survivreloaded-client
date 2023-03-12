@@ -1,47 +1,47 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = __webpack_require__("8ee62bea");
-var helpers = __webpack_require__("26be8056");
+var $ = require("./8ee62bea.js");
+var helpers = require("./26be8056.js");
 // @ts-ignore
-var math = __webpack_require__("10899aea");
+var math = require("./10899aea.js");
 // @ts-ignore
-var passUtil = __webpack_require__("3b32460f");
+var passUtil = require("./3b32460f.js");
 
 // @ts-ignore
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 // @ts-ignore
-var PassDefs = __webpack_require__("c8851695");
+var PassDefs = require("./c8851695.js");
 // @ts-ignore
-var QuestDefs = __webpack_require__("e9b026d5").kQuestDefs;
+var QuestDefs = require("./e9b026d5.js").kQuestDefs;
 // @ts-ignore
-var CurrencyDefs = __webpack_require__("954275b6");
+var CurrencyDefs = require("./954275b6.js");
 // @ts-ignore
-var Rarities = __webpack_require__("e2fbbd42");
-var device = __webpack_require__("ce29f17f");
+var Rarities = require("./e2fbbd42.js");
+var device = require("./ce29f17f.js");
 
-var MenuModal = __webpack_require__("fa71fb59");
-var RewardsModal = __webpack_require__("ab8b5da7");
-var survivLoading = __webpack_require__("127a6ef3");
-var TimerDisplay = __webpack_require__("9893d4a0");
-var SideNotification = __webpack_require__("d54c374e");
-var ModalBuyGoldPass = __webpack_require__("482a0193");
-var ModalSeasonRewards = __webpack_require__("1c644c07");
+var MenuModal = require("./fa71fb59.js");
+var RewardsModal = require("./ab8b5da7.js");
+var survivLoading = require("./127a6ef3.js");
+var TimerDisplay = require("./9893d4a0.js");
+var SideNotification = require("./d54c374e.js");
+var ModalBuyGoldPass = require("./482a0193.js");
+var ModalSeasonRewards = require("./1c644c07.js");
 
 //
 // Helpers

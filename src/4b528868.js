@@ -1,17 +1,17 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var createjs = __webpack_require__("f4ccd911");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var SoundDefs = __webpack_require__("0d807371");
+var createjs = require("./f4ccd911.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var SoundDefs = require("./0d807371.js");
 
 var kAudioManagerMinAllowedVolume = 0.003;
 var kDiffLayerMult = 0.5;

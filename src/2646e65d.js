@@ -1,38 +1,38 @@
 "use strict";
 
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = __webpack_require__("8ee62bea");
-var GearDefs = __webpack_require__("4ead53e6");
+var $ = require("./8ee62bea.js");
+var GearDefs = require("./4ead53e6.js");
 
-var _require = __webpack_require__("0503bedc"),
+var _require = require("./0503bedc.js"),
     LoadoutTypes = _require.LoadoutTypes;
 
-var GearCardItem = __webpack_require__("189d6a05");
-var ArmoryGearDisplayCard = __webpack_require__("2c993cec");
+var GearCardItem = require("./189d6a05.js");
+var ArmoryGearDisplayCard = require("./2c993cec.js");
 
-var _require2 = __webpack_require__("35dbdceb"),
+var _require2 = require("./35dbdceb.js"),
     getGearItems = _require2.getGearItems;
 
-var PlayerCanvas = __webpack_require__("54157d23");
+var PlayerCanvas = require("./54157d23.js");
 
 function itemSort(sortFn) {
     return function (a, b) {

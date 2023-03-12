@@ -1,4 +1,4 @@
-exports = module.exports = __webpack_require__("95cc1214")(false);
+exports = module.exports = require("./95cc1214.js")(false);
 // imports
 
 

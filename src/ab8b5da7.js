@@ -1,15 +1,15 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -20,9 +20,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Displays a modal with a rewards list usually used for quests and season rewards
  */
 
-var $ = __webpack_require__("8ee62bea");
-var MenuModal = __webpack_require__("fa71fb59"); //TODO this is legacy code, change this for new modal-template.js
-var QuestDefs = __webpack_require__("e9b026d5").kQuestDefs;
+var $ = require("./8ee62bea.js");
+var MenuModal = require("./fa71fb59.js"); //TODO this is legacy code, change this for new modal-template.js
+var QuestDefs = require("./e9b026d5.js").kQuestDefs;
 
 var kMaxColumnsByRow = 3;
 var kMaxWidthRewardList = 880; //px

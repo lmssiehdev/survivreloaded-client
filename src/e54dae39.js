@@ -13,21 +13,21 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var GearDefs = __webpack_require__("4ead53e6");
+var GearDefs = require("./4ead53e6.js");
 
-var _require = __webpack_require__("bfe8e4c6"),
+var _require = require("./bfe8e4c6.js"),
     createBoon = _require.createBoon,
     BoonNames = _require.BoonNames,
     createBoonById = _require.createBoonById,
     BoonIdToName = _require.BoonIdToName,
     BoonNameToId = _require.BoonNameToId;
 
-var _require2 = __webpack_require__("cb7a977d"),
+var _require2 = require("./cb7a977d.js"),
     getAttackTypeLogStr = _require2.getAttackTypeLogStr;
 
-var MainHandWeaps = __webpack_require__("1dc8ec07");
+var MainHandWeaps = require("./1dc8ec07.js");
 
-var _require3 = __webpack_require__("10899aea"),
+var _require3 = require("./10899aea.js"),
     clamp = _require3.clamp;
 
 var MaxBoonsByName = (_MaxBoonsByName = {}, _defineProperty(_MaxBoonsByName, BoonNames.ExtraPouch, 3), _defineProperty(_MaxBoonsByName, BoonNames.ElvishMetal, 1), _defineProperty(_MaxBoonsByName, BoonNames.HealersKit, 1), _defineProperty(_MaxBoonsByName, BoonNames.AGoodStart, 3), _MaxBoonsByName);

@@ -6,25 +6,25 @@
  * This file contains the basic function to create, update and the destroy the various status effects of the game
  */
 
-var math = __webpack_require__("10899aea");
-var GameObject = __webpack_require__("8649e148");
-var StatusEffects = __webpack_require__("41b5258b");
+var math = require("./10899aea.js");
+var GameObject = require("./8649e148.js");
+var StatusEffects = require("./41b5258b.js");
 
 //Import status effects
-var ShieldEffect = __webpack_require__("6cbd2d5d");
-var ShockEffect = __webpack_require__("b709c591");
-var ChillEffect = __webpack_require__("f765c7bd");
-var BlindEffect = __webpack_require__("a99d3798");
-var BleedEffect = __webpack_require__("c7b297fc");
-var PoisonEffect = __webpack_require__("4bfe8f92");
-var BurningEffect = __webpack_require__("cb27a692");
-var PowerStatEffect = __webpack_require__("a68c74cc");
-var InvisibleEffect = __webpack_require__("f6271b77");
-var MovePlayerEffect = __webpack_require__("0022c718");
-var InmobilizePlayer = __webpack_require__("74b67fb5");
-var ChargeHeavyAttack = __webpack_require__("dc67fbc5");
+var ShieldEffect = require("./6cbd2d5d.js");
+var ShockEffect = require("./b709c591.js");
+var ChillEffect = require("./f765c7bd.js");
+var BlindEffect = require("./a99d3798.js");
+var BleedEffect = require("./c7b297fc.js");
+var PoisonEffect = require("./4bfe8f92.js");
+var BurningEffect = require("./cb27a692.js");
+var PowerStatEffect = require("./a68c74cc.js");
+var InvisibleEffect = require("./f6271b77.js");
+var MovePlayerEffect = require("./0022c718.js");
+var InmobilizePlayer = require("./74b67fb5.js");
+var ChargeHeavyAttack = require("./dc67fbc5.js");
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     getAttackTypeLogStr = _require.getAttackTypeLogStr;
 
 /**

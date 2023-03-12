@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _freeze = __webpack_require__("d10cbd81");
+var _freeze = require("./d10cbd81.js");
 
 var _freeze2 = _interopRequireDefault(_freeze);
 
@@ -22,7 +22,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // @ts-check
 
 //@ts-ignore
-var v2 = __webpack_require__("c2a798c8");
+var v2 = require("./c2a798c8.js");
 var Key = (0, _freeze2.default)({
     Backspace: 8,
     Enter: 13,

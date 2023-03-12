@@ -1,10 +1,10 @@
 "use strict";
 
 
-var util = __webpack_require__("1901e2d9");
-var BehaviourEnum = __webpack_require__("b2f0419a");
+var util = require("./1901e2d9.js");
+var BehaviourEnum = require("./b2f0419a.js");
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     WeaponAttackType = _require.WeaponAttackType;
 
 function defineBullet(baseType, params) {

@@ -1,42 +1,42 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _promise = __webpack_require__("2f756df0");
+var _promise = require("./2f756df0.js");
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var helpers = __webpack_require__("26be8056");
-var device = __webpack_require__("ce29f17f");
+var $ = require("./8ee62bea.js");
+var helpers = require("./26be8056.js");
+var device = require("./ce29f17f.js");
 
 var templates = {
-    battleResult: __webpack_require__("8f36c71c")
+    battleResult: require("./8f36c71c.js")
 };
 
 var kDistanceBetweenPlayerStats = 0.12298387096;

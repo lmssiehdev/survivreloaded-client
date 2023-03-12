@@ -1,34 +1,34 @@
 "use strict";
 
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _toConsumableArray2 = __webpack_require__("998a712f");
+var _toConsumableArray2 = require("./998a712f.js");
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _set = __webpack_require__("ed9971da");
+var _set = require("./ed9971da.js");
 
 var _set2 = _interopRequireDefault(_set);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var _require = __webpack_require__("35dbdceb"),
+var _require = require("./35dbdceb.js"),
     getGearItems = _require.getGearItems,
     getPerkText = _require.getPerkText,
     getUniqueGearPerks = _require.getUniqueGearPerks,
@@ -36,10 +36,10 @@ var _require = __webpack_require__("35dbdceb"),
 // @ts-ignore
 
 
-var GearDefs = __webpack_require__("4ead53e6");
-var PlayerCanvas = __webpack_require__("54157d23");
-var EquippedGearCardItem = __webpack_require__("dc014456");
-var ModalRecycle = __webpack_require__("3280f174");
+var GearDefs = require("./4ead53e6.js");
+var PlayerCanvas = require("./54157d23.js");
+var EquippedGearCardItem = require("./dc014456.js");
+var ModalRecycle = require("./3280f174.js");
 
 var ArmoryGearDisplayCard = function () {
     /**

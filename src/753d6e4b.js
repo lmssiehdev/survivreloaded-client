@@ -1,18 +1,18 @@
 "use strict";
 
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var assert = __webpack_require__("0e566746");
-var FirebaseManager = __webpack_require__("f398b7c7");
+var assert = require("./0e566746.js");
+var FirebaseManager = require("./f398b7c7.js");
 
 //
 // ObjectPool

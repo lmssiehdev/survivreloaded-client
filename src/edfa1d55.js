@@ -1,27 +1,27 @@
 "use strict";
 
 
-var _getPrototypeOf = __webpack_require__("057e3e87");
+var _getPrototypeOf = require("./057e3e87.js");
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _possibleConstructorReturn2 = __webpack_require__("54eaf174");
+var _possibleConstructorReturn2 = require("./54eaf174.js");
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _inherits2 = __webpack_require__("64a8dc27");
+var _inherits2 = require("./64a8dc27.js");
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var PIXI = require("./8b1dfb45.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 var SortableSprite = function (_PIXI$Sprite) {
     (0, _inherits3.default)(SortableSprite, _PIXI$Sprite);

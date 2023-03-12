@@ -1,10 +1,10 @@
 "use strict";
 
 
-var GameConfig = __webpack_require__("989ad62a");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var baseDef = __webpack_require__("45f86a38");
+var GameConfig = require("./989ad62a.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var baseDef = require("./45f86a38.js");
 
 var mapDef = {
     biome: {

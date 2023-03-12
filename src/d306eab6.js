@@ -1,19 +1,19 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
@@ -22,16 +22,16 @@ var _BindDefs;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = __webpack_require__("8ee62bea");
-var base64 = __webpack_require__("ca1f6916");
+var $ = require("./8ee62bea.js");
+var base64 = require("./ca1f6916.js");
 // @ts-ignore
-var bitbuffer = __webpack_require__("14a25ec1");
+var bitbuffer = require("./14a25ec1.js");
 // @ts-ignore
-var crc = __webpack_require__("6d61bfc0");
+var crc = require("./6d61bfc0.js");
 // @ts-ignore
-var GameConfig = __webpack_require__("989ad62a");
+var GameConfig = require("./989ad62a.js");
 var GameInput = GameConfig.Input;
-var Input = __webpack_require__("4b8d140f");
+var Input = require("./4b8d140f.js");
 var InputType = Input.InputType;
 var InputValue = Input.InputValue;
 var Key = Input.Key;

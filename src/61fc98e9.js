@@ -1,36 +1,36 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var net = __webpack_require__("300e2704");
-var util = __webpack_require__("1901e2d9");
-var api = __webpack_require__("259eae5b");
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
+var $ = require("./8ee62bea.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var net = require("./300e2704.js");
+var util = require("./1901e2d9.js");
+var api = require("./259eae5b.js");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
 
-var MapDefs = __webpack_require__("b1f6ba3c");
-var generalUseDefs = __webpack_require__("3fef0c67");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var MapDefs = require("./b1f6ba3c.js");
+var generalUseDefs = require("./3fef0c67.js");
+var GameObjectDefs = require("./721a96bf.js");
 
 function errorTypeToString(type, localization) {
     var kTypeMap = {

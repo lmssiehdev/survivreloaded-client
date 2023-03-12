@@ -1,7 +1,7 @@
 "use strict";
 
 
-var PassDefs = __webpack_require__("c8851695");
+var PassDefs = require("./c8851695.js");
 
 var kPassMaxLevel = 99;
 var kRefreshHour = 0; //UTC Hour

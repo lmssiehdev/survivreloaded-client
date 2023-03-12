@@ -1,9 +1,9 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var math = __webpack_require__("10899aea");
-var device = __webpack_require__("ce29f17f");
+var PIXI = require("./8b1dfb45.js");
+var math = require("./10899aea.js");
+var device = require("./ce29f17f.js");
 
 //
 // skillCooldown timer

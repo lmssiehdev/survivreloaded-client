@@ -10,9 +10,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * This class represents the burning status effect of the game
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var StatusEffects = __webpack_require__("41b5258b");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var StatusEffects = require("./41b5258b.js");
 
 var ChargeHeavyAttack = function () {
     /**

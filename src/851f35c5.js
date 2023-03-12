@@ -1,23 +1,23 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var loadouts = __webpack_require__("0503bedc");
-var helpers = __webpack_require__("26be8056");
-var MenuModal = __webpack_require__("fa71fb59");
-var Rarities = __webpack_require__("e2fbbd42");
+var $ = require("./8ee62bea.js");
+var loadouts = require("./0503bedc.js");
+var helpers = require("./26be8056.js");
+var MenuModal = require("./fa71fb59.js");
+var Rarities = require("./e2fbbd42.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 
 var ShowItems = ['outfit', 'heal', 'boost', 'melee', 'emote', 'deathEffect'];
 

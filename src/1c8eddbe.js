@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 //Imports
-var v2 = __webpack_require__("c2a798c8");
-var BaseBullet = __webpack_require__("ea2f7f0c");
-var BehaviourEnum = __webpack_require__("b2f0419a");
-var BehaviourMethods = __webpack_require__("7b4c6cc8");
+var v2 = require("./c2a798c8.js");
+var BaseBullet = require("./ea2f7f0c.js");
+var BehaviourEnum = require("./b2f0419a.js");
+var BehaviourMethods = require("./7b4c6cc8.js");
 
 var SpreadShot =
 /**

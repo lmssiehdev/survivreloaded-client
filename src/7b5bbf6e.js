@@ -5,9 +5,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var assert = __webpack_require__("0e566746");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var assert = require("./0e566746.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 function getControlPoints(t, points, looped) {
     var count = points.length;

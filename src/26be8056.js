@@ -1,22 +1,22 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var net = __webpack_require__("300e2704");
-var util = __webpack_require__("1901e2d9");
-var api = __webpack_require__("259eae5b");
-var device = __webpack_require__("ce29f17f");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var proxy = __webpack_require__("6743143a");
+var $ = require("./8ee62bea.js");
+var net = require("./300e2704.js");
+var util = require("./1901e2d9.js");
+var api = require("./259eae5b.js");
+var device = require("./ce29f17f.js");
+var FirebaseManager = require("./f398b7c7.js");
+var proxy = require("./6743143a.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var CurrencyDefs = __webpack_require__("954275b6");
+var GameObjectDefs = require("./721a96bf.js");
+var CurrencyDefs = require("./954275b6.js");
 
 //
 // Helper functions
