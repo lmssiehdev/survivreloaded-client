@@ -1,17 +1,17 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = __webpack_require__("8b1dfb45");
+var PIXI = require("./8b1dfb45.js");
 
 var spineObjManager = function () {
     function spineObjManager(spineData) {

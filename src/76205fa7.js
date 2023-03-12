@@ -1,47 +1,47 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var assert = __webpack_require__("0e566746");
-var PIXI = __webpack_require__("8b1dfb45");
-var device = __webpack_require__("ce29f17f");
-var FirebaseManager = __webpack_require__("f398b7c7");
+var assert = require("./0e566746.js");
+var PIXI = require("./8b1dfb45.js");
+var device = require("./ce29f17f.js");
+var FirebaseManager = require("./f398b7c7.js");
 
-var MapDefs = __webpack_require__("b1f6ba3c");
-var SoundDefs = __webpack_require__("0d807371");
+var MapDefs = require("./b1f6ba3c.js");
+var SoundDefs = require("./0d807371.js");
 
 var spritesheetDefs = {
-    'low': __webpack_require__("aaf70d05"),
-    'high': __webpack_require__("6e13f3b7")
+    'low': require("./aaf70d05.js"),
+    'high': require("./6e13f3b7.js")
 };
 
-var heroJSON = __webpack_require__("23031f96");
-var heroAtlas = __webpack_require__("c181c939").atlas;
-var heroFXJSON = __webpack_require__("bb2f3790");
-var heroFXAtlas = __webpack_require__("c80f6566").atlas;
-var projectilesJSON = __webpack_require__("d9f7ea78");
-var projectilesAtlas = __webpack_require__("cd32707a").atlas;
+var heroJSON = require("./23031f96.js");
+var heroAtlas = require("./c181c939.js").atlas;
+var heroFXJSON = require("./bb2f3790.js");
+var heroFXAtlas = require("./c80f6566.js").atlas;
+var projectilesJSON = require("./d9f7ea78.js");
+var projectilesAtlas = require("./cd32707a.js").atlas;
 
 //Npcs spine
-var esSkeletoJSON = __webpack_require__("0080c7bb");
-var esSkeletoAtlas = __webpack_require__("c1b44652").atlas;
-var orcJSON = __webpack_require__("c5147b17");
-var orcAtlas = __webpack_require__("19daf3c2").atlas;
-var ghostElfJSON = __webpack_require__("e25f4789");
-var ghostElfAtlas = __webpack_require__("b5fabce0").atlas;
+var esSkeletoJSON = require("./0080c7bb.js");
+var esSkeletoAtlas = require("./c1b44652.js").atlas;
+var orcJSON = require("./c5147b17.js");
+var orcAtlas = require("./19daf3c2.js").atlas;
+var ghostElfJSON = require("./e25f4789.js");
+var ghostElfAtlas = require("./b5fabce0.js").atlas;
 
 //
 // Helpers

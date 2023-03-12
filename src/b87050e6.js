@@ -12,7 +12,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * For a specific tweaking please modify in the bullet definition or trap-defs.js 
  */
 
-var BehaviourEnum = __webpack_require__("f1204f47");
+var BehaviourEnum = require("./f1204f47.js");
 
 //These default attributes are used only if there are no attributes defined in trap-defs.js
 

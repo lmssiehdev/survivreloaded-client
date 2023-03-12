@@ -1,22 +1,22 @@
 "use strict";
 
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var helpers = __webpack_require__("26be8056");
-var math = __webpack_require__("10899aea");
+var $ = require("./8ee62bea.js");
+var helpers = require("./26be8056.js");
+var math = require("./10899aea.js");
 
-var QuestDefs = __webpack_require__("e9b026d5").kQuestDefs;
-var CurrQuestsProgress = __webpack_require__("d0e0d75d");
+var QuestDefs = require("./e9b026d5.js").kQuestDefs;
+var CurrQuestsProgress = require("./d0e0d75d.js");
 
 function humanizeTime(time) {
     var minutesFloor = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;

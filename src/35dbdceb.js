@@ -1,35 +1,35 @@
 "use strict";
 
 
-var _values = __webpack_require__("42e8eaed");
+var _values = require("./42e8eaed.js");
 
 var _values2 = _interopRequireDefault(_values);
 
-var _parseInt = __webpack_require__("cefda370");
+var _parseInt = require("./cefda370.js");
 
 var _parseInt2 = _interopRequireDefault(_parseInt);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _slicedToArray2 = __webpack_require__("9bc388c8");
+var _slicedToArray2 = require("./9bc388c8.js");
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _entries = __webpack_require__("160ad6a9");
+var _entries = require("./160ad6a9.js");
 
 var _entries2 = _interopRequireDefault(_entries);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var GearDefs = __webpack_require__("4ead53e6");
-var recycleData = __webpack_require__("6583904d");
+var GearDefs = require("./4ead53e6.js");
+var recycleData = require("./6583904d.js");
 
 /**
  * 

@@ -1,7 +1,7 @@
 "use strict";
 
 
-var SkillsEnum = __webpack_require__("e6306c81");
+var SkillsEnum = require("./e6306c81.js");
 /**Default loot container scale 1.4
  * Default loot sprite scale 1.0
  * Params scale:1.4

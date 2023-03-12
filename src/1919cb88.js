@@ -1,15 +1,15 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -17,11 +17,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // @ts-check
 // @ts-ignore
-var loadouts = __webpack_require__("0503bedc");
-var Player = __webpack_require__("a508b62a");
+var loadouts = require("./0503bedc.js");
+var Player = require("./a508b62a.js");
 // @ts-ignore
-var GameObjectDefs = __webpack_require__("721a96bf");
-var EditUsernameBubble = __webpack_require__("67e921b2");
+var GameObjectDefs = require("./721a96bf.js");
+var EditUsernameBubble = require("./67e921b2.js");
 
 var HomeLoadoutDisplay = function () {
 

@@ -6,11 +6,11 @@ var _BoonNameToId;
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 //@ts-check
-var Boons = __webpack_require__("2cca17e9");
-var HealersKit = __webpack_require__("560f1379");
-var ElvishMetalBoon = __webpack_require__("b45f8e17");
-var ExtraPouchBoon = __webpack_require__("4d450126");
-var AGoodStart = __webpack_require__("16f535be");
+var Boons = require("./2cca17e9.js");
+var HealersKit = require("./560f1379.js");
+var ElvishMetalBoon = require("./b45f8e17.js");
+var ExtraPouchBoon = require("./4d450126.js");
+var AGoodStart = require("./16f535be.js");
 
 var BoonNames = {
     ElvishMetal: 'boon_elvishmetal',

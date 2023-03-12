@@ -1,17 +1,17 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var DebugLines = __webpack_require__("af8ba00f");
-var device = __webpack_require__("ce29f17f");
-var ObjectPool = __webpack_require__("753d6e4b");
-var collider = __webpack_require__("6b42806d");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var DebugLines = require("./af8ba00f.js");
+var device = require("./ce29f17f.js");
+var ObjectPool = require("./753d6e4b.js");
+var collider = require("./6b42806d.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 
 function Loot() {
     this.ticker = 0.0;

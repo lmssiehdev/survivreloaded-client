@@ -1,7 +1,7 @@
 "use strict";
 
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     StatusEffectAttackType = _require.StatusEffectAttackType;
 
 var Common = {

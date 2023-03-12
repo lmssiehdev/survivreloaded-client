@@ -10,19 +10,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Create, update and control all the traps in the current game
  */
 
-var assert = __webpack_require__("0e566746");
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
-var collider = __webpack_require__("6b42806d");
-var GameObject = __webpack_require__("8649e148");
-var TrapsBehaviourEnum = __webpack_require__("f1204f47");
-var StatusEffect = __webpack_require__("877e3f79");
-var TrapDefs = __webpack_require__("6f6b413b");
-var BehaviourDefaults = __webpack_require__("b87050e6");
+var assert = require("./0e566746.js");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
+var collider = require("./6b42806d.js");
+var GameObject = require("./8649e148.js");
+var TrapsBehaviourEnum = require("./f1204f47.js");
+var StatusEffect = require("./877e3f79.js");
+var TrapDefs = require("./6f6b413b.js");
+var BehaviourDefaults = require("./b87050e6.js");
 
 //Import behaviours
-var BaseTrap = __webpack_require__("6c28e640");
-var DamageOverTime = __webpack_require__("54cd3f84");
+var BaseTrap = require("./6c28e640.js");
+var DamageOverTime = require("./54cd3f84.js");
 
 var TrapManager = function () {
     function TrapManager(playerBarn, isRunningOnClient) {

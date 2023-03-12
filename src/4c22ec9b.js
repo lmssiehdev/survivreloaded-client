@@ -1,23 +1,23 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _toConsumableArray2 = __webpack_require__("998a712f");
+var _toConsumableArray2 = require("./998a712f.js");
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -28,10 +28,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Controls the animations of the player spineObj. Animations: idle, walking, dashing, attacking
  */
 
-var math = __webpack_require__("10899aea");
-var GameConfig = __webpack_require__("989ad62a");
-var AnimationData = __webpack_require__("1c877798");
-var StatusEffects = __webpack_require__("41b5258b");
+var math = require("./10899aea.js");
+var GameConfig = require("./989ad62a.js");
+var AnimationData = require("./1c877798.js");
+var StatusEffects = require("./41b5258b.js");
 
 var GameInput = GameConfig.Input;
 var AnimObjects = AnimationData.PlayerAnimObjects;

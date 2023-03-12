@@ -7,20 +7,20 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var assert = __webpack_require__("0e566746");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
-var GameObject = __webpack_require__("8649e148");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
+var assert = require("./0e566746.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
+var GameObject = require("./8649e148.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var MapObjectDefs = __webpack_require__("03f4982a");
-var StatusEffects = __webpack_require__("41b5258b");
+var GameObjectDefs = require("./721a96bf.js");
+var MapObjectDefs = require("./03f4982a.js");
+var StatusEffects = require("./41b5258b.js");
 
-var StatusEffect = __webpack_require__("877e3f79");
+var StatusEffect = require("./877e3f79.js");
 
 // Cache to remove the system call on access
 var DEV_MODE = "production" === 'dev';
@@ -28,9 +28,9 @@ var DEV_MODE = "production" === 'dev';
 //
 // Extend BitStream
 //
-var bb = __webpack_require__("14a25ec1");
+var bb = require("./14a25ec1.js");
 
-var _require = __webpack_require__("0e566746"),
+var _require = require("./0e566746.js"),
     throws = _require.throws;
 
 bb.BitStream.prototype.writeBytes = function (src, offset, length) {

@@ -1,7 +1,7 @@
 "use strict";
 
 
-var device = __webpack_require__("ce29f17f");
+var device = require("./ce29f17f.js");
 
 var kHost = 'bitheroesarena.com';
 

@@ -1,21 +1,21 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var api = __webpack_require__("259eae5b");
-var device = __webpack_require__("ce29f17f");
-var roulette = __webpack_require__("dab6f060");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var helpers = __webpack_require__("26be8056");
-var MenuModal = __webpack_require__("fa71fb59");
-var lootBoxes = __webpack_require__("1c57769f");
-var Rarities = __webpack_require__("e2fbbd42");
+var $ = require("./8ee62bea.js");
+var api = require("./259eae5b.js");
+var device = require("./ce29f17f.js");
+var roulette = require("./dab6f060.js");
+var GameObjectDefs = require("./721a96bf.js");
+var helpers = require("./26be8056.js");
+var MenuModal = require("./fa71fb59.js");
+var lootBoxes = require("./1c57769f.js");
+var Rarities = require("./e2fbbd42.js");
 
 var activeLimitedCrates = [{ id: 'limited_loot_box_pre_vacation_2020', replaceLootBox: 0, active: false }, { id: 'limited_loot_box_post_xmas_2020', replaceLootBox: 0, active: false }]; //Max 3 at the same time, limited by current UI because replaces the permanent crates
 

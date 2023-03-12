@@ -10,12 +10,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Deploy a trap in the current position of the player
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
-var SkillsEnum = __webpack_require__("e6306c81");
-var GameObject = __webpack_require__("8649e148");
-var AnimationData = __webpack_require__("1c877798");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
+var SkillsEnum = require("./e6306c81.js");
+var GameObject = require("./8649e148.js");
+var AnimationData = require("./1c877798.js");
+var GameObjectDefs = require("./721a96bf.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

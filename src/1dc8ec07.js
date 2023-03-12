@@ -1,12 +1,12 @@
 "use strict";
 
 
-var util = __webpack_require__("1901e2d9");
-var collider = __webpack_require__("6b42806d");
-var TrapsEnum = __webpack_require__("7e9f5114");
-var SkillsEnum = __webpack_require__("e6306c81");
+var util = require("./1901e2d9.js");
+var collider = require("./6b42806d.js");
+var TrapsEnum = require("./7e9f5114.js");
+var SkillsEnum = require("./e6306c81.js");
 
-var _require = __webpack_require__("cb7a977d"),
+var _require = require("./cb7a977d.js"),
     WeaponAttackType = _require.WeaponAttackType;
 
 /**Default loot container scale 1.4

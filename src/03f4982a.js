@@ -1,5 +1,5 @@
 "use strict";
-var collider=__webpack_require__("6b42806d");var util=__webpack_require__("1901e2d9");var v2=__webpack_require__("c2a798c8");//
+var collider=require("./6b42806d.js");var util=require("./1901e2d9.js");var v2=require("./c2a798c8.js");//
 // Helpers
 //
 function tierLoot(tier,min,max,props){props=props||{};return{tier:tier,min:min,max:max,props:props};}function autoLoot(type,count,props){props=props||{};return{type:type,count:count,props:props};}//

@@ -1,43 +1,43 @@
 "use strict";
 
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
-var _getPrototypeOf = __webpack_require__("057e3e87");
+var _getPrototypeOf = require("./057e3e87.js");
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _possibleConstructorReturn2 = __webpack_require__("54eaf174");
+var _possibleConstructorReturn2 = require("./54eaf174.js");
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var _get2 = __webpack_require__("6813580a");
+var _get2 = require("./6813580a.js");
 
 var _get3 = _interopRequireDefault(_get2);
 
-var _inherits2 = __webpack_require__("64a8dc27");
+var _inherits2 = require("./64a8dc27.js");
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var assert = __webpack_require__("0e566746");
-var PIXI = __webpack_require__("8b1dfb45");
-var collider = __webpack_require__("6b42806d");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var FirebaseManager = __webpack_require__("f398b7c7");
+var assert = require("./0e566746.js");
+var PIXI = require("./8b1dfb45.js");
+var collider = require("./6b42806d.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var FirebaseManager = require("./f398b7c7.js");
 
 //
 // Helpers

@@ -5,7 +5,7 @@ var _skins;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
-var EnumNpcs = __webpack_require__("063efab9");
+var EnumNpcs = require("./063efab9.js");
 
 var skins = (_skins = {}, _defineProperty(_skins, 'monster_' + EnumNpcs.esSkeleto, {
     0: ['sword_armor_01', '', '', '', ''],

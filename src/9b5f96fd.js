@@ -1,61 +1,61 @@
 "use strict";
 
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
+var $ = require("./8ee62bea.js");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
 var GameInput = GameConfig.Input;
 var EmoteSlot = GameConfig.EmoteSlot;
-var GameObject = __webpack_require__("8649e148");
-var mapHelpers = __webpack_require__("7510cc08");
-var math = __webpack_require__("10899aea");
-var net = __webpack_require__("300e2704");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
+var GameObject = require("./8649e148.js");
+var mapHelpers = require("./7510cc08.js");
+var math = require("./10899aea.js");
+var net = require("./300e2704.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
 
-var device = __webpack_require__("ce29f17f");
-var helpers = __webpack_require__("26be8056");
-var proxy = __webpack_require__("6743143a");
+var device = require("./ce29f17f.js");
+var helpers = require("./26be8056.js");
+var proxy = require("./6743143a.js");
 
-var Airdrop = __webpack_require__("2701b048");
-var Bullet = __webpack_require__("c73dee75");
-var Camera = __webpack_require__("1ad3d2a4");
-var DeadBody = __webpack_require__("72409abe");
-var DebugLines = __webpack_require__("af8ba00f");
-var Decal = __webpack_require__("172c57dc");
-var Editor = __webpack_require__("e98400ad");
-var Emote = __webpack_require__("e5d16b4d");
-var Explosion = __webpack_require__("604cff9c");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var Flare = __webpack_require__("f034d167");
-var Gas = __webpack_require__("a7f094a3");
-var Input = __webpack_require__("4b8d140f");
-var Loot = __webpack_require__("a48f3bb2");
-var Map = __webpack_require__("d49cd95c");
-var ObjectPool = __webpack_require__("753d6e4b");
-var Particles = __webpack_require__("119e8c4c");
-var Plane = __webpack_require__("fc6a992a");
-var Player = __webpack_require__("a508b62a");
-var Projectile = __webpack_require__("bc83ef37");
-var Renderer = __webpack_require__("c60b5e9f");
-var Shot = __webpack_require__("6e43d1d7");
-var Smoke = __webpack_require__("0955a76e");
-var Structure = __webpack_require__("ce089fd5");
-var Touch = __webpack_require__("e2094860");
-var Ui = __webpack_require__("3160ea28");
-var Ui2 = __webpack_require__("d3da5587");
-var TrapManager = __webpack_require__("0ac929c2");
+var Airdrop = require("./2701b048.js");
+var Bullet = require("./c73dee75.js");
+var Camera = require("./1ad3d2a4.js");
+var DeadBody = require("./72409abe.js");
+var DebugLines = require("./af8ba00f.js");
+var Decal = require("./172c57dc.js");
+var Editor = require("./e98400ad.js");
+var Emote = require("./e5d16b4d.js");
+var Explosion = require("./604cff9c.js");
+var FirebaseManager = require("./f398b7c7.js");
+var Flare = require("./f034d167.js");
+var Gas = require("./a7f094a3.js");
+var Input = require("./4b8d140f.js");
+var Loot = require("./a48f3bb2.js");
+var Map = require("./d49cd95c.js");
+var ObjectPool = require("./753d6e4b.js");
+var Particles = require("./119e8c4c.js");
+var Plane = require("./fc6a992a.js");
+var Player = require("./a508b62a.js");
+var Projectile = require("./bc83ef37.js");
+var Renderer = require("./c60b5e9f.js");
+var Shot = require("./6e43d1d7.js");
+var Smoke = require("./0955a76e.js");
+var Structure = require("./ce089fd5.js");
+var Touch = require("./e2094860.js");
+var Ui = require("./3160ea28.js");
+var Ui2 = require("./d3da5587.js");
+var TrapManager = require("./0ac929c2.js");
 
-var BulletDefs = __webpack_require__("beeed8a4");
-var GameObjectDefs = __webpack_require__("721a96bf");
-var RoleDefs = __webpack_require__("6c7c3050");
-var collider = __webpack_require__("6b42806d");
+var BulletDefs = require("./beeed8a4.js");
+var GameObjectDefs = require("./721a96bf.js");
+var RoleDefs = require("./6c7c3050.js");
+var collider = require("./6b42806d.js");
 
 //Tracking quest from map
 var updateQuestMarkersTime = 1.5; //Seconds before try to update beacons

@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Status effect that inmobilizes a player
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var GameConfig = __webpack_require__("989ad62a");
-var StatusEffects = __webpack_require__("41b5258b");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var GameConfig = require("./989ad62a.js");
+var StatusEffects = require("./41b5258b.js");
 
 var Anim = GameConfig.Anim;
 

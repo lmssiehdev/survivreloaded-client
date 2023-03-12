@@ -1,63 +1,63 @@
 "use strict";
 
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = __webpack_require__("8ee62bea");
-var PIXI = __webpack_require__("8b1dfb45");
-var coldet = __webpack_require__("34e32c48");
-var collider = __webpack_require__("6b42806d");
-var GameConfig = __webpack_require__("989ad62a");
+var $ = require("./8ee62bea.js");
+var PIXI = require("./8b1dfb45.js");
+var coldet = require("./34e32c48.js");
+var collider = require("./6b42806d.js");
+var GameConfig = require("./989ad62a.js");
 var GameInput = GameConfig.Input;
 var Action = GameConfig.Action;
 var GasMode = GameConfig.GasMode;
-var net = __webpack_require__("300e2704");
-var v2 = __webpack_require__("c2a798c8");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var device = __webpack_require__("ce29f17f");
-var FirebaseManager = __webpack_require__("f398b7c7");
+var net = require("./300e2704.js");
+var v2 = require("./c2a798c8.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var device = require("./ce29f17f.js");
+var FirebaseManager = require("./f398b7c7.js");
 
-var _require = __webpack_require__("a7f094a3"),
+var _require = require("./a7f094a3.js"),
     GasRenderer = _require.GasRenderer,
     GasSafeZoneRenderer = _require.GasSafeZoneRenderer;
 
-var helpers = __webpack_require__("26be8056");
-var InputBinds = __webpack_require__("d306eab6");
-var MapIndicator = __webpack_require__("966d985b");
-var MapSprite = __webpack_require__("edfa1d55");
-var Particles = __webpack_require__("119e8c4c");
-var PieTimer = __webpack_require__("feb8fc30");
-var shot = __webpack_require__("6e43d1d7");
-var BattleResult = __webpack_require__("3dacadd5");
-var GearDefs = __webpack_require__("4ead53e6");
+var helpers = require("./26be8056.js");
+var InputBinds = require("./d306eab6.js");
+var MapIndicator = require("./966d985b.js");
+var MapSprite = require("./edfa1d55.js");
+var Particles = require("./119e8c4c.js");
+var PieTimer = require("./feb8fc30.js");
+var shot = require("./6e43d1d7.js");
+var BattleResult = require("./3dacadd5.js");
+var GearDefs = require("./4ead53e6.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
-var PingDefs = __webpack_require__("5857a73f");
-var RoleDefs = __webpack_require__("6c7c3050");
-var QuestDefs = __webpack_require__("e9b026d5").kQuestDefs;
+var GameObjectDefs = require("./721a96bf.js");
+var PingDefs = require("./5857a73f.js");
+var RoleDefs = require("./6c7c3050.js");
+var QuestDefs = require("./e9b026d5.js").kQuestDefs;
 
-var _require2 = __webpack_require__("35dbdceb"),
+var _require2 = require("./35dbdceb.js"),
     getGearItems = _require2.getGearItems;
 
-var _require3 = __webpack_require__("35dbdceb"),
+var _require3 = require("./35dbdceb.js"),
     getUniqueGearPerks = _require3.getUniqueGearPerks,
     getPerkText = _require3.getPerkText;
 

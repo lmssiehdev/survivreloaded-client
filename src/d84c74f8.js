@@ -1,10 +1,10 @@
 "use strict";
 
 
-var $ = __webpack_require__("8ee62bea");
-var cookieconsent = __webpack_require__("81a1fce4");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var MenuModal = __webpack_require__("fa71fb59");
+var $ = require("./8ee62bea.js");
+var cookieconsent = require("./81a1fce4.js");
+var FirebaseManager = require("./f398b7c7.js");
+var MenuModal = require("./fa71fb59.js");
 
 function showCookieConsent(config) {
     var p = null;

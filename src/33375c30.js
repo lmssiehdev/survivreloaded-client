@@ -1,24 +1,24 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var assert = __webpack_require__("0e566746");
-var PIXI = __webpack_require__("8b1dfb45");
-var collider = __webpack_require__("6b42806d");
-var math = __webpack_require__("10899aea");
-var mapHelpers = __webpack_require__("7510cc08");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var collisionHelpers = __webpack_require__("6d494b5c");
-var debugHelpers = __webpack_require__("c347b8dd");
-var DebugLines = __webpack_require__("af8ba00f");
+var assert = require("./0e566746.js");
+var PIXI = require("./8b1dfb45.js");
+var collider = require("./6b42806d.js");
+var math = require("./10899aea.js");
+var mapHelpers = require("./7510cc08.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var collisionHelpers = require("./6d494b5c.js");
+var debugHelpers = require("./c347b8dd.js");
+var DebugLines = require("./af8ba00f.js");
 
-var MapObjectDefs = __webpack_require__("03f4982a");
+var MapObjectDefs = require("./03f4982a.js");
 
 //
 // Helpers

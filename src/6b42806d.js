@@ -1,9 +1,9 @@
 "use strict";
 
 
-var coldet = __webpack_require__("34e32c48");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var coldet = require("./34e32c48.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 //
 // collider

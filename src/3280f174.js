@@ -1,27 +1,27 @@
 "use strict";
 
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _defineProperty2 = __webpack_require__("5e8b3cfc");
+var _defineProperty2 = require("./5e8b3cfc.js");
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -29,15 +29,15 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 //@ts-check
 
-var GearCardItem = __webpack_require__("189d6a05");
+var GearCardItem = require("./189d6a05.js");
 
-var _require = __webpack_require__("35dbdceb"),
+var _require = require("./35dbdceb.js"),
     getRecycleValue = _require.getRecycleValue;
 
-var _require2 = __webpack_require__("b72df1ae"),
+var _require2 = require("./b72df1ae.js"),
     getItemValue = _require2.getItemValue;
 
-var ModalTemplate = __webpack_require__("63daddfc");
+var ModalTemplate = require("./63daddfc.js");
 
 var ModalRecycle = function () {
     function ModalRecycle(account, localization, itemDef, userItem) {

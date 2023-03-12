@@ -1,28 +1,28 @@
 "use strict";
 
 
-var _assign = __webpack_require__("81cd031b");
+var _assign = require("./81cd031b.js");
 
 var _assign2 = _interopRequireDefault(_assign);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var PIXI = __webpack_require__("8b1dfb45");
-var device = __webpack_require__("ce29f17f");
+var PIXI = require("./8b1dfb45.js");
+var device = require("./ce29f17f.js");
 
-var _require = __webpack_require__("a508b62a"),
+var _require = require("./a508b62a.js"),
     Player = _require.Player;
 
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 
 var PlayerCanvas = function () {
     /**

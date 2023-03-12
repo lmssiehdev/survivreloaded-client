@@ -1,12 +1,12 @@
 "use strict";
 
 
-var collider = __webpack_require__("6b42806d");
-var mapHelpers = __webpack_require__("7510cc08");
-var v2 = __webpack_require__("c2a798c8");
-var DebugLines = __webpack_require__("af8ba00f");
+var collider = require("./6b42806d.js");
+var mapHelpers = require("./7510cc08.js");
+var v2 = require("./c2a798c8.js");
+var DebugLines = require("./af8ba00f.js");
 
-var MapObjectDefs = __webpack_require__("03f4982a");
+var MapObjectDefs = require("./03f4982a.js");
 
 function renderMapBuildingBounds(mapObj) {
     var def = MapObjectDefs[mapObj.type];

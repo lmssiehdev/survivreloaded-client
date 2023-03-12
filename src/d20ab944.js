@@ -10,11 +10,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Apply status effect to the current player, can do a dash before activating the status effect
  */
 
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
-var SkillsEnum = __webpack_require__("e6306c81");
-var StatusEffect = __webpack_require__("877e3f79");
-var AnimationData = __webpack_require__("1c877798");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
+var SkillsEnum = require("./e6306c81.js");
+var StatusEffect = require("./877e3f79.js");
+var AnimationData = require("./1c877798.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

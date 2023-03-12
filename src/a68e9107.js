@@ -1,52 +1,52 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _slicedToArray2 = __webpack_require__("9bc388c8");
+var _slicedToArray2 = require("./9bc388c8.js");
 
 var _slicedToArray3 = _interopRequireDefault(_slicedToArray2);
 
-var _regenerator = __webpack_require__("68823093");
+var _regenerator = require("./68823093.js");
 
 var _regenerator2 = _interopRequireDefault(_regenerator);
 
-var _asyncToGenerator2 = __webpack_require__("91c4117e");
+var _asyncToGenerator2 = require("./91c4117e.js");
 
 var _asyncToGenerator3 = _interopRequireDefault(_asyncToGenerator2);
 
-var _promise = __webpack_require__("2f756df0");
+var _promise = require("./2f756df0.js");
 
 var _promise2 = _interopRequireDefault(_promise);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
-var _stringify = __webpack_require__("1f15ac6e");
+var _stringify = require("./1f15ac6e.js");
 
 var _stringify2 = _interopRequireDefault(_stringify);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var api = __webpack_require__("259eae5b");
-var helpers = __webpack_require__("26be8056");
-var FirebaseManager = __webpack_require__("f398b7c7");
-var loadouts = __webpack_require__("0503bedc");
-var MenuModal = __webpack_require__("fa71fb59");
-var GameObjectDefs = __webpack_require__("721a96bf");
+var $ = require("./8ee62bea.js");
+var api = require("./259eae5b.js");
+var helpers = require("./26be8056.js");
+var FirebaseManager = require("./f398b7c7.js");
+var loadouts = require("./0503bedc.js");
+var MenuModal = require("./fa71fb59.js");
+var GameObjectDefs = require("./721a96bf.js");
 /*const Ads = require('./ads.js');
 const AnalyticsService = require('./analytics-service.js');
 const Config = require('./config.js');
 const Localization = require('./localization.js');*/
-var survivLoading = __webpack_require__("127a6ef3");
+var survivLoading = require("./127a6ef3.js");
 
 //
 // ajaxRequest

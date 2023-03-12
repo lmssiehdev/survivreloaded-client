@@ -1,25 +1,25 @@
 "use strict";
 
 
-var _typeof2 = __webpack_require__("1b207f64");
+var _typeof2 = require("./1b207f64.js");
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = __webpack_require__("8ee62bea");
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var util = __webpack_require__("1901e2d9");
-var v2 = __webpack_require__("c2a798c8");
-var device = __webpack_require__("ce29f17f");
-var DebugLines = __webpack_require__("af8ba00f");
-var Input = __webpack_require__("4b8d140f");
+var $ = require("./8ee62bea.js");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var util = require("./1901e2d9.js");
+var v2 = require("./c2a798c8.js");
+var device = require("./ce29f17f.js");
+var DebugLines = require("./af8ba00f.js");
+var Input = require("./4b8d140f.js");
 
 //
 // Editor

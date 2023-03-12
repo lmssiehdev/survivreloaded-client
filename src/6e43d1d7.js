@@ -1,13 +1,13 @@
 "use strict";
 
 
-var PIXI = __webpack_require__("8b1dfb45");
-var GameConfig = __webpack_require__("989ad62a");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
-var util = __webpack_require__("1901e2d9");
+var PIXI = require("./8b1dfb45.js");
+var GameConfig = require("./989ad62a.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
+var util = require("./1901e2d9.js");
 
-var GameObjectDefs = __webpack_require__("721a96bf");
+var GameObjectDefs = require("./721a96bf.js");
 
 function createCasingParticle(weapType, casingAngle, casingSpeedMult, pos, dir, layer, zOrd, particleBarn, casingEffect) {
     var weapDef = GameObjectDefs[weapType];

@@ -10,9 +10,9 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * Contain the definition for the traps with the necessary parameters
  */
 
-var collider = __webpack_require__("6b42806d");
-var TrapsEnum = __webpack_require__("7e9f5114");
-var BehaviourEnum = __webpack_require__("f1204f47");
+var collider = require("./6b42806d.js");
+var TrapsEnum = require("./7e9f5114.js");
+var BehaviourEnum = require("./f1204f47.js");
 
 //To see the defaults and more information of the attributes use trap-behaviour-defaults.js
 //The attributes defined here will take priority over the defaults

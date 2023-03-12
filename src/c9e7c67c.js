@@ -1,11 +1,11 @@
 "use strict";
 
 
-var $ = __webpack_require__("8ee62bea");
-var util = __webpack_require__("1901e2d9");
-var helpers = __webpack_require__("26be8056");
+var $ = require("./8ee62bea.js");
+var util = require("./1901e2d9.js");
+var helpers = require("./26be8056.js");
 
-var CrosshairDefs = __webpack_require__("f3db70d7");
+var CrosshairDefs = require("./f3db70d7.js");
 
 //
 // Internal helper routines

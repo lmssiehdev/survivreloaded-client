@@ -1,15 +1,15 @@
 "use strict";
 
 
-var _getIterator2 = __webpack_require__("5fd44c02");
+var _getIterator2 = require("./5fd44c02.js");
 
 var _getIterator3 = _interopRequireDefault(_getIterator2);
 
-var _classCallCheck2 = __webpack_require__("7400a140");
+var _classCallCheck2 = require("./7400a140.js");
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var _createClass2 = __webpack_require__("8f1e0713");
+var _createClass2 = require("./8f1e0713.js");
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
@@ -17,11 +17,11 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 // ts-check
 
-var ModalTemplate = __webpack_require__("63daddfc");
+var ModalTemplate = require("./63daddfc.js");
 
 //TODO replace modal MenuModal (insufficientGoldModal) so it doesn't use jQuery
-var $ = __webpack_require__("8ee62bea");
-var MenuModal = __webpack_require__("fa71fb59");
+var $ = require("./8ee62bea.js");
+var MenuModal = require("./fa71fb59.js");
 
 //Info of pass in constant so it can be easily changed or put in a json/js definition
 var kInfoList = [{

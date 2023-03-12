@@ -6,9 +6,9 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 //@ts-check
-var StatusEffects = __webpack_require__("41b5258b");
-var math = __webpack_require__("10899aea");
-var v2 = __webpack_require__("c2a798c8");
+var StatusEffects = require("./41b5258b.js");
+var math = require("./10899aea.js");
+var v2 = require("./c2a798c8.js");
 
 var ShieldEffect = function () {
     /**

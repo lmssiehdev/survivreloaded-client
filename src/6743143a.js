@@ -1,13 +1,13 @@
 "use strict";
 
 
-var _keys = __webpack_require__("f05b4d6a");
+var _keys = require("./f05b4d6a.js");
 
 var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var proxyDefs = __webpack_require__("2a353b93");
+var proxyDefs = require("./2a353b93.js");
 
 var proxy = {
     getProxyDef: function getProxyDef() {
