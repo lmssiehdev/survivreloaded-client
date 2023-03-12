@@ -1,6 +1,3 @@
-/***/ "27618474":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -13,6 +10,3 @@ var LootBoxDefs = {
 };
 
 module.exports = LootBoxDefs;
-
-/***/ }),
-

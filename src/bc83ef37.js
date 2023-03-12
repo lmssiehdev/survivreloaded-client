@@ -1,6 +1,3 @@
-/***/ "bc83ef37":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -466,6 +463,3 @@ m_ProjectileBarn.prototype = {
 module.exports = {
     m_ProjectileBarn: m_ProjectileBarn
 };
-
-/***/ }),
-

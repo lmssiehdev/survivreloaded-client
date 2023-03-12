@@ -1,6 +1,3 @@
-/***/ "0022c718":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -241,5 +238,3 @@ var MovePlayerEffect = function () {
 module.exports = {
     MovePlayerEffect: MovePlayerEffect
 };
-
-/***/ }),

@@ -1,6 +1,3 @@
-/***/ "3617adcf":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -165,6 +162,3 @@ var DeathEffects = {
 };
 
 module.exports = DeathEffects;
-
-/***/ }),
-

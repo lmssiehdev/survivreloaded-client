@@ -1,6 +1,3 @@
-/***/ "f3db70d7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -219,6 +216,3 @@ var CrosshairDefs = {
 };
 
 module.exports = CrosshairDefs;
-
-/***/ }),
-

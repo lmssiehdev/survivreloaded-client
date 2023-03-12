@@ -1,6 +1,3 @@
-/***/ "0c8ffd27":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -467,6 +464,3 @@ Obstacle.prototype = {
 };
 
 module.exports = Obstacle;
-
-/***/ }),
-

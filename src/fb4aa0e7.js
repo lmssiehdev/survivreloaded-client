@@ -1,6 +1,5 @@
 "use strict";
 
-
 var GameConfig = __webpack_require__("989ad62a");
 var v2 = __webpack_require__("c2a798c8");
 
@@ -12,31 +11,30 @@ var v2 = __webpack_require__("c2a798c8");
 // elements if that property is set.
 
 var mapDef = {
-    mapId: 18,
+    mapId: 11,
 
     desc: {
-        name: 'Inferno',
-        icon: 'img/gui/inferno.svg',
-        buttonCss: 'btn-mode-inferno',
-        buttonText: 'index-play-mode-inferno'
+        name: 'Eggsplosion',
+        icon: 'img/loot/egg_icon.svg',
+        buttonCss: 'btn-mode-mayo'
     },
 
     assets: {
-        audio: [{ name: 'club_music_01', channel: 'ambient' }, { name: 'club_music_02', channel: 'ambient' }, { name: 'ambient_steam_01', channel: 'ambient' }, { name: 'potato_01', channel: 'sfx' }, { name: 'potato_02', channel: 'sfx' }],
+        audio: [{ name: 'club_music_01', channel: 'ambient' }, { name: 'club_music_02', channel: 'ambient' }, { name: 'ambient_steam_01', channel: 'ambient' }],
 
-        atlases: ['gradient', 'loadout', 'shared', 'main', 'inferno']
+        atlases: ['gradient', 'loadout', 'shared', 'main', 'eggsplotion']
     },
 
     biome: {
         colors: {
             background: 0x20536E,
-            water: 0xFE8438,
-            waterRipple: 0xFE8438,
-            beach: 0x534D45,
-            riverbank: 0x252525,
-            grass: 0x3C3C3C,
+            water: 0x3282ab,
+            waterRipple: 0xb3f0ff,
+            beach: 0xcdb35b,
+            riverbank: 0x905e24,
+            grass: 0x80af49,
             underground: 0x1b0d03,
-            playerSubmerge: 0xFFFFFF,
+            playerSubmerge: 0x2b8ca4,
             playerGhillie: 0x83af50
         },
 
@@ -64,8 +62,8 @@ var mapDef = {
     // sent in the JoinedMsg or MapMsg instead.
     gameMode: {
         maxPlayers: 80,
-        killLeaderEnabled: true,
-        infernoMode: true
+
+        killLeaderEnabled: true
     }
 
 };

@@ -1,6 +1,3 @@
-/***/ "c60b5e9f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -349,6 +346,3 @@ module.exports = {
     RenderGroup: RenderGroup,
     m_Renderer: m_Renderer
 };
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "9b5f96fd":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1664,6 +1661,3 @@ m_Game.prototype = {
 module.exports = {
     m_Game: m_Game
 };
-
-/***/ }),
-

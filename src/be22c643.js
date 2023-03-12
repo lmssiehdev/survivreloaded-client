@@ -1,6 +1,3 @@
-/***/ "be22c643":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -210,6 +207,3 @@ var River = function () {
 }();
 
 module.exports = River;
-
-/***/ }),
-

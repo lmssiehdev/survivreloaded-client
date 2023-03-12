@@ -1,6 +1,3 @@
-/***/ "58819972":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -33,6 +30,3 @@ var EventsDef = {
 };
 
 module.exports = EventsDef;
-
-/***/ }),
-

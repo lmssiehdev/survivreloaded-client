@@ -1,6 +1,3 @@
-/***/ "cf5f8b5c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -52,6 +49,3 @@ var Effects = {
 };
 
 module.exports = Effects;
-
-/***/ }),
-

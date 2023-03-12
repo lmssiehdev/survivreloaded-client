@@ -1,6 +1,3 @@
-/***/ "4c22ec9b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -556,6 +553,3 @@ var activeTrack = function activeTrack(startTime, animationType, animationObj, t
 };
 
 module.exports = PlayerAnimationController;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "e98400ad":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -206,6 +203,3 @@ Editor.prototype = {
 };
 
 module.exports = Editor;
-
-/***/ }),
-

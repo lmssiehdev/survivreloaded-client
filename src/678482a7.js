@@ -1,6 +1,3 @@
-/***/ "678482a7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -43,6 +40,3 @@ var SpriteAnimDefs = {
 };
 
 module.exports = SpriteAnimDefs;
-
-/***/ }),
-

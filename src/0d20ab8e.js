@@ -1,6 +1,3 @@
-/***/ "0d20ab8e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -2334,6 +2331,3 @@ var EmoteDefs = {
 };
 
 module.exports = EmoteDefs;
-
-/***/ }),
-

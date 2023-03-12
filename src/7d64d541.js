@@ -1,6 +1,3 @@
-/***/ "7d64d541":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -210,6 +207,3 @@ Localization.prototype = {
 };
 
 module.exports = Localization;
-
-/***/ }),
-

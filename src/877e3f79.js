@@ -1,6 +1,3 @@
-/***/ "877e3f79":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -348,6 +345,3 @@ module.exports = {
     getPlayerEffectByName: getPlayerEffectByName,
     tryApplyEffectWithChance: tryApplyEffectWithChance
 };
-
-/***/ }),
-

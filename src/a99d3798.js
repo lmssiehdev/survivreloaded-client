@@ -1,6 +1,3 @@
-/***/ "a99d3798":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -150,6 +147,3 @@ var blindEffect = function () {
 module.exports = {
     blindEffect: blindEffect
 };
-
-/***/ }),
-

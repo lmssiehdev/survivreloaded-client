@@ -1,6 +1,3 @@
-/***/ "72409abe":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -130,6 +127,3 @@ m_DeadBodyBarn.prototype = {
 module.exports = {
     m_DeadBodyBarn: m_DeadBodyBarn
 };
-
-/***/ }),
-

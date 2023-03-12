@@ -1,6 +1,3 @@
-/***/ "2646e65d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -365,6 +362,3 @@ var ArmoryGearMenu = function () {
 }();
 
 module.exports = ArmoryGearMenu;
-
-/***/ }),
-

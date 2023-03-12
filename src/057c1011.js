@@ -1,6 +1,3 @@
-/***/ "057c1011":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -75,6 +72,3 @@ var WindowModal = function () {
 }();
 
 module.exports = WindowModal;
-
-/***/ }),
-

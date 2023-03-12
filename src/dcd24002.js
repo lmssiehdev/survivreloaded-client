@@ -1,6 +1,3 @@
-/***/ "dcd24002":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -97,6 +94,3 @@ var RangeAttackSword = function () {
 }();
 
 module.exports = RangeAttackSword;
-
-/***/ }),
-

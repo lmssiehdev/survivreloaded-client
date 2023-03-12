@@ -1,6 +1,3 @@
-/***/ "ab8b5da7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -179,6 +176,3 @@ var ModalQuestsRewards = function () {
 var _ModalQuestsRewards = new ModalQuestsRewards();
 
 module.exports = _ModalQuestsRewards;
-
-/***/ }),
-

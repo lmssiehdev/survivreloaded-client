@@ -1,6 +1,3 @@
-/***/ "d54c374e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -84,6 +81,3 @@ var Notification = function () {
 }();
 
 module.exports = Notification;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "1c644c07":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -574,6 +571,3 @@ var ModalSeasonRewards = function () {
 }();
 
 module.exports = ModalSeasonRewards;
-
-/***/ }),
-

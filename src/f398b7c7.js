@@ -1,6 +1,3 @@
-/***/ "f398b7c7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -124,6 +121,3 @@ setInterval(function () {
 }, 1000);
 
 module.exports = singleton;
-
-/***/ }),
-

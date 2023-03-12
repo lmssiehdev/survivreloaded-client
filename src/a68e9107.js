@@ -1,6 +1,3 @@
-/***/ "a68e9107":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1683,6 +1680,3 @@ var Account = function () {
 }();
 
 module.exports = Account;
-
-/***/ }),
-

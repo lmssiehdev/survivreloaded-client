@@ -1,6 +1,3 @@
-/***/ "61fc98e9":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1246,6 +1243,3 @@ var TeamMenu = function () {
 }();
 
 module.exports = TeamMenu;
-
-/***/ }),
-

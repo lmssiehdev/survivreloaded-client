@@ -1,6 +1,3 @@
-/***/ "4d789253":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -541,6 +538,3 @@ var GearForge = function () {
 }();
 
 module.exports = GearForge;
-
-/***/ }),
-

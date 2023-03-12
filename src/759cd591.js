@@ -1,6 +1,3 @@
-/***/ "759cd591":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -32,6 +29,3 @@ var LootPoolDefs = {
 };
 
 module.exports = LootPoolDefs;
-
-/***/ }),
-

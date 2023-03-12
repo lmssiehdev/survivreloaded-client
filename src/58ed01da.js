@@ -1,6 +1,3 @@
-/***/ "58ed01da":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -66,6 +63,3 @@ var IAPPacks = {
 };
 
 module.exports = IAPPacks;
-
-/***/ }),
-

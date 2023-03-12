@@ -1,6 +1,3 @@
-/***/ "33375c30":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -635,6 +632,3 @@ Building.prototype = {
 };
 
 module.exports = Building;
-
-/***/ }),
-

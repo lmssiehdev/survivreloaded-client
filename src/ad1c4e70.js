@@ -1,6 +1,3 @@
-/***/ "ad1c4e70":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -4353,6 +4350,3 @@ var GunDefs = {
 };
 
 module.exports = GunDefs;
-
-/***/ }),
-

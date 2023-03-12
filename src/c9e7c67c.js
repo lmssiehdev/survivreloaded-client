@@ -1,6 +1,3 @@
-/***/ "c9e7c67c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -76,6 +73,3 @@ var crosshair = {
 };
 
 module.exports = crosshair;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "37f05490":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -234,6 +231,3 @@ var ApplyEffectToNearbyEnemies = function () {
 }();
 
 module.exports = ApplyEffectToNearbyEnemies;
-
-/***/ }),
-

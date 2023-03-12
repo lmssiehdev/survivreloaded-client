@@ -1,6 +1,3 @@
-/***/ "127a6ef3":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -45,13 +42,4 @@ var SurvivLoading = function () {
 var survivLoading = new SurvivLoading();
 
 module.exports = survivLoading;
-
-/***/ }),
-
-/***/ 13:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
 

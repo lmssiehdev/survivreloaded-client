@@ -1,6 +1,3 @@
-/***/ "bd69bd01":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -919,6 +916,3 @@ var RectangularHitboxSized = function () {
 }();
 
 module.exports = RectangularHitboxSized;
-
-/***/ }),
-

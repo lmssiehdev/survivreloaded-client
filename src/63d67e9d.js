@@ -1,6 +1,3 @@
-/***/ "63d67e9d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1847,6 +1844,3 @@ var SkinDefs = {
 
 var OutfitDefs = util.mergeDeep({}, BaseDefs, SkinDefs);
 module.exports = OutfitDefs;
-
-/***/ }),
-

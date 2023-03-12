@@ -1,6 +1,3 @@
-/***/ "4bc2cf35":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -233,6 +230,3 @@ var SiteInfo = function () {
 }();
 
 module.exports = SiteInfo;
-
-/***/ }),
-

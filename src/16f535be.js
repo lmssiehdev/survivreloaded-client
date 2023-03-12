@@ -1,6 +1,3 @@
-/***/ "16f535be":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -55,6 +52,3 @@ var AGoodStart = function () {
 }();
 
 module.exports = AGoodStart;
-
-/***/ }),
-

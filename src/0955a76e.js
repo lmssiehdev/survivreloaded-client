@@ -1,6 +1,3 @@
-/***/ "0955a76e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -166,6 +163,3 @@ m_SmokeBarn.prototype = {
 module.exports = {
     m_SmokeBarn: m_SmokeBarn
 };
-
-/***/ }),
-

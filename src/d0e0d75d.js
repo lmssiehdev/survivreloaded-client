@@ -1,6 +1,3 @@
-/***/ "d0e0d75d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -309,6 +306,3 @@ var CurrentQuests = function () {
 }();
 
 module.exports = CurrentQuests;
-
-/***/ }),
-

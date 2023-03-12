@@ -1,6 +1,3 @@
-/***/ "0972c173":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -169,6 +166,3 @@ var NormalAttackRange = function () {
 }();
 
 module.exports = NormalAttackRange;
-
-/***/ }),
-

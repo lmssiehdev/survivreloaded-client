@@ -1,6 +1,3 @@
-/***/ "7b4c6cc8":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -115,6 +112,3 @@ var behaviours = {
 };
 
 module.exports = behaviours;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "a48f3bb2":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -212,6 +209,3 @@ m_LootBarn.prototype = {
 module.exports = {
     m_LootBarn: m_LootBarn
 };
-
-/***/ }),
-

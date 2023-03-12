@@ -1,6 +1,3 @@
-/***/ "cb7a977d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -41,6 +38,3 @@ module.exports = {
     StatusEffectAttackType: StatusEffectAttackType,
     getAttackTypeLogStr: getAttackTypeLogStr
 };
-
-/***/ }),
-

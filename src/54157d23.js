@@ -1,6 +1,3 @@
-/***/ "54157d23":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -139,6 +136,3 @@ var PlayerCanvas = function () {
 }();
 
 module.exports = PlayerCanvas;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "9d3c0d8b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -50,6 +47,3 @@ var mapDef = {
 };
 
 module.exports = util.mergeDeep({}, baseDef, mapDef);
-
-/***/ }),
-

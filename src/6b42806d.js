@@ -1,6 +1,3 @@
-/***/ "6b42806d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -234,6 +231,3 @@ var collider = {
 };
 
 module.exports = collider;
-
-/***/ }),
-

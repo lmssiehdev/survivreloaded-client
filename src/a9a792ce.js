@@ -1,6 +1,3 @@
-/***/ "a9a792ce":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -74,6 +71,3 @@ module.exports = {
         icon: 'hair-daper.svg'
     }
 };
-
-/***/ }),
-

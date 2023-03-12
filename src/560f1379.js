@@ -1,6 +1,3 @@
-/***/ "560f1379":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -77,6 +74,3 @@ var HealersKit = function () {
 }();
 
 module.exports = HealersKit;
-
-/***/ }),
-

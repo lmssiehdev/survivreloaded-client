@@ -1,6 +1,3 @@
-/***/ "b87050e6":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -40,6 +37,3 @@ var TrapDefaults = (_TrapDefaults = {}, _defineProperty(_TrapDefaults, Behaviour
 }), _TrapDefaults);
 
 module.exports = TrapDefaults;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "6d61bfc0":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -19,6 +16,3 @@ function crc16(buf) {
 module.exports = {
     crc16: crc16
 };
-
-/***/ }),
-

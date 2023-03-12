@@ -1,6 +1,3 @@
-/***/ "484b3444":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -385,6 +382,3 @@ module.exports = {
     applyMobileBrowserStyling: applyMobileBrowserStyling,
     applySteamStyling: applySteamStyling
 };
-
-/***/ }),
-

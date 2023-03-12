@@ -1,6 +1,3 @@
-/***/ "e6306c81":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -30,6 +27,3 @@ var attacks = {
 };
 
 module.exports = attacks;
-
-/***/ }),
-

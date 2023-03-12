@@ -1,6 +1,3 @@
-/***/ "25cdf013":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -483,6 +480,3 @@ var activeTrack = function activeTrack(startTime, animationType, animationObj, t
 };
 
 module.exports = NpcAnimationController;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "2701b048":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -170,6 +167,3 @@ m_AirdropBarn.prototype = {
 module.exports = {
     m_AirdropBarn: m_AirdropBarn
 };
-
-/***/ }),
-

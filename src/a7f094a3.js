@@ -1,6 +1,3 @@
-/***/ "a7f094a3":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -261,6 +258,3 @@ module.exports = {
     GasSafeZoneRenderer: GasSafeZoneRenderer,
     m_Gas: m_Gas
 };
-
-/***/ }),
-

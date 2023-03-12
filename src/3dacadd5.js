@@ -1,6 +1,3 @@
-/***/ "3dacadd5":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -386,6 +383,3 @@ var BattleResult = function () {
 }();
 
 module.exports = BattleResult;
-
-/***/ }),
-

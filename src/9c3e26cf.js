@@ -1,6 +1,3 @@
-/***/ "9c3e26cf":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -458,6 +455,3 @@ var SinusoidalBullet = function () {
 }();
 
 module.exports = SinusoidalBullet;
-
-/***/ }),
-

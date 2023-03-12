@@ -1,6 +1,3 @@
-/***/ "45d72c2c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -119,6 +116,3 @@ var DashAttackMelee = function () {
 }();
 
 module.exports = DashAttackMelee;
-
-/***/ }),
-

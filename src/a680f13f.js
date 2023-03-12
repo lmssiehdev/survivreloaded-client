@@ -1,6 +1,3 @@
-/***/ "a680f13f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -21,6 +18,3 @@ var levelsDefs = {
     }
 };
 module.exports = levelsDefs;
-
-/***/ }),
-

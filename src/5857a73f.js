@@ -1,6 +1,3 @@
-/***/ "5857a73f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -134,6 +131,3 @@ var PingDefs = {
 };
 
 module.exports = PingDefs;
-
-/***/ }),
-

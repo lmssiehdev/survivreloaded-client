@@ -1,6 +1,3 @@
-/***/ "beeed8a4":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1762,6 +1759,3 @@ var BonusDefs = {
 
 var kBulletDefs = util.mergeDeep({}, BaseDefs, BonusDefs);
 module.exports = kBulletDefs;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "6163655e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -127,6 +124,3 @@ var ModalWarningError = function () {
 }();
 
 module.exports = ModalWarningError;
-
-/***/ }),
-

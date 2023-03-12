@@ -1,6 +1,3 @@
-/***/ "3f40fc69":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -474,6 +471,3 @@ OpponentDisplay.prototype = {
 module.exports = {
     OpponentDisplay: OpponentDisplay
 };
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "8d2ac16e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -226,6 +223,3 @@ var SkillTelegraph = function () {
 }();
 
 module.exports = SkillTelegraph;
-
-/***/ }),
-

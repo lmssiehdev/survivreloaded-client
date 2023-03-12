@@ -1,6 +1,3 @@
-/***/ "58064a0b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -110,6 +107,3 @@ var CycloneAttack = function () {
 }();
 
 module.exports = CycloneAttack;
-
-/***/ }),
-

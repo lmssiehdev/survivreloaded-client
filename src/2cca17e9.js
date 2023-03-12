@@ -1,6 +1,3 @@
-/***/ "2cca17e9":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -53,6 +50,3 @@ var Boons = {
 };
 
 module.exports = Boons;
-
-/***/ }),
-

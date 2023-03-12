@@ -1,6 +1,3 @@
-/***/ "604cff9c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -861,6 +858,3 @@ m_ExplosionBarn.prototype = {
 module.exports = {
     m_ExplosionBarn: m_ExplosionBarn
 };
-
-/***/ }),
-

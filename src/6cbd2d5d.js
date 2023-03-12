@@ -1,6 +1,3 @@
-/***/ "6cbd2d5d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -151,6 +148,3 @@ var ShieldEffect = function () {
 }();
 
 module.exports = ShieldEffect;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "deb4ca7e":
-/***/ (function(module, exports) {
-
 var __extends = (this && this.__extends) || (function () {
     var extendStatics = function (d, b) {
         extendStatics = Object.setPrototypeOf ||
@@ -8905,6 +8902,3 @@ var pixi_spine;
     }
 })(pixi_spine || (pixi_spine = {}));
 //# sourceMappingURL=pixi-spine.js.map
-
-/***/ }),
-

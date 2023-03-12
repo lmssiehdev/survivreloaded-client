@@ -1,6 +1,3 @@
-/***/ "1fd13749":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -195,13 +192,3 @@ var spineObjManager = function () {
 }();
 
 module.exports = spineObjManager;
-
-/***/ }),
-
-/***/ 2:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-

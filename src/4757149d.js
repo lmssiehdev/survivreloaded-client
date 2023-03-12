@@ -1,6 +1,3 @@
-/***/ "4757149d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -120,6 +117,3 @@ var HeavyAttackStaff = function () {
 }();
 
 module.exports = HeavyAttackStaff;
-
-/***/ }),
-

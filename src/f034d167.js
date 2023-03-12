@@ -1,6 +1,3 @@
-/***/ "f034d167":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -209,6 +206,3 @@ m_FlareBarn.prototype = {
 module.exports = {
     m_FlareBarn: m_FlareBarn
 };
-
-/***/ }),
-

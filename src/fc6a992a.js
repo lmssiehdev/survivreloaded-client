@@ -1,6 +1,3 @@
-/***/ "fc6a992a":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -354,6 +351,3 @@ m_PlaneBarn.prototype = {
 module.exports = {
     m_PlaneBarn: m_PlaneBarn
 };
-
-/***/ }),
-

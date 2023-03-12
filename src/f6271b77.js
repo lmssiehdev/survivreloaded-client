@@ -6,55 +6,43 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 /**
- * inmobilizePlayer.js
+ * invisibleEffect.js
  * Status effect that inmobilizes a player
  */
 
 var v2 = __webpack_require__("c2a798c8");
 var math = __webpack_require__("10899aea");
-var GameObject = __webpack_require__("8649e148");
-var AnimationData = __webpack_require__("1c877798");
+var GameConfig = __webpack_require__("989ad62a");
 var StatusEffects = __webpack_require__("41b5258b");
-var EnumNpcAnimations = __webpack_require__("8f04ede1").EnumNpcAnimations;
 
-var _require = __webpack_require__("cb7a977d"),
-    StatusEffectAttackType = _require.StatusEffectAttackType;
+var Anim = GameConfig.Anim;
 
-var Anim = AnimationData.EnumPlayerAnimType;
-
-var InmobilizePlayer = function () {
+var InvisibleEffect = function () {
     /**
      * Constructor
      * @param {boolean} runningOnClient Indicates if the effect will run on the client or the server 
      */
-    function InmobilizePlayer(runningOnClient, params) {
-        _classCallCheck(this, InmobilizePlayer);
+    function InvisibleEffect(runningOnClient, params) {
+        var _this = this;
 
-        this.id = 5;
-        this.name = "m_inmobilizePlayer";
+        _classCallCheck(this, InvisibleEffect);
+
+        this.id = 10;
+        this.name = "m_invisibleEffect";
         this.runningOnClient = runningOnClient;
         this.emitter = null;
         this.ticker = 0;
         this.percentage = 0;
         this.dirty = false;
         this.hadParams = false;
-        this.player = null;
-        this.type = StatusEffectAttackType.Root;
 
-        // Look in the effects json for the effect data
-        var length = StatusEffects.length;
-        for (var i = 0; i < length; i++) {
-            if (StatusEffects[i].id == this.id) {
-                if (params) {
-                    this.effectData = Object.assign({}, StatusEffects[i]); //Copy def so we don't modified it if needed again
-                    this.effectData = Object.assign(this.effectData, params); //Replace defaults with params if given
-                    this.hadParams = true;
-                } else {
-                    this.effectData = Object.assign({}, StatusEffects[i]);
-                }
-                break;
-            }
-        }
+        this.player = null;
+
+        var statusEffect = StatusEffects.find(function (effect) {
+            return effect.id === _this.id;
+        });
+        this.effectData = Object.assign({}, statusEffect, params || {});
+        if (!this.effectData.time && this.runningOnClient) this.effectData.time = 99;
     }
 
     /**
@@ -64,21 +52,10 @@ var InmobilizePlayer = function () {
      */
 
 
-    _createClass(InmobilizePlayer, [{
+    _createClass(InvisibleEffect, [{
         key: 'start',
         value: function start(player, particleBarn) {
-            if (this.runningOnClient) {
-                //
-            } else {
-                this.player = player;
-                if (player.__type === GameObject.Type.Player) {
-                    player.playAnim(Anim.StatusEffect, this.effectData.time, this.effectData.speed, this.effectData, this.effectData.id);
-                    if (player.WeaponManager.currentAttack && player.WeaponManager.currentAttack.finishAttack) player.WeaponManager.currentAttack.finishAttack();
-                } else if (player.__type === GameObject.Type.Npc) {
-                    player.playClientAnimation(EnumNpcAnimations.Trap, this.effectData.id);
-                }
-                player.isRooted = true;
-            }
+            player.invisible = true;
             this.ticker = this.effectData.time;
         }
 
@@ -102,8 +79,10 @@ var InmobilizePlayer = function () {
     }, {
         key: 'update',
         value: function update(player, dt, damageList) {
-            if (!this.runningOnClient) {
-                this.player.isRooted = true;
+            player.invisible = true;
+            if (this.runningOnClient) {
+                //
+            } else {
                 this.setEffectPercentage(this.ticker * 100.0 / this.effectData.time);
             }
         }
@@ -114,9 +93,12 @@ var InmobilizePlayer = function () {
 
     }, {
         key: 'stop',
-        value: function stop() {
-            if (!this.runningOnClient) {
-                this.player.isRooted = false;
+        value: function stop(player) {
+            this.ticker = 0;
+            player.invisible = false;
+            if (this.runningOnClient) {
+                //
+            } else {
                 this.setEffectPercentage(0.0);
             }
         }
@@ -137,9 +119,7 @@ var InmobilizePlayer = function () {
         }
     }]);
 
-    return InmobilizePlayer;
+    return InvisibleEffect;
 }();
 
-module.exports = {
-    InmobilizePlayer: InmobilizePlayer
-};
+module.exports = InvisibleEffect;

@@ -1,6 +1,3 @@
-/***/ "ec9679c6":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -97,6 +94,3 @@ var NormalAttackMelee = function () {
 }();
 
 module.exports = NormalAttackMelee;
-
-/***/ }),
-
