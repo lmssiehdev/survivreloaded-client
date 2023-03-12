@@ -1,6 +1,3 @@
-/***/ "966d985b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -122,6 +119,3 @@ m_MapIndicatorBarn.prototype = {
 module.exports = {
     m_MapIndicatorBarn: m_MapIndicatorBarn
 };
-
-/***/ }),
-

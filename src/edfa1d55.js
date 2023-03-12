@@ -1,6 +1,3 @@
-/***/ "edfa1d55":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -172,6 +169,3 @@ MapSpriteBarn.prototype = {
 module.exports = {
     MapSpriteBarn: MapSpriteBarn
 };
-
-/***/ }),
-

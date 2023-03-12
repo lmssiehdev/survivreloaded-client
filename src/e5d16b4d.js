@@ -1,6 +1,3 @@
-/***/ "e5d16b4d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1282,6 +1279,3 @@ m_EmoteManager.prototype = {
 module.exports = {
     m_EmoteManager: m_EmoteManager
 };
-
-/***/ }),
-

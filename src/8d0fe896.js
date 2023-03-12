@@ -1,6 +1,3 @@
-/***/ "8d0fe896":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -231,6 +228,3 @@ var ConsumablesDefs = {
 };
 
 module.exports = ConsumablesDefs;
-
-/***/ }),
-

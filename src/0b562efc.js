@@ -1,6 +1,3 @@
-/***/ "0b562efc":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -373,6 +370,3 @@ var Legendary = {
 };
 
 module.exports = Object.assign({}, Common, Rare, Epic, Legendary);
-
-/***/ }),
-

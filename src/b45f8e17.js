@@ -1,6 +1,3 @@
-/***/ "b45f8e17":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -176,6 +173,3 @@ var ElvishMetalBoon = function () {
 }();
 
 module.exports = ElvishMetalBoon;
-
-/***/ }),
-

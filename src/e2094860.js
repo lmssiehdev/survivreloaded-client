@@ -1,6 +1,3 @@
-/***/ "e2094860":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -826,6 +823,3 @@ var m_LineSprites = function () {
 module.exports = {
     m_Touch: m_Touch
 };
-
-/***/ }),
-

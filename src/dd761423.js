@@ -1,6 +1,3 @@
-/***/ "dd761423":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -25,6 +22,3 @@ function createSprite(_ref) {
 module.exports = {
     createSprite: createSprite
 };
-
-/***/ }),
-

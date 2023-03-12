@@ -1,6 +1,3 @@
-/***/ "34e32c48":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -581,6 +578,3 @@ var coldet = {
 };
 
 module.exports = coldet;
-
-/***/ }),
-

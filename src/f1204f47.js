@@ -1,6 +1,3 @@
-/***/ "f1204f47":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -10,6 +7,3 @@ var TrapsBehaviours = {
 };
 
 module.exports = TrapsBehaviours;
-
-/***/ }),
-

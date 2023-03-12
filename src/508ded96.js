@@ -1,6 +1,3 @@
-/***/ "508ded96":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -114,6 +111,3 @@ var CrusherAttack = function () {
 }();
 
 module.exports = CrusherAttack;
-
-/***/ }),
-

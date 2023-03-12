@@ -1,6 +1,3 @@
-/***/ "66141f52":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -646,6 +643,3 @@ earcut.flatten = function (data) {
     }
     return result;
 };
-
-/***/ }),
-

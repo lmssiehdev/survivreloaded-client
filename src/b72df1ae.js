@@ -1,6 +1,3 @@
-/***/ "b72df1ae":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -19,6 +16,3 @@ var getItemValue = function getItemValue(objDef) {
 module.exports = {
     getItemValue: getItemValue
 };
-
-/***/ }),
-

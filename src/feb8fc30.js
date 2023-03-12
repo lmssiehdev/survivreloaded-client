@@ -1,6 +1,3 @@
-/***/ "feb8fc30":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -192,7 +189,6 @@ module.exports = {
     m_PieTimer: m_PieTimer
 };
 
-/***/ })
 
 },[["c99e6613",1,2]]]);
 //# sourceMappingURL=app.e4406638.js.map
@@ -215,6 +211,3 @@ playback timings (ms):
   esindex: 0.013
   LoadShardBlock: 147.122 (3)
   PetaboxLoader3.datanode: 141.046 (4)
-  load_resource: 532.343
-  PetaboxLoader3.resolve: 482.749
-*/

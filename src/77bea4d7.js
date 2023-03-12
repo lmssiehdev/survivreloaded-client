@@ -1,6 +1,3 @@
-/***/ "77bea4d7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -173,6 +170,3 @@ var BugBattleService = function () {
 }();
 
 module.exports = BugBattleService;
-
-/***/ }),
-

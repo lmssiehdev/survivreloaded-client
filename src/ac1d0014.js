@@ -1,6 +1,3 @@
-/***/ "ac1d0014":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -76,6 +73,3 @@ var WeaponTypeInfo = {
 };
 
 module.exports = WeaponTypeInfo;
-
-/***/ }),
-

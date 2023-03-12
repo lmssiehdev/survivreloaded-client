@@ -1,6 +1,3 @@
-/***/ "6c7c3050":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -237,6 +234,3 @@ var Roles = {
 };
 
 module.exports = Roles;
-
-/***/ }),
-

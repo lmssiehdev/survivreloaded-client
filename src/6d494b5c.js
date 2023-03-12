@@ -1,6 +1,3 @@
-/***/ "6d494b5c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -128,6 +125,3 @@ var collisionHelpers = {
 };
 
 module.exports = collisionHelpers;
-
-/***/ }),
-

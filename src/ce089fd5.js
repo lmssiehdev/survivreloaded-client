@@ -1,6 +1,3 @@
-/***/ "ce089fd5":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -183,6 +180,3 @@ Structure.prototype = {
 };
 
 module.exports = Structure;
-
-/***/ }),
-

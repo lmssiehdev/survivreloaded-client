@@ -1,6 +1,3 @@
-/***/ "c2a798c8":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -135,6 +132,3 @@ var v2 = {
 };
 
 module.exports = v2;
-
-/***/ }),
-

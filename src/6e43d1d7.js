@@ -1,6 +1,3 @@
-/***/ "6e43d1d7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -192,6 +189,3 @@ module.exports = {
     createCasingParticle: createCasingParticle,
     m_ShotBarn: m_ShotBarn
 };
-
-/***/ }),
-

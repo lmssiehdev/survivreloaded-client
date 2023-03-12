@@ -1,6 +1,3 @@
-/***/ "76205fa7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -386,6 +383,3 @@ var ResourceManager = function () {
 module.exports = {
     ResourceManager: ResourceManager
 };
-
-/***/ }),
-

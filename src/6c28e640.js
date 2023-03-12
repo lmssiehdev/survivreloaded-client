@@ -1,6 +1,3 @@
-/***/ "6c28e640":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -136,6 +133,3 @@ var BaseTrap = function () {
 }();
 
 module.exports = BaseTrap;
-
-/***/ }),
-

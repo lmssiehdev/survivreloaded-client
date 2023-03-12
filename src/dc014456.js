@@ -1,6 +1,3 @@
-/***/ "dc014456":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -102,6 +99,3 @@ var EquippedGearCardItem = function () {
 }();
 
 module.exports = EquippedGearCardItem;
-
-/***/ }),
-

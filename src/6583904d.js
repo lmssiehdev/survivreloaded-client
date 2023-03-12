@@ -1,6 +1,3 @@
-/***/ "6583904d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -10,6 +7,3 @@ var recycleData = {
 };
 
 module.exports = recycleData;
-
-/***/ }),
-

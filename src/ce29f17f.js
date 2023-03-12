@@ -1,6 +1,3 @@
-/***/ "ce29f17f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -206,6 +203,3 @@ var Device = function () {
 var device = new Device();
 
 module.exports = device;
-
-/***/ }),
-

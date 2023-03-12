@@ -1,6 +1,3 @@
-/***/ "0444401b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -33,6 +30,3 @@ var mapDef = {
 };
 
 module.exports = util.mergeDeep({}, baseDef, mapDef);
-
-/***/ }),
-

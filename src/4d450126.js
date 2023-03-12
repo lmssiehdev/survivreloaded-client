@@ -1,6 +1,3 @@
-/***/ "4d450126":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -65,6 +62,3 @@ var ExtraPouchBoon = function () {
 }();
 
 module.exports = ExtraPouchBoon;
-
-/***/ }),
-

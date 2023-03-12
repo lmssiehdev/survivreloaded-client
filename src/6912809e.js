@@ -1,6 +1,3 @@
-/***/ "6912809e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -80,6 +77,3 @@ var Terrain = function Terrain(isPolygon, type, patch, terrainTemp) {
 };
 
 module.exports = Terrain;
-
-/***/ }),
-

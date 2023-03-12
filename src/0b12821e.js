@@ -1,6 +1,3 @@
-/***/ "0b12821e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -166,6 +163,3 @@ var Ambience = function () {
 }();
 
 module.exports = Ambience;
-
-/***/ }),
-

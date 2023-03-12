@@ -1,6 +1,3 @@
-/***/ "172c57dc":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -246,6 +243,3 @@ m_DecalBarn.prototype = {
 module.exports = {
     m_DecalBarn: m_DecalBarn
 };
-
-/***/ }),
-

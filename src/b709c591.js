@@ -1,6 +1,3 @@
-/***/ "b709c591":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -152,6 +149,3 @@ var shockEffect = function () {
 module.exports = {
     shockEffect: shockEffect
 };
-
-/***/ }),
-

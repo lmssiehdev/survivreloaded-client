@@ -1,6 +1,3 @@
-/***/ "6743143a":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -37,6 +34,3 @@ var proxy = {
 };
 
 module.exports = proxy;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "b8ef459b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -578,6 +575,3 @@ Spinner.prototype = {
 };
 
 module.exports = Spinner;
-
-/***/ }),
-

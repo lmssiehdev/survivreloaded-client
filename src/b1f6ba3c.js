@@ -1,6 +1,3 @@
-/***/ "b1f6ba3c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -36,6 +33,3 @@ var kMaps = {
 };
 
 module.exports = kMaps;
-
-/***/ }),
-

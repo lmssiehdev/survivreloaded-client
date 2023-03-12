@@ -1,6 +1,3 @@
-/***/ "3280f174":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -182,6 +179,3 @@ var ModalRecycle = function () {
 }();
 
 module.exports = ModalRecycle;
-
-/***/ }),
-

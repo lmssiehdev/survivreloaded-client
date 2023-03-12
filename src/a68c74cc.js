@@ -1,6 +1,3 @@
-/***/ "a68c74cc":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -150,6 +147,3 @@ var PowerStatEffect = function () {
 module.exports = {
     PowerStatEffect: PowerStatEffect
 };
-
-/***/ }),
-

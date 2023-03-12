@@ -1,6 +1,3 @@
-/***/ "482a0193":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -222,6 +219,3 @@ var ModalBuyGoldPass = function () {
 }();
 
 module.exports = ModalBuyGoldPass;
-
-/***/ }),
-

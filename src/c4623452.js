@@ -1,6 +1,3 @@
-/***/ "c4623452":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -221,6 +218,3 @@ var PingTest = function () {
 }();
 
 module.exports = PingTest;
-
-/***/ }),
-

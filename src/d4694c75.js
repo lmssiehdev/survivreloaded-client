@@ -1,6 +1,3 @@
-/***/ "d4694c75":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -137,6 +134,3 @@ var SkinDefs = {
 
 var kXPDefs = util.mergeDeep({}, BaseDefs, SkinDefs);
 module.exports = kXPDefs;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "ccb6ad93":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1718,6 +1715,3 @@ var SkinDefs = {
 
 var MeleeDefs = util.mergeDeep({}, BaseDefs, SkinDefs);
 module.exports = MeleeDefs;
-
-/***/ }),
-

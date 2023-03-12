@@ -1,6 +1,3 @@
-/***/ "d7a506cb":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -229,6 +226,3 @@ var npcSpawnersDefs = {
 };
 
 module.exports = npcSpawnersDefs;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "b2f0419a":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -17,6 +14,3 @@ var behaviours = {
 };
 
 module.exports = behaviours;
-
-/***/ }),
-

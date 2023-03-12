@@ -1,6 +1,3 @@
-/***/ "6ffe8b70":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -194,13 +191,3 @@ var Config = function () {
 }();
 
 module.exports = Config;
-
-/***/ }),
-
-/***/ 7:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-

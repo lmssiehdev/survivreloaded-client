@@ -1,6 +1,3 @@
-/***/ "4b8d140f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -753,6 +750,3 @@ module.exports = {
     MouseWheel: MouseWheel,
     Touch: Touch
 };
-
-/***/ }),
-

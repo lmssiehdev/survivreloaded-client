@@ -1,6 +1,3 @@
-/***/ "5a255578":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -237,6 +234,3 @@ var EffectDefs = {
 };
 
 module.exports = EffectDefs;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "289e8b9e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -187,6 +184,3 @@ Eventshandler.prototype = {
 };
 
 module.exports = Eventshandler;
-
-/***/ }),
-

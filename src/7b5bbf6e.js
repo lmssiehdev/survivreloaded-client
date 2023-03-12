@@ -1,6 +1,3 @@
-/***/ "7b5bbf6e":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -202,6 +199,3 @@ var Spline = function () {
 }();
 
 module.exports = Spline;
-
-/***/ }),
-

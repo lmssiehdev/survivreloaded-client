@@ -1,6 +1,3 @@
-/***/ "9893d4a0":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -149,6 +146,3 @@ var TimerDisplay = function () {
 }();
 
 module.exports = TimerDisplay;
-
-/***/ }),
-

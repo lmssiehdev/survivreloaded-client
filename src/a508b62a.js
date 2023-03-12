@@ -1,6 +1,3 @@
-/***/ "a508b62a":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -4058,6 +4055,3 @@ module.exports = {
     m_PlayerBarn: m_PlayerBarn,
     Player: Player
 };
-
-/***/ }),
-

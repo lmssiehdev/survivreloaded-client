@@ -1,6 +1,3 @@
-/***/ "67e921b2":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -225,6 +222,3 @@ var EditUsernameBubble = function () {
 }();
 
 module.exports = EditUsernameBubble;
-
-/***/ }),
-

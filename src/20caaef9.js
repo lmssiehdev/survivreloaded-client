@@ -1,6 +1,3 @@
-/***/ "20caaef9":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -696,6 +693,3 @@ var NpcDefinitions = (_NpcDefinitions = {}, _defineProperty(_NpcDefinitions, 'mo
 }), _NpcDefinitions);
 
 module.exports = NpcDefinitions;
-
-/***/ }),
-

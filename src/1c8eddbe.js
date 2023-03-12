@@ -1,6 +1,3 @@
-/***/ "1c8eddbe":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -35,6 +32,3 @@ function SpreadShot(bulletManager, id, params) {
 };
 
 module.exports = SpreadShot;
-
-/***/ }),
-

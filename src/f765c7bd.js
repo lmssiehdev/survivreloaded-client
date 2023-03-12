@@ -1,6 +1,3 @@
-/***/ "f765c7bd":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -150,6 +147,3 @@ var chillEffect = function () {
 module.exports = {
     chillEffect: chillEffect
 };
-
-/***/ }),
-

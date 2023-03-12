@@ -1,6 +1,3 @@
-/***/ "d15c07f3":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -307,6 +304,3 @@ LoadoutDisplay.prototype = {
 };
 
 module.exports = { LoadoutDisplay: LoadoutDisplay };
-
-/***/ }),
-

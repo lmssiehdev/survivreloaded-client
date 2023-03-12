@@ -1,6 +1,3 @@
-/***/ "0c46af0d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -66,6 +63,3 @@ var ProjectileBehaviours = (_ProjectileBehaviours = {}, _defineProperty(_Project
 }), _ProjectileBehaviours);
 
 module.exports = ProjectileBehaviours;
-
-/***/ }),
-

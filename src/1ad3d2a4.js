@@ -1,6 +1,3 @@
-/***/ "1ad3d2a4":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -68,6 +65,3 @@ m_Camera.prototype = {
 module.exports = {
     m_Camera: m_Camera
 };
-
-/***/ }),
-

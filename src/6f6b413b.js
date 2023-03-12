@@ -1,6 +1,3 @@
-/***/ "6f6b413b":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -121,6 +118,3 @@ var Traps = (_Traps = {}, _defineProperty(_Traps, TrapsEnum.InmobilizePlayer, {
 }), _Traps);
 
 module.exports = Traps;
-
-/***/ }),
-

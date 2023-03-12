@@ -1,6 +1,3 @@
-/***/ "c7b297fc":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -157,6 +154,3 @@ var BleedEffect = function () {
 }();
 
 module.exports = BleedEffect;
-
-/***/ }),
-

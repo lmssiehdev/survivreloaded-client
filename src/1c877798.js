@@ -1,6 +1,3 @@
-/***/ "1c877798":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -99,6 +96,3 @@ module.exports = {
     AttackIdToNumber: AttackIdToNumber,
     AttackNumberToId: AttackNumberToId
 };
-
-/***/ }),
-

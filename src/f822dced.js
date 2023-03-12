@@ -1,6 +1,3 @@
-/***/ "f822dced":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -1442,6 +1439,3 @@ Market.prototype = {
 };
 
 module.exports = Market;
-
-/***/ }),
-

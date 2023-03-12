@@ -1,6 +1,3 @@
-/***/ "556e68d7":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -25,6 +22,3 @@ var skins = (_skins = {}, _defineProperty(_skins, 'monster_' + EnumNpcs.esSkelet
 }), _skins);
 
 module.exports = skins;
-
-/***/ }),
-

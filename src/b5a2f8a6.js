@@ -1,6 +1,3 @@
-/***/ "b5a2f8a6":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -835,6 +832,3 @@ var Epic = {
 };
 
 module.exports = Object.assign({}, Common, Rare, Epic);
-
-/***/ }),
-

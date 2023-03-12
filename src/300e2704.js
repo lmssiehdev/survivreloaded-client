@@ -1,6 +1,3 @@
-/***/ "300e2704":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -2088,6 +2085,3 @@ module.exports = {
     AliveCountsMsg: AliveCountsMsg,
     WeaponMsg: WeaponMsg
 };
-
-/***/ }),
-

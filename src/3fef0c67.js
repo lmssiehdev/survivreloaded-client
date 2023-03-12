@@ -1,6 +1,3 @@
-/***/ "3fef0c67":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -336,13 +333,3 @@ var CurrDefs = {
 };
 
 module.exports = CurrDefs;
-
-/***/ }),
-
-/***/ 4:
-/***/ (function(module, exports) {
-
-/* (ignored) */
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "ad7bf251":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -48,6 +45,3 @@ var NpcAnimObjects = (_NpcAnimObjects = {}, (0, _defineProperty3.default)(_NpcAn
 }), _NpcAnimObjects);
 
 module.exports = NpcAnimObjects;
-
-/***/ }),
-

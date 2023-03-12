@@ -1,6 +1,3 @@
-/***/ "17ac315d":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -345,6 +342,3 @@ var WeaponSelector = function () {
 }();
 
 module.exports = WeaponSelector;
-
-/***/ }),
-

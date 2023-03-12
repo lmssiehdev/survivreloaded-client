@@ -1,6 +1,3 @@
-/***/ "4bfe8f92":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -148,6 +145,3 @@ var PoisonEffect = function () {
 }();
 
 module.exports = PoisonEffect;
-
-/***/ }),
-

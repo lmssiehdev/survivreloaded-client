@@ -1,6 +1,3 @@
-/***/ "851f35c5":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -340,6 +337,3 @@ var OpponentMenu = function () {
 }();
 
 module.exports = OpponentMenu;
-
-/***/ }),
-

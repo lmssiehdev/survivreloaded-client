@@ -1,6 +1,3 @@
-/***/ "e38a0ead":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -19,6 +16,3 @@ var MarketConfiDef = {
 };
 
 module.exports = MarketConfiDef;
-
-/***/ }),
-

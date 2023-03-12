@@ -1,6 +1,3 @@
-/***/ "1919cb88":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -142,6 +139,3 @@ var HomeLoadoutDisplay = function () {
 }();
 
 module.exports = HomeLoadoutDisplay;
-
-/***/ }),
-

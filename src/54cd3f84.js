@@ -1,6 +1,3 @@
-/***/ "54cd3f84":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -188,6 +185,3 @@ var DamageOverTimeTrap = function () {
 }();
 
 module.exports = DamageOverTimeTrap;
-
-/***/ }),
-

@@ -1,6 +1,3 @@
-/***/ "ea2f7f0c":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -492,6 +489,3 @@ var BaseBullet = function () {
 }();
 
 module.exports = BaseBullet;
-
-/***/ }),
-

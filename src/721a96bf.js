@@ -1,6 +1,3 @@
-/***/ "721a96bf":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -22,6 +19,3 @@ for (var i = 0; i < ObjectDefsList.length; i++) {
 }
 
 module.exports = ObjectDefs;
-
-/***/ }),
-

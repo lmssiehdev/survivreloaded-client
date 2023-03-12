@@ -1,6 +1,3 @@
-/***/ "cb27a692":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -158,6 +155,3 @@ var burningEffect = function () {
 module.exports = {
     burningEffect: burningEffect
 };
-
-/***/ }),
-

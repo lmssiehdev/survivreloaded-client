@@ -1,6 +1,3 @@
-/***/ "1c57769f":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -75,6 +72,3 @@ var LootBoxDefs = {
 };
 
 module.exports = LootBoxDefs;
-
-/***/ }),
-

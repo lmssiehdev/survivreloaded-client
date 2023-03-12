@@ -1,6 +1,3 @@
-/***/ "1dc8ec07":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -9071,6 +9068,3 @@ var DaggerVariants = {
 
 var MainHandWeaps = util.mergeDeep({}, RangeWeapons, MeleeWeapons, StaffVariants, BowVariants, SwordVariants, AxeVariants, DaggerVariants, WandVariants);
 module.exports = MainHandWeaps;
-
-/***/ }),
-

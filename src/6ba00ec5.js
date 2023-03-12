@@ -1,6 +1,3 @@
-/***/ "6ba00ec5":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -74,6 +71,3 @@ var CircularTelegraph = function () {
 }();
 
 module.exports = CircularTelegraph;
-
-/***/ }),
-

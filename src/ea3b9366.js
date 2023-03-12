@@ -1,6 +1,3 @@
-/***/ "ea3b9366":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -353,6 +350,3 @@ var kExplosionDefs = {
 };
 
 module.exports = kExplosionDefs;
-
-/***/ }),
-

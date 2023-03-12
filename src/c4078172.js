@@ -1,6 +1,3 @@
-/***/ "c4078172":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -175,6 +172,3 @@ var ThrowablesAttack = function () {
 }();
 
 module.exports = ThrowablesAttack;
-
-/***/ }),
-

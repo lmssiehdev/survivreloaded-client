@@ -1,6 +1,3 @@
-/***/ "97507a20":
-/***/ (function(module, exports, __webpack_require__) {
-
 "use strict";
 
 
@@ -103,6 +100,3 @@ var HeavyAttackSword = function () {
 }();
 
 module.exports = HeavyAttackSword;
-
-/***/ }),
-
