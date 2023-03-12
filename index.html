@@ -3773,8 +3773,21 @@
         return "";
       }
 
-      setCookie('ftue-step', '12', 3650);
-      setCookie('app-data', '1', 3650);
+      function copyCookieToLocalStorage(cname) {
+        if(getCookie(cname) !== "") {
+          localStorage.setItem(cname, getCookie(cname));
+        } else {
+          if(localStorage.getItem(cname) !== null) {
+            setCookie(cname, localStorage.getItem(cname), 3650);
+          }
+        }
+      }
+
+      setCookie("ftue-step", "12", 3650);
+      setCookie("app-data", "1", 3650);
+
+      copyCookieToLocalStorage("loadout");
+      copyCookieToLocalStorage("player-name");
 
       const playerNameInput = document.querySelector("#player-name-input");
       playerNameInput.value = getCookie("player-name");
