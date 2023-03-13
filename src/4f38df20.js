@@ -36,7 +36,7 @@ var Rarities = require("./e2fbbd42.js");
 var device = require("./ce29f17f.js");
 
 var MenuModal = require("./fa71fb59.js");
-var RewardsModal = require("./ab8b5da7.js");
+var RewardsModal = require("./modal-quest-rewards.js");
 var survivLoading = require("./127a6ef3.js");
 var TimerDisplay = require("./9893d4a0.js");
 var SideNotification = require("./d54c374e.js");

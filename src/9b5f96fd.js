@@ -24,7 +24,7 @@ var helpers = require("./26be8056.js");
 var proxy = require("./6743143a.js");
 
 var Airdrop = require("./2701b048.js");
-var Bullet = require("./c73dee75.js");
+var Bullet = require("./bullet.js");
 var Camera = require("./1ad3d2a4.js");
 var DeadBody = require("./72409abe.js");
 var DebugLines = require("./af8ba00f.js");
@@ -50,7 +50,7 @@ var Structure = require("./ce089fd5.js");
 var Touch = require("./e2094860.js");
 var Ui = require("./3160ea28.js");
 var Ui2 = require("./d3da5587.js");
-var TrapManager = require("./0ac929c2.js");
+var TrapManager = require("./trapManager.js");
 
 var BulletDefs = require("./beeed8a4.js");
 var GameObjectDefs = require("./721a96bf.js");
@@ -1661,3 +1661,4 @@ m_Game.prototype = {
 module.exports = {
     m_Game: m_Game
 };
+

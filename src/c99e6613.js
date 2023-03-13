@@ -77,7 +77,7 @@ var OpponentDisplay = require("./3f40fc69.js");
 var SpineObjManager = require("./1fd13749.js");
 var WeaponSelector = require("./17ac315d.js");
 var GearForge = require("./4d789253.js");
-var RewardsModal = require("./ab8b5da7.js");
+var RewardsModal = require("./modal-quest-rewards.js");
 var BugBattleService = require("./77bea4d7.js");
 window.addEventListener("error", function (e) {
     console.log("Error occurred: " + e.error.message);

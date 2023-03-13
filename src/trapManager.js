@@ -16,13 +16,13 @@ var util = require("./1901e2d9.js");
 var collider = require("./6b42806d.js");
 var GameObject = require("./8649e148.js");
 var TrapsBehaviourEnum = require("./f1204f47.js");
-var StatusEffect = require("./877e3f79.js");
-var TrapDefs = require("./6f6b413b.js");
-var BehaviourDefaults = require("./b87050e6.js");
+var StatusEffect = require("./statusEffect.js");
+var TrapDefs = require("./trap-defs.js");
+var BehaviourDefaults = require("./trap-behaviour-defaults.js");
 
 //Import behaviours
-var BaseTrap = require("./6c28e640.js");
-var DamageOverTime = require("./54cd3f84.js");
+var BaseTrap = require("./baseTrap.js");
+var DamageOverTime = require("./damageOverTimeTrap.js");
 
 var TrapManager = function () {
     function TrapManager(playerBarn, isRunningOnClient) {

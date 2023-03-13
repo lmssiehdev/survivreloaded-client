@@ -62,15 +62,15 @@ var ObjectPool = require("./753d6e4b.js");
 var shot = require("./6e43d1d7.js");
 var InGameNotification = require("./954c3bdb.js");
 
-var AnimationController = require("./4c22ec9b.js");
+var AnimationController = require("./player-animation-controller.js");
 var GameObjectDefs = require("./721a96bf.js");
 var MapObjectDefs = require("./03f4982a.js");
 var StatusEffects = require("./41b5258b.js");
 
 // Effects
-var StatusEffect = require("./877e3f79.js");
+var StatusEffect = require("./statusEffect.js");
 
-var WeaponManager = require("./665aedb2.js");
+var WeaponManager = require("./weaponManager.js");
 var SkillTelegraph = require("./8d2ac16e.js");
 var GameObject = require("./8649e148.js");
 var GearPerksController = require("./e54dae39.js");

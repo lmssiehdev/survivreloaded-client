@@ -1799,3 +1799,800 @@
 [13:28:14.177092]    Replaced 10899aea with ./10899aea.js
 [13:28:14.177092]    Replaced ce29f17f with ./ce29f17f.js
 [13:28:14.178092] -> Processed 287/287 files (1 ignored)
+----- Procedure: clues at 2023-03-12 19:49:52.105096 -----
+[19:49:52.106095] -> Processing 287 files in ./src
+[19:49:52.106095] - File: ./src/0022c718.js
+[19:49:52.106095]   [-] Renaming file to movePlayerEffect.js
+[19:49:52.107096]   [-] Finding and replacing references to the old file name
+[19:49:52.171100]     Replacing reference to 0022c718.js in file 877e3f79.js at line 22 with movePlayerEffect.js
+[19:49:52.225101]   [-] Found and replaced 1references to the old file name
+[19:49:52.229101] - File: ./src/0972c173.js
+[19:49:52.229101]   [-] Renaming file to normalAttackRange.js
+[19:49:52.230101]   [-] Finding and replacing references to the old file name
+[19:49:52.282114]     Replacing reference to 0972c173.js in file 665aedb2.js at line 38 with normalAttackRange.js
+[19:49:52.348112]   [-] Found and replaced 1references to the old file name
+[19:49:52.348112] - File: ./src/0ac929c2.js
+[19:49:52.348112]   [-] Renaming file to trapManager.js
+[19:49:52.349112]   [-] Finding and replacing references to the old file name
+[19:49:52.418111]     Replacing reference to 0ac929c2.js in file 9b5f96fd.js at line 52 with trapManager.js
+[19:49:52.470112]   [-] Found and replaced 1references to the old file name
+[19:49:52.470112] - File: ./src/0c46af0d.js
+[19:49:52.470112]   [-] Renaming file to bullet-behaviour-defaults.js
+[19:49:52.472114]   [-] Finding and replacing references to the old file name
+[19:49:52.559112]     Replacing reference to 0c46af0d.js in file c73dee75.js at line 36 with bullet-behaviour-defaults.js
+[19:49:52.589120]   [-] Found and replaced 1references to the old file name
+[19:49:52.592120] - File: ./src/1c8eddbe.js
+[19:49:52.592120]   [-] Renaming file to spreadShot.js
+[19:49:52.593122]   [-] Finding and replacing references to the old file name
+[19:49:52.683121]     Replacing reference to 1c8eddbe.js in file c73dee75.js at line 40 with spreadShot.js
+[19:49:52.714121]   [-] Found and replaced 1references to the old file name
+[19:49:52.719120] - File: ./src/25cdf013.js
+[19:49:52.719120]   [-] Renaming file to npc-animation-controller.js
+[19:49:52.720120]   [-] Finding and replacing references to the old file name
+[19:49:52.825129]     Replacing reference to 25cdf013.js in file d91174e5.js at line 21 with npc-animation-controller.js
+[19:49:52.847128]   [-] Found and replaced 1references to the old file name
+[19:49:52.849128] - File: ./src/37f05490.js
+[19:49:52.849128]   [-] Renaming file to applyEffectToNearbyEnemies.js
+[19:49:52.850128]   [-] Finding and replacing references to the old file name
+[19:49:52.902666]     Replacing reference to 37f05490.js in file 665aedb2.js at line 43 with applyEffectToNearbyEnemies.js
+[19:49:52.975668]   [-] Found and replaced 1references to the old file name
+[19:49:52.976666] - File: ./src/45d72c2c.js
+[19:49:52.976666]   [-] Renaming file to dashAttackMelee.js
+[19:49:52.977665]   [-] Finding and replacing references to the old file name
+[19:49:53.029667]     Replacing reference to 45d72c2c.js in file 665aedb2.js at line 34 with dashAttackMelee.js
+[19:49:53.103712]   [-] Found and replaced 1references to the old file name
+[19:49:53.103712] - File: ./src/4757149d.js
+[19:49:53.103712]   [-] Renaming file to heavyAttackStaff.js
+[19:49:53.104712]   [-] Finding and replacing references to the old file name
+[19:49:53.154715]     Replacing reference to 4757149d.js in file 665aedb2.js at line 35 with heavyAttackStaff.js
+[19:49:53.237727]   [-] Found and replaced 1references to the old file name
+[19:49:53.239728] - File: ./src/4bfe8f92.js
+[19:49:53.239728]   [-] Renaming file to poisonEffect.js
+[19:49:53.239728]   [-] Finding and replacing references to the old file name
+[19:49:53.330744]     Replacing reference to 4bfe8f92.js in file 877e3f79.js at line 18 with poisonEffect.js
+[19:49:53.388743]   [-] Found and replaced 1references to the old file name
+[19:49:53.388743] - File: ./src/4c22ec9b.js
+[19:49:53.388743]   [-] Renaming file to player-animation-controller.js
+[19:49:53.389743]   [-] Finding and replacing references to the old file name
+[19:49:53.464922]     Replacing reference to 4c22ec9b.js in file a508b62a.js at line 64 with player-animation-controller.js
+[19:49:53.529922]   [-] Found and replaced 1references to the old file name
+[19:49:53.530922] - File: ./src/508ded96.js
+[19:49:53.530922]   [-] Renaming file to crusherAttack.js
+[19:49:53.531922]   [-] Finding and replacing references to the old file name
+[19:49:53.588267]     Replacing reference to 508ded96.js in file 665aedb2.js at line 31 with crusherAttack.js
+[19:49:53.674268]   [-] Found and replaced 1references to the old file name
+[19:49:53.674268] - File: ./src/54cd3f84.js
+[19:49:53.674268]   [-] Renaming file to damageOverTimeTrap.js
+[19:49:53.675269]   [-] Finding and replacing references to the old file name
+[19:49:53.808267]     Replacing reference to 54cd3f84.js in file trapManager.js at line 24 with damageOverTimeTrap.js
+[19:49:53.811268]   [-] Found and replaced 1references to the old file name
+[19:49:53.811268] - File: ./src/58064a0b.js
+[19:49:53.812267]   [-] Renaming file to cycloneAttack.js
+[19:49:53.812267]   [-] Finding and replacing references to the old file name
+[19:49:53.865269]     Replacing reference to 58064a0b.js in file 665aedb2.js at line 32 with cycloneAttack.js
+[19:49:53.971267]   [-] Found and replaced 1references to the old file name
+[19:49:53.972267] - File: ./src/594790ff.js
+[19:49:53.972267]   [-] Renaming file to arcTrajectory.js
+[19:49:53.973269]   [-] Finding and replacing references to the old file name
+[19:49:54.070267]     Replacing reference to 594790ff.js in file c73dee75.js at line 41 with arcTrajectory.js
+[19:49:54.106268]   [-] Found and replaced 1references to the old file name
+[19:49:54.108272] - File: ./src/632fe679.js
+[19:49:54.108272]   [-] Renaming file to variableDamageRange.js
+[19:49:54.109273]   [-] Finding and replacing references to the old file name
+[19:49:54.159267]     Replacing reference to 632fe679.js in file 665aedb2.js at line 42 with variableDamageRange.js
+[19:49:54.232268]   [-] Found and replaced 1references to the old file name
+[19:49:54.233267] - File: ./src/665aedb2.js
+[19:49:54.233267]   [-] Renaming file to weaponManager.js
+[19:49:54.234268]   [-] Finding and replacing references to the old file name
+[19:49:54.318267]     Replacing reference to 665aedb2.js in file a508b62a.js at line 72 with weaponManager.js
+[19:49:54.373267]   [-] Found and replaced 1references to the old file name
+[19:49:54.375268] - File: ./src/6c28e640.js
+[19:49:54.375268]   [-] Renaming file to baseTrap.js
+[19:49:54.376267]   [-] Finding and replacing references to the old file name
+[19:49:54.509266]     Replacing reference to 6c28e640.js in file trapManager.js at line 23 with baseTrap.js
+[19:49:54.514267]   [-] Found and replaced 1references to the old file name
+[19:49:54.517268] - File: ./src/6f6b413b.js
+[19:49:54.517268]   [-] Renaming file to trap-defs.js
+[19:49:54.519268]   [-] Finding and replacing references to the old file name
+[19:49:54.590267]     Replacing reference to 6f6b413b.js in file 8d2ac16e.js at line 17 with trap-defs.js
+[19:49:54.647266]     Replacing reference to 6f6b413b.js in file trapManager.js at line 19 with trap-defs.js
+[19:49:54.653267]   [-] Found and replaced 2reference to the old file name
+[19:49:54.654267] - File: ./src/738520b0.js
+[19:49:54.654267]   [-] Renaming file to orbitalAttack.js
+[19:49:54.659269]   [-] Finding and replacing references to the old file name
+[19:49:54.785267]     Replacing reference to 738520b0.js in file weaponManager.js at line 33 with orbitalAttack.js
+[19:49:54.788268]   [-] Found and replaced 1references to the old file name
+[19:49:54.788268] - File: ./src/74b67fb5.js
+[19:49:54.788268]   [-] Renaming file to inmobilizePlayer.js
+[19:49:54.790270]   [-] Finding and replacing references to the old file name
+[19:49:54.855267]     Replacing reference to 74b67fb5.js in file 877e3f79.js at line 23 with inmobilizePlayer.js
+[19:49:54.922268]   [-] Found and replaced 1references to the old file name
+[19:49:54.924267] - File: ./src/7b4c6cc8.js
+[19:49:54.924267]   [-] Renaming file to projectile-behaviours-methods.js
+[19:49:54.925269]   [-] Finding and replacing references to the old file name
+[19:49:54.992267]     Replacing reference to 7b4c6cc8.js in file 9c3e26cf.js at line 20 with projectile-behaviours-methods.js
+[19:49:55.044267]     Replacing reference to 7b4c6cc8.js in file spreadShot.js at line 15 with projectile-behaviours-methods.js
+[19:49:55.048269]     Replacing reference to 7b4c6cc8.js in file arcTrajectory.js at line 20 with projectile-behaviours-methods.js
+[19:49:55.051281]   [-] Found and replaced 3reference to the old file name
+[19:49:55.052267] - File: ./src/7cf065b6.js
+[19:49:55.052267]   [-] Renaming file to deployTrap.js
+[19:49:55.053267]   [-] Finding and replacing references to the old file name
+[19:49:55.180268]     Replacing reference to 7cf065b6.js in file normalAttackRange.js at line 16 with deployTrap.js
+[19:49:55.190268]     Replacing reference to 7cf065b6.js in file weaponManager.js at line 30 with deployTrap.js
+[19:49:55.194270]   [-] Found and replaced 2reference to the old file name
+[19:49:55.195269] - File: ./src/877e3f79.js
+[19:49:55.195269]   [-] Renaming file to statusEffect.js
+[19:49:55.196270]   [-] Finding and replacing references to the old file name
+[19:49:55.232269]     Replacing reference to 877e3f79.js in file 300e2704.js at line 22 with statusEffect.js
+[19:49:55.277268]     Replacing reference to 877e3f79.js in file a508b62a.js at line 70 with statusEffect.js
+[19:49:55.303268]     Replacing reference to 877e3f79.js in file d20ab944.js at line 15 with statusEffect.js
+[19:49:55.306267]     Replacing reference to 877e3f79.js in file d3da5587.js at line 45 with statusEffect.js
+[19:49:55.312268]     Replacing reference to 877e3f79.js in file d91174e5.js at line 15 with statusEffect.js
+[19:49:55.344267]     Replacing reference to 877e3f79.js in file trapManager.js at line 18 with statusEffect.js
+[19:49:55.346268]     Replacing reference to 877e3f79.js in file applyEffectToNearbyEnemies.js at line 16 with statusEffect.js
+[19:49:55.349268]     Replacing reference to 877e3f79.js in file crusherAttack.js at line 16 with statusEffect.js
+[19:49:55.380269]     Replacing reference to 877e3f79.js in file weaponManager.js at line 24 with statusEffect.js
+[19:49:55.386268]   [-] Found and replaced 9reference to the old file name
+[19:49:55.388268] - File: ./src/97507a20.js
+[19:49:55.388268]   [-] Renaming file to heavyAttackSword.js
+[19:49:55.389269]   [-] Finding and replacing references to the old file name
+[19:49:55.535267]     Replacing reference to 97507a20.js in file weaponManager.js at line 36 with heavyAttackSword.js
+[19:49:55.538267]   [-] Found and replaced 1references to the old file name
+[19:49:55.539267] - File: ./src/9c3e26cf.js
+[19:49:55.539267]   [-] Renaming file to sinusoidalBullet.js
+[19:49:55.540268]   [-] Finding and replacing references to the old file name
+[19:49:55.629268]     Replacing reference to 9c3e26cf.js in file c73dee75.js at line 42 with sinusoidalBullet.js
+[19:49:55.667268]   [-] Found and replaced 1references to the old file name
+[19:49:55.667268] - File: ./src/9d2748cb.js
+[19:49:55.667268]   [-] Renaming file to bladeFlurryAttack.js
+[19:49:55.668267]   [-] Finding and replacing references to the old file name
+[19:49:55.793267]     Replacing reference to 9d2748cb.js in file weaponManager.js at line 41 with bladeFlurryAttack.js
+[19:49:55.797267]   [-] Found and replaced 1references to the old file name
+[19:49:55.800269] - File: ./src/a68c74cc.js
+[19:49:55.800269]   [-] Renaming file to powerStatEffect.js
+[19:49:55.801269]   [-] Finding and replacing references to the old file name
+[19:49:55.929268]     Replacing reference to a68c74cc.js in file statusEffect.js at line 20 with powerStatEffect.js
+[19:49:55.931268]   [-] Found and replaced 1references to the old file name
+[19:49:55.932268] - File: ./src/a99d3798.js
+[19:49:55.932268]   [-] Renaming file to blindEffect.js
+[19:49:55.934269]   [-] Finding and replacing references to the old file name
+[19:49:56.085274]     Replacing reference to a99d3798.js in file statusEffect.js at line 16 with blindEffect.js
+[19:49:56.087271]   [-] Found and replaced 1references to the old file name
+[19:49:56.089267] - File: ./src/ab8b5da7.js
+[19:49:56.089267]   [-] Renaming file to modal-quest-rewards.js
+[19:49:56.090268]   [-] Finding and replacing references to the old file name
+[19:49:56.139267]     Replacing reference to ab8b5da7.js in file 4f38df20.js at line 38 with modal-quest-rewards.js
+[19:49:56.186267]     Replacing reference to ab8b5da7.js in file c99e6613.js at line 79 with modal-quest-rewards.js
+[19:49:56.225268]   [-] Found and replaced 2reference to the old file name
+[19:49:56.227268] - File: ./src/b709c591.js
+[19:49:56.227268]   [-] Renaming file to shockEffect.js
+[19:49:56.228267]   [-] Finding and replacing references to the old file name
+[19:49:56.429267]     Replacing reference to b709c591.js in file statusEffect.js at line 14 with shockEffect.js
+[19:49:56.431268]   [-] Found and replaced 1references to the old file name
+[19:49:56.431268] - File: ./src/b87050e6.js
+[19:49:56.431268]   [-] Renaming file to trap-behaviour-defaults.js
+[19:49:56.432268]   [-] Finding and replacing references to the old file name
+[19:49:56.559267]     Replacing reference to b87050e6.js in file trapManager.js at line 20 with trap-behaviour-defaults.js
+[19:49:56.589268]   [-] Found and replaced 1references to the old file name
+[19:49:56.590268] - File: ./src/bd69bd01.js
+[19:49:56.590268]   [-] Renaming file to rectangularHitboxSized.js
+[19:49:56.591272]   [-] Finding and replacing references to the old file name
+[19:49:56.684267]     Replacing reference to bd69bd01.js in file c73dee75.js at line 43 with rectangularHitboxSized.js
+[19:49:56.742268]   [-] Found and replaced 1references to the old file name
+[19:49:56.743269] - File: ./src/c4078172.js
+[19:49:56.743269]   [-] Renaming file to throwablesAttack.js
+[19:49:56.744270]   [-] Finding and replacing references to the old file name
+[19:49:56.901267]     Replacing reference to c4078172.js in file weaponManager.js at line 45 with throwablesAttack.js
+[19:49:56.907268]   [-] Found and replaced 1references to the old file name
+[19:49:56.908269] - File: ./src/c73dee75.js
+[19:49:56.908269]   [-] Renaming file to bullet.js
+[19:49:56.909271]   [-] Finding and replacing references to the old file name
+[19:49:56.984267]     Replacing reference to c73dee75.js in file 9b5f96fd.js at line 26 with bullet.js
+[19:49:57.004268]     Replacing reference to c73dee75.js in file bc83ef37.js at line 9 with bullet.js
+[19:49:57.075269]   [-] Found and replaced 2reference to the old file name
+[19:49:57.076269] - File: ./src/c7b297fc.js
+[19:49:57.076269]   [-] Renaming file to bleedEffect.js
+[19:49:57.077270]   [-] Finding and replacing references to the old file name
+[19:49:57.210266]     Replacing reference to c7b297fc.js in file statusEffect.js at line 17 with bleedEffect.js
+[19:49:57.214267]   [-] Found and replaced 1references to the old file name
+[19:49:57.215268] - File: ./src/cb27a692.js
+[19:49:57.215268]   [-] Renaming file to burningEffect.js
+[19:49:57.216267]   [-] Finding and replacing references to the old file name
+[19:49:57.361266]     Replacing reference to cb27a692.js in file statusEffect.js at line 19 with burningEffect.js
+[19:49:57.366268]   [-] Found and replaced 1references to the old file name
+[19:49:57.367268] - File: ./src/d20ab944.js
+[19:49:57.367268]   [-] Renaming file to applyStatusEffect.js
+[19:49:57.368270]   [-] Finding and replacing references to the old file name
+[19:49:57.511268]     Replacing reference to d20ab944.js in file weaponManager.js at line 40 with applyStatusEffect.js
+[19:49:57.536268]   [-] Found and replaced 1references to the old file name
+[19:49:57.538268] - File: ./src/dc67fbc5.js
+[19:49:57.538268]   [-] Renaming file to chargeHeavyAttack.js
+[19:49:57.539268]   [-] Finding and replacing references to the old file name
+[19:49:57.663274]     Replacing reference to dc67fbc5.js in file statusEffect.js at line 24 with chargeHeavyAttack.js
+[19:49:57.670267]   [-] Found and replaced 1references to the old file name
+[19:49:57.670267] - File: ./src/dcd24002.js
+[19:49:57.670267]   [-] Renaming file to rangeAttackSword.js
+[19:49:57.671267]   [-] Finding and replacing references to the old file name
+[19:49:57.800268]     Replacing reference to dcd24002.js in file weaponManager.js at line 37 with rangeAttackSword.js
+[19:49:57.808268]   [-] Found and replaced 1references to the old file name
+[19:49:57.811267] - File: ./src/e80038a7.js
+[19:49:57.811267]   [-] Renaming file to dashAttackWithAnticipation.js
+[19:49:57.811267]   [-] Finding and replacing references to the old file name
+[19:49:57.936271]     Replacing reference to e80038a7.js in file weaponManager.js at line 44 with dashAttackWithAnticipation.js
+[19:49:57.945269]   [-] Found and replaced 1references to the old file name
+[19:49:57.946271] - File: ./src/ea2f7f0c.js
+[19:49:57.946271]   [-] Renaming file to baseBullet.js
+[19:49:57.947271]   [-] Finding and replacing references to the old file name
+[19:49:58.082267]     Replacing reference to ea2f7f0c.js in file spreadShot.js at line 13 with baseBullet.js
+[19:49:58.092267]     Replacing reference to ea2f7f0c.js in file bullet.js at line 39 with baseBullet.js
+[19:49:58.095270]   [-] Found and replaced 2reference to the old file name
+[19:49:58.095270] - File: ./src/ec9679c6.js
+[19:49:58.095270]   [-] Renaming file to normalAttackMelee.js
+[19:49:58.096271]   [-] Finding and replacing references to the old file name
+[19:49:58.235270]     Replacing reference to ec9679c6.js in file weaponManager.js at line 39 with normalAttackMelee.js
+[19:49:58.261269]   [-] Found and replaced 1references to the old file name
+[19:49:58.262270] - File: ./src/f6271b77.js
+[19:49:58.262270]   [-] Renaming file to invisibleEffect.js
+[19:49:58.263268]   [-] Finding and replacing references to the old file name
+[19:49:58.422270]     Replacing reference to f6271b77.js in file statusEffect.js at line 21 with invisibleEffect.js
+[19:49:58.432269]   [-] Found and replaced 1references to the old file name
+[19:49:58.432269] - File: ./src/f765c7bd.js
+[19:49:58.432269]   [-] Renaming file to chillEffect.js
+[19:49:58.433270]   [-] Finding and replacing references to the old file name
+[19:49:58.590268]     Replacing reference to f765c7bd.js in file statusEffect.js at line 15 with chillEffect.js
+[19:49:58.597267]   [-] Found and replaced 1references to the old file name
+[19:49:58.600270] -> Processed 287/287 files (1 ignored)
+----- Procedure: clues at 2023-03-12 19:50:02.045266 -----
+[19:50:02.045266] -> Processing 287 files in ./src
+[19:50:02.075267] - File: ./src/applyEffectToNearbyEnemies.js
+[19:50:02.075267]   [-] Renaming file to applyEffectToNearbyEnemies.js
+[19:50:02.075267]   [!] The file applyEffectToNearbyEnemies.js already exists, not renaming
+[19:50:02.075267]   [-] Finding and replacing references to the old file name
+[19:50:02.197266]   [!] Reference fixed already, skipping
+[19:50:02.198267]   [-] Found and replaced 0reference to the old file name
+[19:50:02.199267] - File: ./src/applyStatusEffect.js
+[19:50:02.199267]   [-] Renaming file to applyStatusEffect.js
+[19:50:02.199267]   [!] The file applyStatusEffect.js already exists, not renaming
+[19:50:02.199267]   [-] Finding and replacing references to the old file name
+[19:50:02.322267]   [!] Reference fixed already, skipping
+[19:50:02.323267]   [-] Found and replaced 0reference to the old file name
+[19:50:02.323267] - File: ./src/arcTrajectory.js
+[19:50:02.323267]   [-] Renaming file to arcTrajectory.js
+[19:50:02.324268]   [!] The file arcTrajectory.js already exists, not renaming
+[19:50:02.324268]   [-] Finding and replacing references to the old file name
+[19:50:02.406267]   [!] Reference fixed already, skipping
+[19:50:02.445267]   [-] Found and replaced 0reference to the old file name
+[19:50:02.446267] - File: ./src/baseBullet.js
+[19:50:02.446267]   [-] Renaming file to baseBullet.js
+[19:50:02.446267]   [!] The file baseBullet.js already exists, not renaming
+[19:50:02.446267]   [-] Finding and replacing references to the old file name
+[19:50:02.532267]   [!] Reference fixed already, skipping
+[19:50:02.568266]   [!] Reference fixed already, skipping
+[19:50:02.571266]   [-] Found and replaced 0reference to the old file name
+[19:50:02.571266] - File: ./src/baseTrap.js
+[19:50:02.571266]   [-] Renaming file to baseTrap.js
+[19:50:02.572266]   [!] The file baseTrap.js already exists, not renaming
+[19:50:02.572266]   [-] Finding and replacing references to the old file name
+[19:50:02.692267]   [!] Reference fixed already, skipping
+[19:50:02.694267]   [-] Found and replaced 0reference to the old file name
+[19:50:02.695267] - File: ./src/bladeFlurryAttack.js
+[19:50:02.695267]   [-] Renaming file to bladeFlurryAttack.js
+[19:50:02.695267]   [!] The file bladeFlurryAttack.js already exists, not renaming
+[19:50:02.695267]   [-] Finding and replacing references to the old file name
+[19:50:02.818271]   [!] Reference fixed already, skipping
+[19:50:02.819269]   [-] Found and replaced 0reference to the old file name
+[19:50:02.819269] - File: ./src/bleedEffect.js
+[19:50:02.819269]   [-] Renaming file to bleedEffect.js
+[19:50:02.819269]   [!] The file bleedEffect.js already exists, not renaming
+[19:50:02.819269]   [-] Finding and replacing references to the old file name
+[19:50:02.940267]   [!] Reference fixed already, skipping
+[19:50:02.943267]   [-] Found and replaced 0reference to the old file name
+[19:50:02.943267] - File: ./src/blindEffect.js
+[19:50:02.943267]   [-] Renaming file to blindEffect.js
+[19:50:02.943267]   [!] The file blindEffect.js already exists, not renaming
+[19:50:02.943267]   [-] Finding and replacing references to the old file name
+[19:50:03.064266]   [!] Reference fixed already, skipping
+[19:50:03.066266]   [-] Found and replaced 0reference to the old file name
+[19:50:03.066266] - File: ./src/bullet-behaviour-defaults.js
+[19:50:03.066266]   [-] Renaming file to bullet-behaviour-defaults.js
+[19:50:03.066266]   [!] The file bullet-behaviour-defaults.js already exists, not renaming
+[19:50:03.067267]   [-] Finding and replacing references to the old file name
+[19:50:03.189266]   [-] Found and replaced 0reference to the old file name
+[19:50:03.189266] - File: ./src/bullet.js
+[19:50:03.189266]   [-] Renaming file to bullet.js
+[19:50:03.189266]   [!] The file bullet.js already exists, not renaming
+[19:50:03.189266]   [-] Finding and replacing references to the old file name
+[19:50:03.253573]   [!] Reference fixed already, skipping
+[19:50:03.270588]   [!] Reference fixed already, skipping
+[19:50:03.312589]   [-] Found and replaced 0reference to the old file name
+[19:50:03.312589] - File: ./src/burningEffect.js
+[19:50:03.312589]   [-] Renaming file to burningEffect.js
+[19:50:03.312589]   [!] The file burningEffect.js already exists, not renaming
+[19:50:03.312589]   [-] Finding and replacing references to the old file name
+[19:50:03.431624]   [!] Reference fixed already, skipping
+[19:50:03.433624]   [-] Found and replaced 0reference to the old file name
+[19:50:03.436624] - File: ./src/chargeHeavyAttack.js
+[19:50:03.436624]   [-] Renaming file to chargeHeavyAttack.js
+[19:50:03.437624]   [!] The file chargeHeavyAttack.js already exists, not renaming
+[19:50:03.437624]   [-] Finding and replacing references to the old file name
+[19:50:03.557672]   [!] Reference fixed already, skipping
+[19:50:03.560670]   [-] Found and replaced 0reference to the old file name
+[19:50:03.560670] - File: ./src/chillEffect.js
+[19:50:03.560670]   [-] Renaming file to chillEffect.js
+[19:50:03.560670]   [!] The file chillEffect.js already exists, not renaming
+[19:50:03.560670]   [-] Finding and replacing references to the old file name
+[19:50:03.680674]   [!] Reference fixed already, skipping
+[19:50:03.682680]   [-] Found and replaced 0reference to the old file name
+[19:50:03.683674] - File: ./src/crusherAttack.js
+[19:50:03.683674]   [-] Renaming file to crusherAttack.js
+[19:50:03.683674]   [!] The file crusherAttack.js already exists, not renaming
+[19:50:03.683674]   [-] Finding and replacing references to the old file name
+[19:50:03.803687]   [!] Reference fixed already, skipping
+[19:50:03.804687]   [-] Found and replaced 0reference to the old file name
+[19:50:03.804687] - File: ./src/cycloneAttack.js
+[19:50:03.805688]   [-] Renaming file to cycloneAttack.js
+[19:50:03.805688]   [!] The file cycloneAttack.js already exists, not renaming
+[19:50:03.805688]   [-] Finding and replacing references to the old file name
+[19:50:03.925567]   [!] Reference fixed already, skipping
+[19:50:03.926566]   [-] Found and replaced 0reference to the old file name
+[19:50:03.928565] - File: ./src/damageOverTimeTrap.js
+[19:50:03.928565]   [-] Renaming file to damageOverTimeTrap.js
+[19:50:03.928565]   [!] The file damageOverTimeTrap.js already exists, not renaming
+[19:50:03.928565]   [-] Finding and replacing references to the old file name
+[19:50:04.047639]   [!] Reference fixed already, skipping
+[19:50:04.049639]   [-] Found and replaced 0reference to the old file name
+[19:50:04.049639] - File: ./src/dashAttackMelee.js
+[19:50:04.049639]   [-] Renaming file to dashAttackMelee.js
+[19:50:04.049639]   [!] The file dashAttackMelee.js already exists, not renaming
+[19:50:04.049639]   [-] Finding and replacing references to the old file name
+[19:50:04.169709]   [!] Reference fixed already, skipping
+[19:50:04.170711]   [-] Found and replaced 0reference to the old file name
+[19:50:04.170711] - File: ./src/dashAttackWithAnticipation.js
+[19:50:04.170711]   [-] Renaming file to dashAttackWithAnticipation.js
+[19:50:04.170711]   [!] The file dashAttackWithAnticipation.js already exists, not renaming
+[19:50:04.170711]   [-] Finding and replacing references to the old file name
+[19:50:04.289833]   [!] Reference fixed already, skipping
+[19:50:04.290833]   [-] Found and replaced 0reference to the old file name
+[19:50:04.292845] - File: ./src/deployTrap.js
+[19:50:04.292845]   [-] Renaming file to deployTrap.js
+[19:50:04.292845]   [!] The file deployTrap.js already exists, not renaming
+[19:50:04.292845]   [-] Finding and replacing references to the old file name
+[19:50:04.407356]   [!] Reference fixed already, skipping
+[19:50:04.412355]   [!] Reference fixed already, skipping
+[19:50:04.413354]   [-] Found and replaced 0reference to the old file name
+[19:50:04.418354] - File: ./src/heavyAttackStaff.js
+[19:50:04.418354]   [-] Renaming file to heavyAttackStaff.js
+[19:50:04.418354]   [!] The file heavyAttackStaff.js already exists, not renaming
+[19:50:04.418354]   [-] Finding and replacing references to the old file name
+[19:50:04.539354]   [!] Reference fixed already, skipping
+[19:50:04.540355]   [-] Found and replaced 0reference to the old file name
+[19:50:04.541354] - File: ./src/heavyAttackSword.js
+[19:50:04.541354]   [-] Renaming file to heavyAttackSword.js
+[19:50:04.541354]   [!] The file heavyAttackSword.js already exists, not renaming
+[19:50:04.541354]   [-] Finding and replacing references to the old file name
+[19:50:04.661354]   [!] Reference fixed already, skipping
+[19:50:04.662355]   [-] Found and replaced 0reference to the old file name
+[19:50:04.662355] - File: ./src/inmobilizePlayer.js
+[19:50:04.662355]   [-] Renaming file to inmobilizePlayer.js
+[19:50:04.662355]   [!] The file inmobilizePlayer.js already exists, not renaming
+[19:50:04.662355]   [-] Finding and replacing references to the old file name
+[19:50:04.780355]   [!] Reference fixed already, skipping
+[19:50:04.782354]   [-] Found and replaced 0reference to the old file name
+[19:50:04.783354] - File: ./src/invisibleEffect.js
+[19:50:04.783354]   [-] Renaming file to invisibleEffect.js
+[19:50:04.783354]   [!] The file invisibleEffect.js already exists, not renaming
+[19:50:04.783354]   [-] Finding and replacing references to the old file name
+[19:50:04.900354]   [!] Reference fixed already, skipping
+[19:50:04.902354]   [-] Found and replaced 0reference to the old file name
+[19:50:04.902354] - File: ./src/modal-quest-rewards.js
+[19:50:04.902354]   [-] Renaming file to modal-quest-rewards.js
+[19:50:04.903354]   [!] The file modal-quest-rewards.js already exists, not renaming
+[19:50:04.903354]   [-] Finding and replacing references to the old file name
+[19:50:05.022354]   [-] Found and replaced 0reference to the old file name
+[19:50:05.022354] - File: ./src/movePlayerEffect.js
+[19:50:05.022354]   [-] Renaming file to movePlayerEffect.js
+[19:50:05.022354]   [!] The file movePlayerEffect.js already exists, not renaming
+[19:50:05.022354]   [-] Finding and replacing references to the old file name
+[19:50:05.140354]   [!] Reference fixed already, skipping
+[19:50:05.142354]   [-] Found and replaced 0reference to the old file name
+[19:50:05.142354] - File: ./src/normalAttackMelee.js
+[19:50:05.142354]   [-] Renaming file to normalAttackMelee.js
+[19:50:05.143354]   [!] The file normalAttackMelee.js already exists, not renaming
+[19:50:05.143354]   [-] Finding and replacing references to the old file name
+[19:50:05.260354]   [!] Reference fixed already, skipping
+[19:50:05.261355]   [-] Found and replaced 0reference to the old file name
+[19:50:05.261355] - File: ./src/normalAttackRange.js
+[19:50:05.261355]   [-] Renaming file to normalAttackRange.js
+[19:50:05.261355]   [!] The file normalAttackRange.js already exists, not renaming
+[19:50:05.261355]   [-] Finding and replacing references to the old file name
+[19:50:05.378354]   [!] Reference fixed already, skipping
+[19:50:05.379355]   [-] Found and replaced 0reference to the old file name
+[19:50:05.380354] - File: ./src/npc-animation-controller.js
+[19:50:05.380354]   [-] Renaming file to npc-animation-controller.js
+[19:50:05.380354]   [!] The file npc-animation-controller.js already exists, not renaming
+[19:50:05.380354]   [-] Finding and replacing references to the old file name
+[19:50:05.497354]   [-] Found and replaced 0reference to the old file name
+[19:50:05.498355] - File: ./src/orbitalAttack.js
+[19:50:05.498355]   [-] Renaming file to orbitalAttack.js
+[19:50:05.498355]   [!] The file orbitalAttack.js already exists, not renaming
+[19:50:05.498355]   [-] Finding and replacing references to the old file name
+[19:50:05.614361]   [!] Reference fixed already, skipping
+[19:50:05.615361]   [-] Found and replaced 0reference to the old file name
+[19:50:05.615361] - File: ./src/player-animation-controller.js
+[19:50:05.615361]   [-] Renaming file to player-animation-controller.js
+[19:50:05.615361]   [!] The file player-animation-controller.js already exists, not renaming
+[19:50:05.615361]   [-] Finding and replacing references to the old file name
+[19:50:05.732386]   [-] Found and replaced 0reference to the old file name
+[19:50:05.732386] - File: ./src/poisonEffect.js
+[19:50:05.732386]   [-] Renaming file to poisonEffect.js
+[19:50:05.732386]   [!] The file poisonEffect.js already exists, not renaming
+[19:50:05.732386]   [-] Finding and replacing references to the old file name
+[19:50:05.846873]   [!] Reference fixed already, skipping
+[19:50:05.849873]   [-] Found and replaced 0reference to the old file name
+[19:50:05.849873] - File: ./src/powerStatEffect.js
+[19:50:05.849873]   [-] Renaming file to powerStatEffect.js
+[19:50:05.849873]   [!] The file powerStatEffect.js already exists, not renaming
+[19:50:05.849873]   [-] Finding and replacing references to the old file name
+[19:50:05.964874]   [!] Reference fixed already, skipping
+[19:50:05.966873]   [-] Found and replaced 0reference to the old file name
+[19:50:05.966873] - File: ./src/projectile-behaviours-methods.js
+[19:50:05.967873]   [-] Renaming file to projectile-behaviours-methods.js
+[19:50:05.967873]   [!] The file projectile-behaviours-methods.js already exists, not renaming
+[19:50:05.967873]   [-] Finding and replacing references to the old file name
+[19:50:06.083872]   [-] Found and replaced 0reference to the old file name
+[19:50:06.083872] - File: ./src/rangeAttackSword.js
+[19:50:06.083872]   [-] Renaming file to rangeAttackSword.js
+[19:50:06.083872]   [!] The file rangeAttackSword.js already exists, not renaming
+[19:50:06.084873]   [-] Finding and replacing references to the old file name
+[19:50:06.199872]   [!] Reference fixed already, skipping
+[19:50:06.200873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.200873] - File: ./src/rectangularHitboxSized.js
+[19:50:06.200873]   [-] Renaming file to rectangularHitboxSized.js
+[19:50:06.200873]   [!] The file rectangularHitboxSized.js already exists, not renaming
+[19:50:06.200873]   [-] Finding and replacing references to the old file name
+[19:50:06.280873]   [!] Reference fixed already, skipping
+[19:50:06.317873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.318873] - File: ./src/shockEffect.js
+[19:50:06.318873]   [-] Renaming file to shockEffect.js
+[19:50:06.318873]   [!] The file shockEffect.js already exists, not renaming
+[19:50:06.318873]   [-] Finding and replacing references to the old file name
+[19:50:06.433872]   [!] Reference fixed already, skipping
+[19:50:06.436873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.436873] - File: ./src/sinusoidalBullet.js
+[19:50:06.436873]   [-] Renaming file to sinusoidalBullet.js
+[19:50:06.436873]   [!] The file sinusoidalBullet.js already exists, not renaming
+[19:50:06.436873]   [-] Finding and replacing references to the old file name
+[19:50:06.518873]   [!] Reference fixed already, skipping
+[19:50:06.555873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.556873] - File: ./src/spreadShot.js
+[19:50:06.556873]   [-] Renaming file to spreadShot.js
+[19:50:06.556873]   [!] The file spreadShot.js already exists, not renaming
+[19:50:06.556873]   [-] Finding and replacing references to the old file name
+[19:50:06.636873]   [!] Reference fixed already, skipping
+[19:50:06.673873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.673873] - File: ./src/statusEffect.js
+[19:50:06.673873]   [-] Renaming file to statusEffect.js
+[19:50:06.673873]   [!] The file statusEffect.js already exists, not renaming
+[19:50:06.673873]   [-] Finding and replacing references to the old file name
+[19:50:06.703873]   [!] Reference fixed already, skipping
+[19:50:06.738873]   [!] Reference fixed already, skipping
+[19:50:06.746873]   [!] Reference fixed already, skipping
+[19:50:06.747872]   [!] Reference fixed already, skipping
+[19:50:06.761873]   [!] Reference fixed already, skipping
+[19:50:06.762874]   [!] Reference fixed already, skipping
+[19:50:06.766873]   [!] Reference fixed already, skipping
+[19:50:06.789873]   [!] Reference fixed already, skipping
+[19:50:06.790875]   [!] Reference fixed already, skipping
+[19:50:06.791873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.792873] - File: ./src/throwablesAttack.js
+[19:50:06.792873]   [-] Renaming file to throwablesAttack.js
+[19:50:06.792873]   [!] The file throwablesAttack.js already exists, not renaming
+[19:50:06.792873]   [-] Finding and replacing references to the old file name
+[19:50:06.908873]   [!] Reference fixed already, skipping
+[19:50:06.909873]   [-] Found and replaced 0reference to the old file name
+[19:50:06.909873] - File: ./src/trap-behaviour-defaults.js
+[19:50:06.909873]   [-] Renaming file to trap-behaviour-defaults.js
+[19:50:06.909873]   [!] The file trap-behaviour-defaults.js already exists, not renaming
+[19:50:06.909873]   [-] Finding and replacing references to the old file name
+[19:50:07.026873]   [-] Found and replaced 0reference to the old file name
+[19:50:07.026873] - File: ./src/trap-defs.js
+[19:50:07.026873]   [-] Renaming file to trap-defs.js
+[19:50:07.026873]   [!] The file trap-defs.js already exists, not renaming
+[19:50:07.026873]   [-] Finding and replacing references to the old file name
+[19:50:07.142874]   [-] Found and replaced 0reference to the old file name
+[19:50:07.143884] - File: ./src/trapManager.js
+[19:50:07.143884]   [-] Renaming file to trapManager.js
+[19:50:07.143884]   [!] The file trapManager.js already exists, not renaming
+[19:50:07.143884]   [-] Finding and replacing references to the old file name
+[19:50:07.204873]   [!] Reference fixed already, skipping
+[19:50:07.259872]   [-] Found and replaced 0reference to the old file name
+[19:50:07.260873] - File: ./src/variableDamageRange.js
+[19:50:07.260873]   [-] Renaming file to variableDamageRange.js
+[19:50:07.260873]   [!] The file variableDamageRange.js already exists, not renaming
+[19:50:07.260873]   [-] Finding and replacing references to the old file name
+[19:50:07.376874]   [!] Reference fixed already, skipping
+[19:50:07.377873]   [-] Found and replaced 0reference to the old file name
+[19:50:07.377873] - File: ./src/weaponManager.js
+[19:50:07.377873]   [-] Renaming file to weaponManager.js
+[19:50:07.377873]   [!] The file weaponManager.js already exists, not renaming
+[19:50:07.377873]   [-] Finding and replacing references to the old file name
+[19:50:07.442874]   [!] Reference fixed already, skipping
+[19:50:07.494873]   [-] Found and replaced 0reference to the old file name
+[19:50:07.494873] -> Processed 287/287 files (1 ignored)
+----- Procedure: clues at 2023-03-12 19:50:35.918961 -----
+[19:50:35.918961] -> Processing 287 files in ./src
+[19:50:35.948961] - File: ./src/applyEffectToNearbyEnemies.js
+[19:50:35.948961]   [-] Renaming file to applyEffectToNearbyEnemies.js
+[19:50:35.948961]   [!] The file applyEffectToNearbyEnemies.js already exists, not renaming
+[19:50:35.948961]   [-] Finding and replacing references to the old file name
+[19:50:36.064967]   [!] Reference fixed already, skipping
+[19:50:36.065967]   [-] Found and replaced 0reference to the old file name
+[19:50:36.065967] - File: ./src/applyStatusEffect.js
+[19:50:36.065967]   [-] Renaming file to applyStatusEffect.js
+[19:50:36.065967]   [!] The file applyStatusEffect.js already exists, not renaming
+[19:50:36.065967]   [-] Finding and replacing references to the old file name
+[19:50:36.179973]   [!] Reference fixed already, skipping
+[19:50:36.180973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.180973] - File: ./src/arcTrajectory.js
+[19:50:36.180973]   [-] Renaming file to arcTrajectory.js
+[19:50:36.180973]   [!] The file arcTrajectory.js already exists, not renaming
+[19:50:36.181973]   [-] Finding and replacing references to the old file name
+[19:50:36.259973]   [!] Reference fixed already, skipping
+[19:50:36.296973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.297974] - File: ./src/baseBullet.js
+[19:50:36.297974]   [-] Renaming file to baseBullet.js
+[19:50:36.297974]   [!] The file baseBullet.js already exists, not renaming
+[19:50:36.297974]   [-] Finding and replacing references to the old file name
+[19:50:36.376973]   [!] Reference fixed already, skipping
+[19:50:36.410974]   [!] Reference fixed already, skipping
+[19:50:36.413973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.413973] - File: ./src/baseTrap.js
+[19:50:36.413973]   [-] Renaming file to baseTrap.js
+[19:50:36.413973]   [!] The file baseTrap.js already exists, not renaming
+[19:50:36.413973]   [-] Finding and replacing references to the old file name
+[19:50:36.526973]   [!] Reference fixed already, skipping
+[19:50:36.528973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.529973] - File: ./src/bladeFlurryAttack.js
+[19:50:36.529973]   [-] Renaming file to bladeFlurryAttack.js
+[19:50:36.529973]   [!] The file bladeFlurryAttack.js already exists, not renaming
+[19:50:36.529973]   [-] Finding and replacing references to the old file name
+[19:50:36.644973]   [!] Reference fixed already, skipping
+[19:50:36.645973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.645973] - File: ./src/bleedEffect.js
+[19:50:36.645973]   [-] Renaming file to bleedEffect.js
+[19:50:36.645973]   [!] The file bleedEffect.js already exists, not renaming
+[19:50:36.645973]   [-] Finding and replacing references to the old file name
+[19:50:36.757973]   [!] Reference fixed already, skipping
+[19:50:36.760973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.760973] - File: ./src/blindEffect.js
+[19:50:36.760973]   [-] Renaming file to blindEffect.js
+[19:50:36.760973]   [!] The file blindEffect.js already exists, not renaming
+[19:50:36.760973]   [-] Finding and replacing references to the old file name
+[19:50:36.873973]   [!] Reference fixed already, skipping
+[19:50:36.876973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.876973] - File: ./src/bullet-behaviour-defaults.js
+[19:50:36.876973]   [-] Renaming file to bullet-behaviour-defaults.js
+[19:50:36.876973]   [!] The file bullet-behaviour-defaults.js already exists, not renaming
+[19:50:36.876973]   [-] Finding and replacing references to the old file name
+[19:50:36.991973]   [-] Found and replaced 0reference to the old file name
+[19:50:36.992974] - File: ./src/bullet.js
+[19:50:36.992974]   [-] Renaming file to bullet.js
+[19:50:36.992974]   [!] The file bullet.js already exists, not renaming
+[19:50:36.992974]   [-] Finding and replacing references to the old file name
+[19:50:37.052974]   [!] Reference fixed already, skipping
+[19:50:37.068973]   [!] Reference fixed already, skipping
+[19:50:37.107973]   [-] Found and replaced 0reference to the old file name
+[19:50:37.107973] - File: ./src/burningEffect.js
+[19:50:37.108973]   [-] Renaming file to burningEffect.js
+[19:50:37.108973]   [!] The file burningEffect.js already exists, not renaming
+[19:50:37.108973]   [-] Finding and replacing references to the old file name
+[19:50:37.220973]   [!] Reference fixed already, skipping
+[19:50:37.222974]   [-] Found and replaced 0reference to the old file name
+[19:50:37.225973] - File: ./src/chargeHeavyAttack.js
+[19:50:37.225973]   [-] Renaming file to chargeHeavyAttack.js
+[19:50:37.225973]   [!] The file chargeHeavyAttack.js already exists, not renaming
+[19:50:37.225973]   [-] Finding and replacing references to the old file name
+[19:50:37.337973]   [!] Reference fixed already, skipping
+[19:50:37.340973]   [-] Found and replaced 0reference to the old file name
+[19:50:37.340973] - File: ./src/chillEffect.js
+[19:50:37.340973]   [-] Renaming file to chillEffect.js
+[19:50:37.340973]   [!] The file chillEffect.js already exists, not renaming
+[19:50:37.340973]   [-] Finding and replacing references to the old file name
+[19:50:37.453973]   [!] Reference fixed already, skipping
+[19:50:37.455973]   [-] Found and replaced 0reference to the old file name
+[19:50:37.455973] - File: ./src/crusherAttack.js
+[19:50:37.455973]   [-] Renaming file to crusherAttack.js
+[19:50:37.455973]   [!] The file crusherAttack.js already exists, not renaming
+[19:50:37.455973]   [-] Finding and replacing references to the old file name
+[19:50:37.569973]   [!] Reference fixed already, skipping
+[19:50:37.570974]   [-] Found and replaced 0reference to the old file name
+[19:50:37.570974] - File: ./src/cycloneAttack.js
+[19:50:37.570974]   [-] Renaming file to cycloneAttack.js
+[19:50:37.570974]   [!] The file cycloneAttack.js already exists, not renaming
+[19:50:37.570974]   [-] Finding and replacing references to the old file name
+[19:50:37.684973]   [!] Reference fixed already, skipping
+[19:50:37.685973]   [-] Found and replaced 0reference to the old file name
+[19:50:37.687973] - File: ./src/damageOverTimeTrap.js
+[19:50:37.687973]   [-] Renaming file to damageOverTimeTrap.js
+[19:50:37.687973]   [!] The file damageOverTimeTrap.js already exists, not renaming
+[19:50:37.687973]   [-] Finding and replacing references to the old file name
+[19:50:37.800973]   [!] Reference fixed already, skipping
+[19:50:37.802974]   [-] Found and replaced 0reference to the old file name
+[19:50:37.802974] - File: ./src/dashAttackMelee.js
+[19:50:37.802974]   [-] Renaming file to dashAttackMelee.js
+[19:50:37.802974]   [!] The file dashAttackMelee.js already exists, not renaming
+[19:50:37.802974]   [-] Finding and replacing references to the old file name
+[19:50:37.918985]   [!] Reference fixed already, skipping
+[19:50:37.919985]   [-] Found and replaced 0reference to the old file name
+[19:50:37.919985] - File: ./src/dashAttackWithAnticipation.js
+[19:50:37.919985]   [-] Renaming file to dashAttackWithAnticipation.js
+[19:50:37.919985]   [!] The file dashAttackWithAnticipation.js already exists, not renaming
+[19:50:37.919985]   [-] Finding and replacing references to the old file name
+[19:50:38.034047]   [!] Reference fixed already, skipping
+[19:50:38.035047]   [-] Found and replaced 0reference to the old file name
+[19:50:38.037046] - File: ./src/deployTrap.js
+[19:50:38.037046]   [-] Renaming file to deployTrap.js
+[19:50:38.037046]   [!] The file deployTrap.js already exists, not renaming
+[19:50:38.037046]   [-] Finding and replacing references to the old file name
+[19:50:38.147102]   [!] Reference fixed already, skipping
+[19:50:38.152114]   [!] Reference fixed already, skipping
+[19:50:38.153108]   [-] Found and replaced 0reference to the old file name
+[19:50:38.157109] - File: ./src/heavyAttackStaff.js
+[19:50:38.157109]   [-] Renaming file to heavyAttackStaff.js
+[19:50:38.158108]   [!] The file heavyAttackStaff.js already exists, not renaming
+[19:50:38.158108]   [-] Finding and replacing references to the old file name
+[19:50:38.271113]   [!] Reference fixed already, skipping
+[19:50:38.272124]   [-] Found and replaced 0reference to the old file name
+[19:50:38.272124] - File: ./src/heavyAttackSword.js
+[19:50:38.272124]   [-] Renaming file to heavyAttackSword.js
+[19:50:38.272124]   [!] The file heavyAttackSword.js already exists, not renaming
+[19:50:38.272124]   [-] Finding and replacing references to the old file name
+[19:50:38.387128]   [!] Reference fixed already, skipping
+[19:50:38.388129]   [-] Found and replaced 0reference to the old file name
+[19:50:38.388129] - File: ./src/inmobilizePlayer.js
+[19:50:38.388129]   [-] Renaming file to inmobilizePlayer.js
+[19:50:38.388129]   [!] The file inmobilizePlayer.js already exists, not renaming
+[19:50:38.388129]   [-] Finding and replacing references to the old file name
+[19:50:38.500184]   [!] Reference fixed already, skipping
+[19:50:38.503188]   [-] Found and replaced 0reference to the old file name
+[19:50:38.503188] - File: ./src/invisibleEffect.js
+[19:50:38.503188]   [-] Renaming file to invisibleEffect.js
+[19:50:38.503188]   [!] The file invisibleEffect.js already exists, not renaming
+[19:50:38.503188]   [-] Finding and replacing references to the old file name
+[19:50:38.616197]   [!] Reference fixed already, skipping
+[19:50:38.618197]   [-] Found and replaced 0reference to the old file name
+[19:50:38.618197] - File: ./src/modal-quest-rewards.js
+[19:50:38.618197]   [-] Renaming file to modal-quest-rewards.js
+[19:50:38.619197]   [!] The file modal-quest-rewards.js already exists, not renaming
+[19:50:38.619197]   [-] Finding and replacing references to the old file name
+[19:50:38.733257]   [-] Found and replaced 0reference to the old file name
+[19:50:38.733257] - File: ./src/movePlayerEffect.js
+[19:50:38.733257]   [-] Renaming file to movePlayerEffect.js
+[19:50:38.733257]   [!] The file movePlayerEffect.js already exists, not renaming
+[19:50:38.733257]   [-] Finding and replacing references to the old file name
+[19:50:38.846309]   [!] Reference fixed already, skipping
+[19:50:38.848310]   [-] Found and replaced 0reference to the old file name
+[19:50:38.848310] - File: ./src/normalAttackMelee.js
+[19:50:38.848310]   [-] Renaming file to normalAttackMelee.js
+[19:50:38.848310]   [!] The file normalAttackMelee.js already exists, not renaming
+[19:50:38.848310]   [-] Finding and replacing references to the old file name
+[19:50:38.964365]   [!] Reference fixed already, skipping
+[19:50:38.965365]   [-] Found and replaced 0reference to the old file name
+[19:50:38.965365] - File: ./src/normalAttackRange.js
+[19:50:38.965365]   [-] Renaming file to normalAttackRange.js
+[19:50:38.965365]   [!] The file normalAttackRange.js already exists, not renaming
+[19:50:38.965365]   [-] Finding and replacing references to the old file name
+[19:50:39.080426]   [!] Reference fixed already, skipping
+[19:50:39.081427]   [-] Found and replaced 0reference to the old file name
+[19:50:39.081427] - File: ./src/npc-animation-controller.js
+[19:50:39.081427]   [-] Renaming file to npc-animation-controller.js
+[19:50:39.081427]   [!] The file npc-animation-controller.js already exists, not renaming
+[19:50:39.081427]   [-] Finding and replacing references to the old file name
+[19:50:39.195485]   [-] Found and replaced 0reference to the old file name
+[19:50:39.195485] - File: ./src/orbitalAttack.js
+[19:50:39.196485]   [-] Renaming file to orbitalAttack.js
+[19:50:39.196485]   [!] The file orbitalAttack.js already exists, not renaming
+[19:50:39.196485]   [-] Finding and replacing references to the old file name
+[19:50:39.310541]   [!] Reference fixed already, skipping
+[19:50:39.311541]   [-] Found and replaced 0reference to the old file name
+[19:50:39.311541] - File: ./src/player-animation-controller.js
+[19:50:39.311541]   [-] Renaming file to player-animation-controller.js
+[19:50:39.311541]   [!] The file player-animation-controller.js already exists, not renaming
+[19:50:39.311541]   [-] Finding and replacing references to the old file name
+[19:50:39.426613]   [-] Found and replaced 0reference to the old file name
+[19:50:39.426613] - File: ./src/poisonEffect.js
+[19:50:39.426613]   [-] Renaming file to poisonEffect.js
+[19:50:39.426613]   [!] The file poisonEffect.js already exists, not renaming
+[19:50:39.426613]   [-] Finding and replacing references to the old file name
+[19:50:39.538671]   [!] Reference fixed already, skipping
+[19:50:39.540669]   [-] Found and replaced 0reference to the old file name
+[19:50:39.541670] - File: ./src/powerStatEffect.js
+[19:50:39.541670]   [-] Renaming file to powerStatEffect.js
+[19:50:39.541670]   [!] The file powerStatEffect.js already exists, not renaming
+[19:50:39.541670]   [-] Finding and replacing references to the old file name
+[19:50:39.653733]   [!] Reference fixed already, skipping
+[19:50:39.656733]   [-] Found and replaced 0reference to the old file name
+[19:50:39.656733] - File: ./src/projectile-behaviours-methods.js
+[19:50:39.656733]   [-] Renaming file to projectile-behaviours-methods.js
+[19:50:39.656733]   [!] The file projectile-behaviours-methods.js already exists, not renaming
+[19:50:39.656733]   [-] Finding and replacing references to the old file name
+[19:50:39.772752]   [-] Found and replaced 0reference to the old file name
+[19:50:39.772752] - File: ./src/rangeAttackSword.js
+[19:50:39.772752]   [-] Renaming file to rangeAttackSword.js
+[19:50:39.772752]   [!] The file rangeAttackSword.js already exists, not renaming
+[19:50:39.772752]   [-] Finding and replacing references to the old file name
+[19:50:39.889117]   [!] Reference fixed already, skipping
+[19:50:39.890118]   [-] Found and replaced 0reference to the old file name
+[19:50:39.890118] - File: ./src/rectangularHitboxSized.js
+[19:50:39.890118]   [-] Renaming file to rectangularHitboxSized.js
+[19:50:39.890118]   [!] The file rectangularHitboxSized.js already exists, not renaming
+[19:50:39.890118]   [-] Finding and replacing references to the old file name
+[19:50:39.971535]   [!] Reference fixed already, skipping
+[19:50:40.008536]   [-] Found and replaced 0reference to the old file name
+[19:50:40.009536] - File: ./src/shockEffect.js
+[19:50:40.009536]   [-] Renaming file to shockEffect.js
+[19:50:40.009536]   [!] The file shockEffect.js already exists, not renaming
+[19:50:40.009536]   [-] Finding and replacing references to the old file name
+[19:50:40.123535]   [!] Reference fixed already, skipping
+[19:50:40.125535]   [-] Found and replaced 0reference to the old file name
+[19:50:40.125535] - File: ./src/sinusoidalBullet.js
+[19:50:40.125535]   [-] Renaming file to sinusoidalBullet.js
+[19:50:40.125535]   [!] The file sinusoidalBullet.js already exists, not renaming
+[19:50:40.126535]   [-] Finding and replacing references to the old file name
+[19:50:40.205534]   [!] Reference fixed already, skipping
+[19:50:40.241534]   [-] Found and replaced 0reference to the old file name
+[19:50:40.241534] - File: ./src/spreadShot.js
+[19:50:40.241534]   [-] Renaming file to spreadShot.js
+[19:50:40.242535]   [!] The file spreadShot.js already exists, not renaming
+[19:50:40.242535]   [-] Finding and replacing references to the old file name
+[19:50:40.320534]   [!] Reference fixed already, skipping
+[19:50:40.357535]   [-] Found and replaced 0reference to the old file name
+[19:50:40.357535] - File: ./src/statusEffect.js
+[19:50:40.357535]   [-] Renaming file to statusEffect.js
+[19:50:40.357535]   [!] The file statusEffect.js already exists, not renaming
+[19:50:40.357535]   [-] Finding and replacing references to the old file name
+[19:50:40.387534]   [!] Reference fixed already, skipping
+[19:50:40.421534]   [!] Reference fixed already, skipping
+[19:50:40.429534]   [!] Reference fixed already, skipping
+[19:50:40.430534]   [!] Reference fixed already, skipping
+[19:50:40.443534]   [!] Reference fixed already, skipping
+[19:50:40.445534]   [!] Reference fixed already, skipping
+[19:50:40.449534]   [!] Reference fixed already, skipping
+[19:50:40.472535]   [!] Reference fixed already, skipping
+[19:50:40.473535]   [!] Reference fixed already, skipping
+[19:50:40.474535]   [-] Found and replaced 0reference to the old file name
+[19:50:40.475534] - File: ./src/throwablesAttack.js
+[19:50:40.475534]   [-] Renaming file to throwablesAttack.js
+[19:50:40.475534]   [!] The file throwablesAttack.js already exists, not renaming
+[19:50:40.475534]   [-] Finding and replacing references to the old file name
+[19:50:40.589534]   [!] Reference fixed already, skipping
+[19:50:40.590534]   [-] Found and replaced 0reference to the old file name
+[19:50:40.590534] - File: ./src/trap-behaviour-defaults.js
+[19:50:40.590534]   [-] Renaming file to trap-behaviour-defaults.js
+[19:50:40.590534]   [!] The file trap-behaviour-defaults.js already exists, not renaming
+[19:50:40.590534]   [-] Finding and replacing references to the old file name
+[19:50:40.705536]   [-] Found and replaced 0reference to the old file name
+[19:50:40.706535] - File: ./src/trap-defs.js
+[19:50:40.706535]   [-] Renaming file to trap-defs.js
+[19:50:40.706535]   [!] The file trap-defs.js already exists, not renaming
+[19:50:40.706535]   [-] Finding and replacing references to the old file name
+[19:50:40.821535]   [-] Found and replaced 0reference to the old file name
+[19:50:40.821535] - File: ./src/trapManager.js
+[19:50:40.821535]   [-] Renaming file to trapManager.js
+[19:50:40.821535]   [!] The file trapManager.js already exists, not renaming
+[19:50:40.821535]   [-] Finding and replacing references to the old file name
+[19:50:40.883534]   [!] Reference fixed already, skipping
+[19:50:40.938534]   [-] Found and replaced 0reference to the old file name
+[19:50:40.938534] - File: ./src/variableDamageRange.js
+[19:50:40.938534]   [-] Renaming file to variableDamageRange.js
+[19:50:40.938534]   [!] The file variableDamageRange.js already exists, not renaming
+[19:50:40.938534]   [-] Finding and replacing references to the old file name
+[19:50:41.052534]   [!] Reference fixed already, skipping
+[19:50:41.053534]   [-] Found and replaced 0reference to the old file name
+[19:50:41.053534] - File: ./src/weaponManager.js
+[19:50:41.053534]   [-] Renaming file to weaponManager.js
+[19:50:41.054534]   [!] The file weaponManager.js already exists, not renaming
+[19:50:41.054534]   [-] Finding and replacing references to the old file name
+[19:50:41.118535]   [!] Reference fixed already, skipping
+[19:50:41.169534]   [-] Found and replaced 0reference to the old file name
+[19:50:41.169534] -> Processed 287/287 files (1 ignored)

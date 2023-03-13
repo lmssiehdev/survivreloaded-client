@@ -34,14 +34,14 @@ var GameObjectDefs = require("./721a96bf.js");
 var BulletDefs = require("./beeed8a4.js");
 var BehaviourEnum = require("./b2f0419a.js");
 var NpcDefinitions = require("./20caaef9.js");
-var BulletBehaviourDefaults = require("./0c46af0d.js");
+var BulletBehaviourDefaults = require("./bullet-behaviour-defaults.js");
 
 //Import behaviours
-var BaseBullet = require("./ea2f7f0c.js");
-var SpreadShot = require("./1c8eddbe.js");
-var ArcTrajectory = require("./594790ff.js");
-var SinusoidalBullet = require("./9c3e26cf.js");
-var RectangularHitboxSized = require("./bd69bd01.js");
+var BaseBullet = require("./baseBullet.js");
+var SpreadShot = require("./spreadShot.js");
+var ArcTrajectory = require("./arcTrajectory.js");
+var SinusoidalBullet = require("./sinusoidalBullet.js");
+var RectangularHitboxSized = require("./rectangularHitboxSized.js");
 
 var kMaxSpineObjects = 80;
 var kTimesToKillBullet = 20;

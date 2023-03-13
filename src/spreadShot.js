@@ -11,9 +11,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
 //Imports
 var v2 = require("./c2a798c8.js");
-var BaseBullet = require("./ea2f7f0c.js");
+var BaseBullet = require("./baseBullet.js");
 var BehaviourEnum = require("./b2f0419a.js");
-var BehaviourMethods = require("./7b4c6cc8.js");
+var BehaviourMethods = require("./projectile-behaviours-methods.js");
 
 var SpreadShot =
 /**

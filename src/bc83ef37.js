@@ -7,7 +7,7 @@ var collider = require("./6b42806d.js");
 var math = require("./10899aea.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
-var Bullet = require("./c73dee75.js");
+var Bullet = require("./bullet.js");
 var device = require("./ce29f17f.js");
 var DebugLines = require("./af8ba00f.js");
 var ObjectPool = require("./753d6e4b.js");
@@ -463,3 +463,4 @@ m_ProjectileBarn.prototype = {
 module.exports = {
     m_ProjectileBarn: m_ProjectileBarn
 };
+

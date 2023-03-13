@@ -12,17 +12,17 @@ var StatusEffects = require("./41b5258b.js");
 
 //Import status effects
 var ShieldEffect = require("./6cbd2d5d.js");
-var ShockEffect = require("./b709c591.js");
-var ChillEffect = require("./f765c7bd.js");
-var BlindEffect = require("./a99d3798.js");
-var BleedEffect = require("./c7b297fc.js");
-var PoisonEffect = require("./4bfe8f92.js");
-var BurningEffect = require("./cb27a692.js");
-var PowerStatEffect = require("./a68c74cc.js");
-var InvisibleEffect = require("./f6271b77.js");
-var MovePlayerEffect = require("./0022c718.js");
-var InmobilizePlayer = require("./74b67fb5.js");
-var ChargeHeavyAttack = require("./dc67fbc5.js");
+var ShockEffect = require("./shockEffect.js");
+var ChillEffect = require("./chillEffect.js");
+var BlindEffect = require("./blindEffect.js");
+var BleedEffect = require("./bleedEffect.js");
+var PoisonEffect = require("./poisonEffect.js");
+var BurningEffect = require("./burningEffect.js");
+var PowerStatEffect = require("./powerStatEffect.js");
+var InvisibleEffect = require("./invisibleEffect.js");
+var MovePlayerEffect = require("./movePlayerEffect.js");
+var InmobilizePlayer = require("./inmobilizePlayer.js");
+var ChargeHeavyAttack = require("./chargeHeavyAttack.js");
 
 var _require = require("./cb7a977d.js"),
     getAttackTypeLogStr = _require.getAttackTypeLogStr;

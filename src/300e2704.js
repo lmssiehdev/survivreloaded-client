@@ -20,7 +20,7 @@ var GameObjectDefs = require("./721a96bf.js");
 var MapObjectDefs = require("./03f4982a.js");
 var StatusEffects = require("./41b5258b.js");
 
-var StatusEffect = require("./877e3f79.js");
+var StatusEffect = require("./statusEffect.js");
 
 // Cache to remove the system call on access
 var DEV_MODE = "production" === 'dev';

@@ -43,7 +43,7 @@ var _require = require("./989ad62a.js"),
     SlotsByIndex = _require.SlotsByIndex;
 
 var StatusEffects = require("./41b5258b.js");
-var StatusEffect = require("./877e3f79.js");
+var StatusEffect = require("./statusEffect.js");
 
 var _require2 = require("./35dbdceb.js"),
     getGearItems = _require2.getGearItems;
