@@ -13,13 +13,13 @@ var util = require("./1901e2d9.js");
 var collider = require("./6b42806d.js");
 var DebugLines = require("./af8ba00f.js");
 var GameConfig = require("./989ad62a.js");
-var StatusEffect = require("./877e3f79.js");
+var StatusEffect = require("./statusEffect.js");
 var collisionHelpers = require("./6d494b5c.js");
 
 var NpcSkins = require("./556e68d7.js");
 var NpcDefinitions = require("./20caaef9.js");
 
-var AnimationController = require("./25cdf013.js");
+var AnimationController = require("./npc-animation-controller.js");
 var EnumNpcAnimations = require("./8f04ede1.js").EnumNpcAnimations;
 
 // ----- Constants -----

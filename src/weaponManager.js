@@ -22,28 +22,28 @@ var collider = require("./6b42806d.js");
 var SkillsEnum = require("./e6306c81.js");
 var GameConfig = require("./989ad62a.js");
 var GameObject = require("./8649e148.js");
-var StatusEffect = require("./877e3f79.js");
+var StatusEffect = require("./statusEffect.js");
 var GameObjectDefs = require("./721a96bf.js");
 
 var Anim = require("./1c877798.js").EnumPlayerAnimType;
 
 //Attack behaviours
-var DeployTrap = require("./7cf065b6.js");
-var CrusherAttack = require("./508ded96.js");
-var CycloneAttack = require("./58064a0b.js");
-var OrbitalAttack = require("./738520b0.js");
-var DashAttackMelee = require("./45d72c2c.js");
-var HeavyAttackStaff = require("./4757149d.js");
-var HeavyAttackSword = require("./97507a20.js");
-var RangeAttackSword = require("./dcd24002.js");
-var NormalAttackRange = require("./0972c173.js");
-var NormalAttackMelee = require("./ec9679c6.js");
-var ApplyStatusEffect = require("./d20ab944.js");
-var BladeFlurryAttack = require("./9d2748cb.js");
-var VariableDamageRange = require("./632fe679.js");
-var ApplyEffectToNearbyEnemies = require("./37f05490.js");
-var DashAttackWithAnticipation = require("./e80038a7.js");
-var ThrowablesAttack = require("./c4078172.js");
+var DeployTrap = require("./deployTrap.js");
+var CrusherAttack = require("./crusherAttack.js");
+var CycloneAttack = require("./cycloneAttack.js");
+var OrbitalAttack = require("./orbitalAttack.js");
+var DashAttackMelee = require("./dashAttackMelee.js");
+var HeavyAttackStaff = require("./heavyAttackStaff.js");
+var HeavyAttackSword = require("./heavyAttackSword.js");
+var RangeAttackSword = require("./rangeAttackSword.js");
+var NormalAttackRange = require("./normalAttackRange.js");
+var NormalAttackMelee = require("./normalAttackMelee.js");
+var ApplyStatusEffect = require("./applyStatusEffect.js");
+var BladeFlurryAttack = require("./bladeFlurryAttack.js");
+var VariableDamageRange = require("./variableDamageRange.js");
+var ApplyEffectToNearbyEnemies = require("./applyEffectToNearbyEnemies.js");
+var DashAttackWithAnticipation = require("./dashAttackWithAnticipation.js");
+var ThrowablesAttack = require("./throwablesAttack.js");
 
 var WeaponManager = function () {
     /**

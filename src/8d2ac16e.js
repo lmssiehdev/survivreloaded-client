@@ -15,7 +15,7 @@ var PIXI = require("./8b1dfb45.js");
 var v2 = require("./c2a798c8.js");
 var collider = require("./6b42806d.js");
 var GameObjectDefs = require("./721a96bf.js");
-var TrapDefs = require("./6f6b413b.js");
+var TrapDefs = require("./trap-defs.js");
 var SkillBehaviourEnum = require("./e6306c81.js");
 var TelegraphDefs = require("./cf5f8b5c.js");
 

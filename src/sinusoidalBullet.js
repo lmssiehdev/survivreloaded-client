@@ -18,7 +18,7 @@ var collider = require("./6b42806d.js");
 var GameObject = require("./8649e148.js");
 var GameConfig = require("./989ad62a.js");
 var BehaviourEnum = require("./b2f0419a.js");
-var BehaviourMethods = require("./7b4c6cc8.js");
+var BehaviourMethods = require("./projectile-behaviours-methods.js");
 
 var SinusoidalBullet = function () {
     /**

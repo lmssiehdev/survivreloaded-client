@@ -14,7 +14,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var v2 = require("./c2a798c8.js");
 var SkillsEnum = require("./e6306c81.js");
 var AnimationData = require("./1c877798.js");
-var DeployTrap = require("./7cf065b6.js");
+var DeployTrap = require("./deployTrap.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;
