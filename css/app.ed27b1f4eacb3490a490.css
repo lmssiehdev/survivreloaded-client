@@ -32,6 +32,7 @@ canvas {
 #open-store-button,
 #open-arena-button,
 #modal-notification,
+#modal-ask-notification-permission,
 p[data-l10n="prestige-island-msg"] {
   display: none !important;
 }
@@ -15882,7 +15883,7 @@ input [type="image"]:focus {
 .hide-on-desktop {
   display: none;
 }
-/* 
+/*
 This file contains all clans style
 */
 .modal-background {
