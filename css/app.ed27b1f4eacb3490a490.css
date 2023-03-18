@@ -5,6 +5,10 @@
   font-family: 'Roboto Condensed', arial, sans-serif;
   font-size: 16px;
 }
+#start-main-center {
+  -webkit-transform: unset !important;
+  transform: unset !important;
+}
 html,
 body {
   background: #80af49;
@@ -25,19 +29,23 @@ canvas {
   overflow: hidden;
   width: 100%;
 }
-#start-menu,
+.btn-disabled {
+  filter: brightness(50%) !important;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+#start-main-center-kong,
+.account-block,
 #left-column,
-.btn-prestige,
+#btn-news,
+#modal-news,
 .currency-overview,
 #open-store-button,
 #open-arena-button,
 #modal-notification,
-#modal-ask-notification-permission,
-p[data-l10n="prestige-island-msg"] {
+#modal-ftue,
+#modal-ask-notification-permission {
   display: none !important;
-}
-#player-name-input {
-  font-size: 20px;
 }
 body {
   background: #1D2913;
@@ -48,7 +56,7 @@ input {
       -ms-user-select: initial;
           user-select: initial;
 }
-a:link {
+/*a:link {
   color: lawngreen;
 }
 a:visited {
@@ -59,7 +67,7 @@ a:hover {
 }
 a:active {
   color: #51a500;
-}
+}*/
 .user-select-none {
   -webkit-user-select: none;
      -moz-user-select: none;
@@ -131,6 +139,20 @@ a:active {
   box-shadow: inset 0px 0px 8px #1D2913;
 }
 #start-menu-wrapper {
+    align-items: center;
+    background-color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.8);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+/*#start-menu-wrapper {
   -webkit-box-align: start;
           align-items: flex-start;
   color: #ffffff;
@@ -145,7 +167,7 @@ a:active {
   top: 0;
   width: 100%;
 }
-#start-main {
+/*#start-main {
   -webkit-box-align: center;
           align-items: center;
   display: -webkit-box;
@@ -154,6 +176,12 @@ a:active {
   -webkit-box-direction: normal;
           flex-direction: column;
   margin-bottom: 124px;
+}*/
+#start-main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20vh;
 }
 @media (max-width: 850px), (max-width: 900px), (max-width: 930px) {
   #start-main {
@@ -170,7 +198,7 @@ a:active {
   text-decoration: none;
 }
 #background {
-  background-image: url("../img/main_splash.jpg");
+  background-image: url("../img/main_splash_rivers.png");
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0px;
@@ -2432,12 +2460,10 @@ div.ui-slider {
 #start-row-header {
   background-image: url("../img/surviv_logo_full.svg");
   background-repeat: no-repeat;
-  background-size: 25%;
+  background-size: 420px;
   background-position: center;
   height: 200px;
   margin: auto;
-  margin-bottom: 55px;
-  margin-right: -15px;
   position: relative;
   width: 100%;
 }
@@ -2477,9 +2503,9 @@ div.ui-slider {
   }
 }
 #start-main-center {
-  position: absolute;
+  position: relative;
   /*position: absolute;*/
-  width: 1610px;
+  width: 960px;
   /*top: -2%;*/
   top: -5px;
   height: 99%;
@@ -2490,7 +2516,7 @@ div.ui-slider {
         transform-origin: bottom;
     }*/
 }
-@media (max-width: 1800px) {
+/*@media (max-width: 1800px) {
   #start-main-center {
     -webkit-transform: scale(0.95);
             transform: scale(0.95);
@@ -2531,7 +2557,7 @@ div.ui-slider {
   #start-main-center {
     /*margin-top: 10px;
         transform: scale(1.0);
-        transform-origin: bottom;*/
+        transform-origin: bottom;
     width: 1280px;
     -webkit-transform: scale(0.45);
             transform: scale(0.45);
@@ -2597,7 +2623,7 @@ div.ui-slider {
             transform: scale(0.4);
   }
 }
-/*#ftue-steps {
+#ftue-steps {
     @media (max-width: 1800px) {
         transform: scale(0.95);
     }
@@ -2712,20 +2738,41 @@ div.ui-slider {
   -webkit-transform-origin: bottom right;
           transform-origin: bottom right;
 }
+#ad-block-left {
+    background-color: rgba(0,0,0,.5);
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-right: 30px;
+    width: 300px;
+    padding: 20px;
+}
 .hide-ad {
   display: none !important;
 }
 #start-row-top {
-  height: 456px;
+  height: 360px;
   position: relative;
-  /*margin-left: 83px;*/
+  /*margin-left: 83px;
   display: flex;
-  align-items: center;
+  align-items: center;*/
+}
+@media(orientation: portrait) {
+  #start-menu {
+    display: block !important;
+    position: auto !important;
+  }
 }
 @media (max-width: 850px), (max-width: 900px), (max-width: 930px) {
   #start-row-top {
-    display: -webkit-box;
-    display: flex;
+    display: block !important;
+  }
+  #start-row-top {
+    transform: scale(0.8);
+    display: block;
+    margin-top: -40px;
+  }
+  .github-fork-ribbon {
+    display: none;
   }
 }
 .center-start-row {
@@ -2935,7 +2982,7 @@ div.ui-slider {
   -moz-border-radius: 12px;
   -webkit-border-radius: 12px;
 }
-.btn-twitter {
+/*.btn-twitter {
   background-image: url(../img/icon_twitter.png);
   background-color: #1da1f2;
   box-shadow: inset 0 -4px #1a78b2;
@@ -2964,7 +3011,7 @@ div.ui-slider {
   background-image: url(../img/icon_instagram.png);
   background-color: #d93175;
   box-shadow: inset 0 -4px #9b2354;
-}
+}*/
 .btn-darken:hover,
 .btn-darken:active {
   color: inherit;
@@ -3020,7 +3067,7 @@ div.ui-slider {
   display: inline-flex;
   vertical-align: bottom;
 }
-#start-menu {
+/*#start-menu {
   padding: 20px;
   width: 753.89px;
   height: 415.06px;
@@ -3029,6 +3076,11 @@ div.ui-slider {
   max-height: unset;
   display: -webkit-box;
   display: flex;
+}*/
+#start-menu {
+    padding: 20px !important;
+    width: 300px !important;
+    height: 325px !important;
 }
 #start-menu .pass-title {
   width: 32px;
@@ -3611,6 +3663,19 @@ div.ui-slider {
   background: #000000;
 }
 #btn-help {
+    background: #7a7a7a;
+    border-bottom: 2px solid #3e3e3e;
+    box-shadow: inset 0 -2px #3e3e3e;
+    display: inline-block;
+    color: #fff;
+    font-size: 16px;
+    height: 40px;
+    line-height: 36px;
+    margin: auto;
+    text-shadow: 0 1px 2px rgba(0,0,0,.25);
+    width: 100%
+}
+/*#btn-help {
   background: #7a7a7a;
   border-bottom: 2px solid #3e3e3e;
   box-shadow: inset 0 -2px #3e3e3e;
@@ -3629,9 +3694,9 @@ div.ui-slider {
     /* box-shadow: none;
         font-size: 12px;
         height: 28px;
-        line-height: 26px;*/
+        line-height: 26px;
   }
-}
+}*/
 .display-help {
   overflow-y: auto;
   display: block;
@@ -3676,22 +3741,23 @@ div.ui-slider {
   border-radius: 5px;
   box-sizing: border-box;
   display: block;
-  height: 40px;
+  height: 40px !important;
   line-height: 38px;
   margin-bottom: 8px;
   text-align: center;
   text-decoration: none;
   width: 100%;
   cursor: pointer;
+  font-size: 16px !important;
 }
-@media (max-width: 850px), (max-width: 900px), (max-width: 930px) {
+/*@media (max-width: 850px), (max-width: 900px), (max-width: 930px) {
   .menu-option {
     font-size: 12px;
     line-height: 30px;
     height: 28px;
     margin-bottom: 6px;
   }
-}
+}*/
 .menu-team-autofill-option {
   display: -webkit-box;
   display: flex;
@@ -3761,6 +3827,36 @@ div.ui-slider {
   .team-btns-text {
     line-height: 15px;
   }
+}
+.btn-reddit {
+  background: #ff4300;
+  border-bottom: 2px solid #d93900;
+  box-shadow: inset 0 -2px #d93900;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.25)
+}
+.btn-discord {
+  background: #5865f2;
+  border-bottom: 2px solid #3c4cf0;
+  box-shadow: inset 0 -2px #3c4cf0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.25)
+}
+.btn-github {
+  background: #000;
+  border-bottom: 2px solid #353535;
+  box-shadow: inset 0 -2px #353535;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  position: relative;
+  text-shadow: 0 1px 2px rgba(0,0,0,.25)
 }
 .btn-green {
   background: #83af50;
@@ -4438,7 +4534,7 @@ div.ui-slider {
     width: 22%;
   }
 }
-.btn-team-option {
+/*.btn-team-option {
   background: #1E90FF;
   border-bottom: 2px solid #1871C8;
   box-shadow: inset 0 -2px #1871C8;
@@ -4454,6 +4550,15 @@ div.ui-slider {
   .btn-team-option {
     border-bottom: none;
   }
+}*/
+.btn-team-option {
+    background: #50afab;
+    border-bottom: 2px solid #387c79;
+    box-shadow: inset 0 -2px #387c79;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.25)
 }
 #btn-team-leave {
   color: white;
@@ -10900,9 +11005,50 @@ div.ui-slider {
 #missions-wrapper {
   display: block;
 }
+#news-block {
+    width: 300px;
+    height: 216px;
+    margin-left: 30px;
+    padding: 20px;
+    overflow-y: auto
+}
+
+#news>h3 {
+    display: block;
+    margin: 0;
+    font-size: 20px;
+    color: gold
+}
+
+#news>small {
+    display: block;
+    margin-top: 4px;
+    font-size: 14px;
+    color: grey
+}
+
+#news>p {
+    display: block;
+    margin-top: 6px
+}
+
+#news>img {
+    margin: auto;
+    width: 100%
+}
+
+#news .highlight {
+    font-weight: 700;
+    color: gold
+}
+
+#news .redacted {
+    font-weight: 700;
+    color: red
+}
 /**
  * news-block
- */
+
 #news-block {
   margin-left: 20px;
   margin-top: 20px;
@@ -10944,7 +11090,7 @@ div.ui-slider {
 .news-image {
   margin: auto;
   width: 100%;
-}
+} */
 #btn-changelog {
   display: inline-block;
   width: 100%;
@@ -11862,6 +12008,23 @@ div.ui-slider {
   border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 5px;
 }
+#start-bottom-middle {
+  position: absolute;
+  color: #fff;
+  bottom: var(--side-pad);
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#start-bottom-middle>a {
+  color: #fff;
+  text-decoration: none;
+}
+#start-bottom-middle .footer-after::after {
+    content: '\B7';
+    margin: 0 10px;
+    color: #fff;
+}
 /**
  * start-bottom-left
  */
@@ -11976,15 +12139,9 @@ input [type="image"]:focus {
  */
 #start-bottom-right {
   position: absolute;
-  color: #FFF;
+  color: #fff;
   bottom: var(--side-pad);
   right: var(--side-pad);
-  top: var(--side-pad);
-  /*width: 17%;*/
-  width: 350px;
-  height: 180px;
-  font-size: 0px;
-  z-index: 1;
 }
 @media (max-height: 720px), (max-width: 1150px) {
   #start-bottom-right {
@@ -12013,11 +12170,11 @@ input [type="image"]:focus {
   pointer-events: all;
 }
 .btn-start-option {
-  margin-right: 0px;
-  margin-left: auto;
-  margin-bottom: 0px;
+  vertical-align: bottom;
+  margin-right: 8px;
+  margin-bottom: 0;
   width: 48px;
-  height: 43px;
+  height: 42px;
   display: inline-block;
   background-repeat: no-repeat;
   background-color: #7a7a7a;
@@ -12032,8 +12189,6 @@ input [type="image"]:focus {
   background-image: url(../img/gui/cog.svg);
   background-size: 44px;
   background-position: 2px -3px;
-  margin-left: 63px;
-  margin-bottom: -36px;
 }
 #btn-start-fullscreen {
   background-image: url(../img/gui/minimize.svg);
