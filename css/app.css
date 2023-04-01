@@ -161,7 +161,7 @@ a:active {
 }
 
 #background {
-  background-image: url(../img/main_splash_april1.png);
+  background-image: url(../img/main_splash.png);
   background-repeat: no-repeat;
   background-size: cover;
   bottom: 0;
@@ -183,8 +183,7 @@ a:active {
 }
 
 #start-row-header {
-  /*background-image: url(../img/surviv_logo_full.svg);*/
-  background-image: url(../img/suroi.png);
+  background-image: url(../img/surviv_logo_full.svg);
   background-repeat: no-repeat;
   background-size: 420px;
   background-position: center;
