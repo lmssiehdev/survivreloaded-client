@@ -798,10 +798,10 @@
                 <select id='server-select-main' class='server-select menu-option btn-hollow btn-hollow-selected'>
                   <optgroup id='server-opts2' label='Region' data-l10n='index-region'>
                     <option value='na' data-label='North America' data-l10n='index-north-america'>North America</option>
-                    <!--<option value='sa' data-label='South America' data-l10n='index-south-america'>South America</option>
+                    <!--<option value='sa' data-label='South America' data-l10n='index-south-america'>South America</option>-->
                     <option value='eu' data-label='Europe' data-l10n='index-europe'>Europe</option>
                     <option value='as' data-label='Asia' data-l10n='index-asia'>Asia</option>
-                    <option value='kr' data-label='Korea' data-l10n='index-korea'>South Korea</option>-->
+                    <!--<option value='kr' data-label='Korea' data-l10n='index-korea'>South Korea</option>-->
                   </optgroup>
                 </select>
                 <a class='btn-green btn-darken menu-option' id='btn-start-mode-0' data-l10n='index-play-solo'>Play Solo</a>
@@ -1419,6 +1419,24 @@
       playerNameInput.addEventListener("input", function() {
         setCookie("player-name", playerNameInput.value, 3650);
       });
+
+      window.onload = () => {
+        const opts = document.getElementById("server-select-main");
+        opts.value = "na";
+        opts.onchange = () => {
+          switch(opts.value) {
+            case "na":
+              window.location = "https://resurviv.io";
+              break;
+            case "eu":
+              window.location = "https://eu.resurviv.io";
+              break;
+            case "as":
+              window.location = "https://as.resurviv.io";
+              break;
+          }
+        };
+      };
     </script>
   </body>
 </html>
