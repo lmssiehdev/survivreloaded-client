@@ -8,10 +8,10 @@
 
 var math = require("./math.js");
 var GameObject = require("./gameObject.js");
-var StatusEffects = require("./41b5258b.js");
+var StatusEffects = require("./statusEffects.js");
 
 //Import status effects
-var ShieldEffect = require("./6cbd2d5d.js");
+var ShieldEffect = require("./shieldEffect.js");
 var ShockEffect = require("./shockEffect.js");
 var ChillEffect = require("./chillEffect.js");
 var BlindEffect = require("./blindEffect.js");

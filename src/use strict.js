@@ -2,9 +2,9 @@
 
 
 var GameConfig = require("./gameConfig.js");
-var util = require("./1901e2d9.js");
-var v2 = require("./c2a798c8.js");
-var baseDef = require("./45f86a38.js");
+var util = require("./util.js");
+var v2 = require("./v2.js");
+var baseDef = require("./woodsBaseDef.js");
 
 var mapDef = {
     assets: {

@@ -11,9 +11,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * The number of projectiles or time shooting is parameterizable
  */
 
-var v2 = require("./c2a798c8.js");
-var SkillsEnum = require("./e6306c81.js");
-var AnimationData = require("./1c877798.js");
+var v2 = require("./v2.js");
+var SkillsEnum = require("./skillsEnum.js");
+var AnimationData = require("./animationData.js");
 var DeployTrap = require("./deployTrap.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;

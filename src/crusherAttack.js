@@ -11,11 +11,11 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 var assert = require("./0e566746.js");
-var v2 = require("./c2a798c8.js");
-var SkillsEnum = require("./e6306c81.js");
+var v2 = require("./v2.js");
+var SkillsEnum = require("./skillsEnum.js");
 var GameObject = require("./gameObject.js");
 var StatusEffect = require("./statusEffect.js");
-var AnimationData = require("./1c877798.js");
+var AnimationData = require("./animationData.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

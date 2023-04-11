@@ -28,8 +28,8 @@ var _entries2 = _interopRequireDefault(_entries);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var GearDefs = require("./4ead53e6.js");
-var recycleData = require("./6583904d.js");
+var GearDefs = require("./gearDefs.js");
+var recycleData = require("./recycleData.js");
 
 /**
  * 

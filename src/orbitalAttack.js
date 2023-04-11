@@ -10,13 +10,13 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Do a melee attack without any previous special behaviour
  */
 
-var v2 = require("./c2a798c8.js");
-var util = require("./1901e2d9.js");
-var collider = require("./6b42806d.js");
-var SkillsEnum = require("./e6306c81.js");
+var v2 = require("./v2.js");
+var util = require("./util.js");
+var collider = require("./collider.js");
+var SkillsEnum = require("./skillsEnum.js");
 var GameConfig = require("./gameConfig.js");
 var GameObject = require("./gameObject.js");
-var AnimationData = require("./1c877798.js");
+var AnimationData = require("./animationData.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

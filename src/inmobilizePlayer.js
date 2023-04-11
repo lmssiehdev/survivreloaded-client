@@ -10,12 +10,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Status effect that inmobilizes a player
  */
 
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 var math = require("./math.js");
 var GameObject = require("./gameObject.js");
-var AnimationData = require("./1c877798.js");
-var StatusEffects = require("./41b5258b.js");
-var EnumNpcAnimations = require("./8f04ede1.js").EnumNpcAnimations;
+var AnimationData = require("./animationData.js");
+var StatusEffects = require("./statusEffects.js");
+var EnumNpcAnimations = require("./enumNpcAnimations.js").EnumNpcAnimations;
 
 var _require = require("./cb7a977d.js"),
     StatusEffectAttackType = _require.StatusEffectAttackType;

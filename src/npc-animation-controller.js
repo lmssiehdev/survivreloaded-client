@@ -24,9 +24,9 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Controls the animations of the npc spineObj. Animations: idle, walking, attacking
  */
 
-var AnimObjects = require("./ad7bf251.js");
-var Enums = require("./8f04ede1.js");
-var defStatusEffects = require("./41b5258b.js");
+var AnimObjects = require("./animObjects.js");
+var Enums = require("./enumNpcAnimations.js");
+var defStatusEffects = require("./statusEffects.js");
 
 var EnumNpcAnimations = Enums.EnumNpcAnimations;
 

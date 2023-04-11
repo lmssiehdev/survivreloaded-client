@@ -11,18 +11,18 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 var assert = require("./0e566746.js");
-var v2 = require("./c2a798c8.js");
-var util = require("./1901e2d9.js");
-var collider = require("./6b42806d.js");
+var v2 = require("./v2.js");
+var util = require("./util.js");
+var collider = require("./collider.js");
 var GameObject = require("./gameObject.js");
-var TrapsBehaviourEnum = require("./f1204f47.js");
+var TrapsBehaviourEnum = require("./trapsBehaviourEnum.js");
 var StatusEffect = require("./statusEffect.js");
 var TrapDefs = require("./trap-defs.js");
 var BehaviourDefaults = require("./trap-behaviour-defaults.js");
 
 //Import behaviours
 var BaseTrap = require("./baseTrap.js");
-var DamageOverTime = require("./damageOverTimeTrap.js");
+var DamageOverTime = require("./damageOverTime.js");
 
 var TrapManager = function () {
     function TrapManager(playerBarn, isRunningOnClient) {

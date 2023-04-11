@@ -6,7 +6,7 @@
  * Contains all the special behaviour to apply the projectiles
  */
 
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 var assert = require("./0e566746.js");
 var math = require("./math.js");
 

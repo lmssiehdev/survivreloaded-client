@@ -12,7 +12,7 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
  * For a specific attack tweaking please modify in the bullet definition or main-hand-weaps.js 
  */
 
-var BehaviourEnum = require("./b2f0419a.js");
+var BehaviourEnum = require("./behaviourEnum.js");
 
 var ProjectileBehaviours = (_ProjectileBehaviours = {}, _defineProperty(_ProjectileBehaviours, BehaviourEnum.SinusoidalBehaviour, {
     id: BehaviourEnum.SinusoidalBehaviour,

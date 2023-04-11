@@ -2,7 +2,7 @@
 
 
 // @ts-check
-var GameObjectDefs = require("./721a96bf.js");
+var GameObjectDefs = require("./gameObjectDefs.js");
 
 var getItemValue = function getItemValue(objDef) {
     var priceList = GameObjectDefs['prices_1'];

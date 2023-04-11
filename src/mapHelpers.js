@@ -2,12 +2,12 @@
 
 
 var assert = require("./0e566746.js");
-var coldet = require("./34e32c48.js");
-var collider = require("./6b42806d.js");
+var coldet = require("./coldet.js");
+var collider = require("./collider.js");
 var math = require("./math.js");
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 
-var MapObjectDefs = require("./03f4982a.js");
+var MapObjectDefs = require("./mapObjectDefs.js");
 
 // Anti-cheat vars
 var m_kMinSmokeAlpha = 0.8;

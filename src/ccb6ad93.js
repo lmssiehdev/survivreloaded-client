@@ -1,7 +1,7 @@
 "use strict";
 
 
-var util = require("./1901e2d9.js");
+var util = require("./util.js");
 
 function defineSkin(baseType, params) {
     return util.mergeDeep({}, BaseDefs[baseType], { baseType: baseType }, params);

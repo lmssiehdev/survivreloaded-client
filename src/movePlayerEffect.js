@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Push the player in the direction received
  */
 
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 var math = require("./math.js");
 var GameObject = require("./gameObject.js");
-var StatusEffects = require("./41b5258b.js");
+var StatusEffects = require("./statusEffects.js");
 
 var kDirections = {
     right: 0,

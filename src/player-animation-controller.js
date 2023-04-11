@@ -30,8 +30,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var math = require("./math.js");
 var GameConfig = require("./gameConfig.js");
-var AnimationData = require("./1c877798.js");
-var StatusEffects = require("./41b5258b.js");
+var AnimationData = require("./animationData.js");
+var StatusEffects = require("./statusEffects.js");
 
 var GameInput = GameConfig.Input;
 var AnimObjects = AnimationData.PlayerAnimObjects;

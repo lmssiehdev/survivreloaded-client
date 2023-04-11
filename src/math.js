@@ -2,8 +2,8 @@
 
 
 var assert = require("./0e566746.js");
-var earcut = require("./66141f52.js");
-var v2 = require("./c2a798c8.js");
+var earcut = require("./earcut.js");
+var v2 = require("./v2.js");
 
 var kEpsilon = 0.000001;
 

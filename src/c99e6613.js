@@ -24,8 +24,8 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var helpers = require("./26be8056.js");
-var AnalyticsService = require("./04b0444b.js");
+var helpers = require("./helpers.js");
+var AnalyticsService = require("./analyticsService.js");
 // Disable logging in production
 if ( true && !helpers.getParameterByName('debug')) {
     console.log = function () {};
@@ -39,46 +39,46 @@ require("./deb4ca7e.js");
 
 var GameConfig = require("./989ad62a.js");
 var math = require("./10899aea.js");
-var net = require("./300e2704.js");
-var MapDefs = require("./b1f6ba3c.js");
-var GeneralDefs = require("./3fef0c67.js");
-var Account = require("./a68e9107.js");
-var Ads = require("./2d958752.js");
-var api = require("./259eae5b.js");
-var Ambience = require("./0b12821e.js");
-var AudioManager = require("./4b528868.js");
-var Config = require("./6ffe8b70.js");
-var device = require("./ce29f17f.js");
-var FirebaseManager = require("./f398b7c7.js");
-var Game = require("./9b5f96fd.js");
-var Input = require("./4b8d140f.js");
-var InputBinds = require("./d306eab6.js");
-var LoadoutDisplay = require("./d15c07f3.js");
-var HomeLoadoutDisplay = require("./1919cb88.js");
-var LoadoutMenu = require("./153d9481.js");
-var Localization = require("./7d64d541.js");
-var Eventhandler = require("./289e8b9e.js");
-var menu = require("./484b3444.js");
-var MenuModal = require("./fa71fb59.js");
-var Pass = require("./4f38df20.js");
-var PingTest = require("./c4623452.js");
-var ProfileUi = require("./3c92d644.js");
-var proxy = require("./6743143a.js");
-var resources = require("./76205fa7.js");
-var SiteInfo = require("./4bc2cf35.js");
-var TeamMenu = require("./61fc98e9.js");
-var Ui2 = require("./d3da5587.js");
-var webview = require("./f4d48896.js");
-var Spinner = require("./b8ef459b.js");
-var IAP = require("./6eaef6cf.js");
-var Market = require("./f822dced.js");
-var OpponentMenu = require("./851f35c5.js");
-var OpponentDisplay = require("./3f40fc69.js");
-var SpineObjManager = require("./1fd13749.js");
-var WeaponSelector = require("./17ac315d.js");
-var GearForge = require("./4d789253.js");
+var net = require("./net.js");
+var MapDefs = require("./mapDefs.js");
+var GeneralDefs = require("./generalUseDefs.js");
+var Account = require("./account.js");
+var Ads = require("./ads.js");
+var api = require("./api.js");
+var Ambience = require("./ambience.js");
+var AudioManager = require("./audioManager.js");
+var Config = require("./config.js");
+var device = require("./device.js");
+var FirebaseManager = require("./FirebaseManager.js");
+var Game = require("./game.js");
+var Input = require("./input.js");
+var InputBinds = require("./inputBinds.js");
+var LoadoutDisplay = require("./loadoutDisplay.js");
+var HomeLoadoutDisplay = require("./homeLoadoutDisplay.js");
+var LoadoutMenu = require("./loadoutMenu.js");
+var Localization = require("./localization.js");
+var Eventhandler = require("./eventhandler.js");
+var menu = require("./menu.js");
+var MenuModal = require("./menuModal.js");
+var Pass = require("./pass.js");
+var PingTest = require("./pingTest.js");
+var ProfileUi = require("./profileUi.js");
+var proxy = require("./proxy.js");
+var resources = require("./resources.js");
+var SiteInfo = require("./siteInfo.js");
+var TeamMenu = require("./teamMenu.js");
+var Ui2 = require("./ui2.js");
+var webview = require("./webview.js");
+var Spinner = require("./spinner.js");
+var IAP = require("./iap.js");
+var Market = require("./market.js");
+var OpponentMenu = require("./opponentMenu.js");
+var OpponentDisplay = require("./opponentDisplay.js");
+var SpineObjManager = require("./spineObjManager.js");
+var WeaponSelector = require("./weaponSelector.js");
+var GearForge = require("./gearForge.js");
 var RewardsModal = require("./modal-quest-rewards.js");
-var BugBattleService = require("./77bea4d7.js");
+var BugBattleService = require("./bugBattleService.js");
 window.addEventListener("error", function (e) {
     console.log("Error occurred: " + e.error.message);
     return false;
@@ -1999,8 +1999,8 @@ m_App.prototype = {
 
     // Required to get webpack to process this dep
     //If device is mobile change css
-    var menuCssTmp = require("./927ff3fc.js");
-    var gameCssTmp = require("./b4f03d8a.js");
+    var menuCssTmp = require("./menuCssTmp.js");
+    var gameCssTmp = require("./gameCssTmp.js");
 
     if (device.mobile && device.screenWidth >= 1024) {
         gameCssTmp = require("./40698162.js");
