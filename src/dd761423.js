@@ -1,7 +1,7 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 
 function createSprite(_ref) {
     var image = _ref.image,

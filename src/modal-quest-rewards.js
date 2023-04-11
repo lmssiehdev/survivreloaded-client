@@ -21,8 +21,8 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  */
 
 var $ = require("./8ee62bea.js");
-var MenuModal = require("./fa71fb59.js"); //TODO this is legacy code, change this for new modal-template.js
-var QuestDefs = require("./e9b026d5.js").kQuestDefs;
+var MenuModal = require("./menuModal.js"); //TODO this is legacy code, change this for new modal-template.js
+var QuestDefs = require("./questDefs.js").kQuestDefs;
 
 var kMaxColumnsByRow = 3;
 var kMaxWidthRewardList = 880; //px

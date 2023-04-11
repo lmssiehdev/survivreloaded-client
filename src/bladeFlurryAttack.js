@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Do a burst of melee attacks
  */
 
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 
-var SkillsEnum = require("./e6306c81.js");
-var AnimationData = require("./1c877798.js");
+var SkillsEnum = require("./skillsEnum.js");
+var AnimationData = require("./animationData.js");
 
 var Anim = AnimationData.EnumPlayerAnimType;
 var AttackToNum = AnimationData.AttackIdToNumber;

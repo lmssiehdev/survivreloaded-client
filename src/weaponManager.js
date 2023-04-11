@@ -12,20 +12,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 //Imports
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 var assert = require("./0e566746.js");
-var net = require("./300e2704.js");
-var math = require("./10899aea.js");
-var util = require("./1901e2d9.js");
-var collider = require("./6b42806d.js");
+var net = require("./net.js");
+var math = require("./math.js");
+var util = require("./util.js");
+var collider = require("./collider.js");
 
-var SkillsEnum = require("./e6306c81.js");
-var GameConfig = require("./989ad62a.js");
-var GameObject = require("./8649e148.js");
+var SkillsEnum = require("./skillsEnum.js");
+var GameConfig = require("./gameConfig.js");
+var GameObject = require("./gameObject.js");
 var StatusEffect = require("./statusEffect.js");
-var GameObjectDefs = require("./721a96bf.js");
+var GameObjectDefs = require("./gameObjectDefs.js");
 
-var Anim = require("./1c877798.js").EnumPlayerAnimType;
+var Anim = require("./animationData.js").EnumPlayerAnimType;
 
 //Attack behaviours
 var DeployTrap = require("./deployTrap.js");

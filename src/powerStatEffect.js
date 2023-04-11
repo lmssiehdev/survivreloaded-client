@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Boost the player power for a certain time
  */
 
-var GameConfig = require("./989ad62a.js");
-var v2 = require("./c2a798c8.js");
-var StatusEffects = require("./41b5258b.js");
-var math = require("./10899aea.js");
+var GameConfig = require("./gameConfig.js");
+var v2 = require("./v2.js");
+var StatusEffects = require("./statusEffects.js");
+var math = require("./math.js");
 
 var PowerStatEffect = function () {
     /**

@@ -28,10 +28,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
  * Controls the animations of the player spineObj. Animations: idle, walking, dashing, attacking
  */
 
-var math = require("./10899aea.js");
-var GameConfig = require("./989ad62a.js");
-var AnimationData = require("./1c877798.js");
-var StatusEffects = require("./41b5258b.js");
+var math = require("./math.js");
+var GameConfig = require("./gameConfig.js");
+var AnimationData = require("./animationData.js");
+var StatusEffects = require("./statusEffects.js");
 
 var GameInput = GameConfig.Input;
 var AnimObjects = AnimationData.PlayerAnimObjects;

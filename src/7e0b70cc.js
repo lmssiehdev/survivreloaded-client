@@ -1,7 +1,7 @@
 "use strict";
 
 
-var SkillsEnum = require("./e6306c81.js");
+var SkillsEnum = require("./skillsEnum.js");
 /**Default loot container scale 1.4
  * Default loot sprite scale 1.0
  * Params scale:1.4

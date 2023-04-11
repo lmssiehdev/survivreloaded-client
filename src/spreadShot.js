@@ -10,9 +10,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 //Imports
-var v2 = require("./c2a798c8.js");
+var v2 = require("./v2.js");
 var BaseBullet = require("./baseBullet.js");
-var BehaviourEnum = require("./b2f0419a.js");
+var BehaviourEnum = require("./behaviourEnum.js");
 var BehaviourMethods = require("./projectile-behaviours-methods.js");
 
 var SpreadShot =

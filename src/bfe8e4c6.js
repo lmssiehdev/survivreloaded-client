@@ -6,11 +6,11 @@ var _BoonNameToId;
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 //@ts-check
-var Boons = require("./2cca17e9.js");
-var HealersKit = require("./560f1379.js");
-var ElvishMetalBoon = require("./b45f8e17.js");
-var ExtraPouchBoon = require("./4d450126.js");
-var AGoodStart = require("./16f535be.js");
+var Boons = require("./boons.js");
+var HealersKit = require("./healersKit.js");
+var ElvishMetalBoon = require("./elvishMetalBoon.js");
+var ExtraPouchBoon = require("./extraPouchBoon.js");
+var AGoodStart = require("./aGoodStart.js");
 
 var BoonNames = {
     ElvishMetal: 'boon_elvishmetal',

@@ -1,8 +1,8 @@
 "use strict";
 
 
-var collider = require("./6b42806d.js");
-var EnumNpcs = require("./063efab9.js");
+var collider = require("./collider.js");
+var EnumNpcs = require("./enumNPCs.js");
 
 var npcSpawnersDefs = {
     'skeleto_7x7': {
