@@ -7,14 +7,14 @@ var _assign2 = _interopRequireDefault(_assign);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
-var GameConfig = require("./989ad62a.js");
+var $ = require("./jquery.js");
+var GameConfig = require("./gameConfig.js");
 var GameInput = GameConfig.Input;
 var EmoteSlot = GameConfig.EmoteSlot;
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var coldet = require("./34e32c48.js");
 var v2 = require("./c2a798c8.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var util = require("./1901e2d9.js");
 var device = require("./ce29f17f.js");
 var helpers = require("./26be8056.js");

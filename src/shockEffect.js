@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * This class represents the burning status effect of the game
  */
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var v2 = require("./c2a798c8.js");
 var StatusEffects = require("./41b5258b.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 var _require = require("./cb7a977d.js"),
     StatusEffectAttackType = _require.StatusEffectAttackType;

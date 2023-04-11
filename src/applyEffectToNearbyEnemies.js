@@ -10,10 +10,10 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * This apply an effect to all enemies nearby (area specified in skill definition)
  */
 
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var SkillsEnum = require("./e6306c81.js");
-var GameConfig = require("./989ad62a.js");
-var GameObject = require("./8649e148.js");
+var GameConfig = require("./gameConfig.js");
+var GameObject = require("./gameObject.js");
 var StatusEffect = require("./statusEffect.js");
 var AnimationData = require("./1c877798.js");
 

@@ -1,11 +1,11 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
 var v2 = require("./c2a798c8.js");
 var device = require("./ce29f17f.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 var GameObjectDefs = require("./721a96bf.js");
 

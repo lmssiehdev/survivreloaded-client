@@ -1,10 +1,10 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var coldet = require("./34e32c48.js");
 var collider = require("./6b42806d.js");
-var mapHelpers = require("./7510cc08.js");
+var mapHelpers = require("./mapHelpers.js");
 var Spline = require("./7b5bbf6e.js");
 var TerrainGen = require("./e100c355.js");
 var util = require("./1901e2d9.js");
@@ -14,8 +14,8 @@ var Particles = require("./119e8c4c.js");
 var device = require("./ce29f17f.js");
 var helpers = require("./26be8056.js");
 var net = require("./300e2704.js");
-var math = require("./10899aea.js");
-var GameConfig = require("./989ad62a.js");
+var math = require("./math.js");
+var GameConfig = require("./gameConfig.js");
 var Building = require("./33375c30.js");
 var DebugLines = require("./af8ba00f.js");
 var DebugHelpers = require("./c347b8dd.js");

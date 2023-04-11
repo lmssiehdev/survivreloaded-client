@@ -5,7 +5,7 @@
  * Replace Math.min and Math.max with a ternary for performance
  * -NSC 09-05-18
  */
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 (function (root) {
     /**********************************************************

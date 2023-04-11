@@ -1,6 +1,6 @@
 "use strict";
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var v2 = require("./c2a798c8.js");
 
 // @NOTE: Entries defined as single-element arrays, like fixedSpawns: [{ }],

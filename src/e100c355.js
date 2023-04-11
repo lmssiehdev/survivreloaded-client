@@ -2,8 +2,8 @@
 
 
 var collider = require("./6b42806d.js");
-var GameConfig = require("./989ad62a.js");
-var math = require("./10899aea.js");
+var GameConfig = require("./gameConfig.js");
+var math = require("./math.js");
 var River = require("./be22c643.js");
 var Terrain = require("./6912809e.js");
 var util = require("./1901e2d9.js");

@@ -13,7 +13,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var v2 = require("./c2a798c8.js");
 var util = require("./1901e2d9.js");
 var SkillsEnum = require("./e6306c81.js");
-var GameObject = require("./8649e148.js");
+var GameObject = require("./gameObject.js");
 var AnimationData = require("./1c877798.js");
 var GameObjectDefs = require("./721a96bf.js");
 

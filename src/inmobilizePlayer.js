@@ -11,8 +11,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 var v2 = require("./c2a798c8.js");
-var math = require("./10899aea.js");
-var GameObject = require("./8649e148.js");
+var math = require("./math.js");
+var GameObject = require("./gameObject.js");
 var AnimationData = require("./1c877798.js");
 var StatusEffects = require("./41b5258b.js");
 var EnumNpcAnimations = require("./8f04ede1.js").EnumNpcAnimations;

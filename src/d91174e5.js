@@ -7,12 +7,12 @@ var _getIterator3 = _interopRequireDefault(_getIterator2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var v2 = require("./c2a798c8.js");
 var util = require("./1901e2d9.js");
 var collider = require("./6b42806d.js");
 var DebugLines = require("./af8ba00f.js");
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var StatusEffect = require("./statusEffect.js");
 var collisionHelpers = require("./6d494b5c.js");
 

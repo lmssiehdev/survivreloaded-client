@@ -11,7 +11,7 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
+var $ = require("./jquery.js");
 var apiKey = "AIzaSyCrPuZeAQ2-aXZdTwZNwQJdv4rvsTE-2i8";
 
 var FirebaseManager = function () {

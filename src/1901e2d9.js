@@ -6,7 +6,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 var crypto = require("./991178d3.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 
 var util = {

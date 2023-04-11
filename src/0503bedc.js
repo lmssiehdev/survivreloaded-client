@@ -4,11 +4,11 @@
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 // @ts-check
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var deepEqual = require("./259e794b.js");
 
 var GameObjectDefs = require("./721a96bf.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 var LoadoutTypes = {
     outfit: 'outfit',

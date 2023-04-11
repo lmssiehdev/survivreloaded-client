@@ -1,9 +1,9 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var DebugLines = require("./af8ba00f.js");

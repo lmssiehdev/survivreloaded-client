@@ -39,8 +39,8 @@ var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
 var Action = GameConfig.Action;
 var Anim = GameConfig.Anim;
 var GameInput = GameConfig.Input;
@@ -49,7 +49,7 @@ var Role = GameConfig.Role;
 var net = require("./300e2704.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var coldet = require("./34e32c48.js");
 var collider = require("./6b42806d.js");
 var animData = require("./6bad552e.js");
@@ -72,10 +72,10 @@ var StatusEffect = require("./statusEffect.js");
 
 var WeaponManager = require("./weaponManager.js");
 var SkillTelegraph = require("./8d2ac16e.js");
-var GameObject = require("./8649e148.js");
+var GameObject = require("./gameObject.js");
 var GearPerksController = require("./e54dae39.js");
 
-var _require = require("./989ad62a.js"),
+var _require = require("./gameConfig.js"),
     CharacterSkins = _require.CharacterSkins;
 
 var _require2 = require("./1c877798.js"),

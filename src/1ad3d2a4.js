@@ -1,7 +1,7 @@
 "use strict";
 
 
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 
 function m_Camera() {

@@ -19,8 +19,8 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = require("./8b1dfb45.js");
-var math = require("./10899aea.js");
+var PIXI = require("./pixi.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 
 var SortableSprite = function (_PIXI$Sprite) {

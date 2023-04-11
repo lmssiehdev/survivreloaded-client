@@ -27,7 +27,7 @@ var _require2 = require("./cb7a977d.js"),
 
 var MainHandWeaps = require("./1dc8ec07.js");
 
-var _require3 = require("./10899aea.js"),
+var _require3 = require("./math.js"),
     clamp = _require3.clamp;
 
 var MaxBoonsByName = (_MaxBoonsByName = {}, _defineProperty(_MaxBoonsByName, BoonNames.ExtraPouch, 3), _defineProperty(_MaxBoonsByName, BoonNames.ElvishMetal, 1), _defineProperty(_MaxBoonsByName, BoonNames.HealersKit, 1), _defineProperty(_MaxBoonsByName, BoonNames.AGoodStart, 3), _MaxBoonsByName);

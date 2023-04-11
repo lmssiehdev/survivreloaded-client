@@ -8,10 +8,10 @@ var _assign2 = _interopRequireDefault(_assign);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var assert = require("./0e566746.js");
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
-var mapHelpers = require("./7510cc08.js");
+var math = require("./math.js");
+var mapHelpers = require("./mapHelpers.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var collisionHelpers = require("./6d494b5c.js");

@@ -32,9 +32,9 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var assert = require("./0e566746.js");
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var FirebaseManager = require("./f398b7c7.js");

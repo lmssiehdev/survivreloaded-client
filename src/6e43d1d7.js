@@ -1,9 +1,9 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
-var math = require("./10899aea.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 var util = require("./1901e2d9.js");
 

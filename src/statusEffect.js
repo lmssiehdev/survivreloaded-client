@@ -6,8 +6,8 @@
  * This file contains the basic function to create, update and the destroy the various status effects of the game
  */
 
-var math = require("./10899aea.js");
-var GameObject = require("./8649e148.js");
+var math = require("./math.js");
+var GameObject = require("./gameObject.js");
 var StatusEffects = require("./41b5258b.js");
 
 //Import status effects

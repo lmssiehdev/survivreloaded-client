@@ -8,7 +8,7 @@
 
 var v2 = require("./c2a798c8.js");
 var assert = require("./0e566746.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 var getSinusoidalDirection = function getSinusoidalDirection(dir) {
     //TODO rename and get the direction in 90 degree more precise in diagonals

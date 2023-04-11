@@ -1,8 +1,8 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
-var math = require("./10899aea.js");
+var PIXI = require("./pixi.js");
+var math = require("./math.js");
 var device = require("./ce29f17f.js");
 
 //

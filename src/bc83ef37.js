@@ -1,10 +1,10 @@
 "use strict";
 
 
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var Bullet = require("./bullet.js");
@@ -14,7 +14,7 @@ var ObjectPool = require("./753d6e4b.js");
 
 var GameObjectDefs = require("./721a96bf.js");
 var MapObjectDefs = require("./03f4982a.js");
-var GameObject = require("./8649e148.js");
+var GameObject = require("./gameObject.js");
 
 var kGroundSounds = {
     'grass': 'frag_grass',

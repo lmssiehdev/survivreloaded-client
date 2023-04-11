@@ -21,12 +21,12 @@ var _SlotsInputBindings, _WeaponSlotToBind;
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
+var $ = require("./jquery.js");
 var collider = require("./6b42806d.js");
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var GameInput = GameConfig.Input;
 var Action = GameConfig.Action;
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var net = require("./300e2704.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
@@ -39,7 +39,7 @@ var GameObjectDefs = require("./721a96bf.js");
 var Levels = require("./a680f13f.js");
 var MapObjectDefs = require("./03f4982a.js");
 
-var _require = require("./989ad62a.js"),
+var _require = require("./gameConfig.js"),
     SlotsByIndex = _require.SlotsByIndex;
 
 var StatusEffects = require("./41b5258b.js");

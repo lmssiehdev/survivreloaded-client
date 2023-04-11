@@ -5,7 +5,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 
 var ExtraPouchBoon = function () {
     function ExtraPouchBoon(player, isRunningOnClient) {

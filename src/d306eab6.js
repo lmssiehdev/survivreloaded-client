@@ -22,14 +22,14 @@ var _BindDefs;
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 // @ts-check
-var $ = require("./8ee62bea.js");
+var $ = require("./jquery.js");
 var base64 = require("./ca1f6916.js");
 // @ts-ignore
 var bitbuffer = require("./14a25ec1.js");
 // @ts-ignore
 var crc = require("./6d61bfc0.js");
 // @ts-ignore
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var GameInput = GameConfig.Input;
 var Input = require("./4b8d140f.js");
 var InputType = Input.InputType;

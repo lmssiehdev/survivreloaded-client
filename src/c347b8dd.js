@@ -2,7 +2,7 @@
 
 
 var collider = require("./6b42806d.js");
-var mapHelpers = require("./7510cc08.js");
+var mapHelpers = require("./mapHelpers.js");
 var v2 = require("./c2a798c8.js");
 var DebugLines = require("./af8ba00f.js");
 

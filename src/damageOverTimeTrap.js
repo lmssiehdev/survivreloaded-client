@@ -14,7 +14,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 var assert = require("./0e566746.js");
 var v2 = require("./c2a798c8.js");
 var collider = require("./6b42806d.js");
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 
 var DamageOverTimeTrap = function () {
     function DamageOverTimeTrap(id, definition, trapManager, params, explosionBarn) {

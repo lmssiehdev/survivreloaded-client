@@ -11,10 +11,10 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
 var GasMode = GameConfig.GasMode;
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 var helpers = require("./26be8056.js");
 

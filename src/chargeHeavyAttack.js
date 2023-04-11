@@ -11,7 +11,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  */
 
 var v2 = require("./c2a798c8.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var StatusEffects = require("./41b5258b.js");
 
 var ChargeHeavyAttack = function () {

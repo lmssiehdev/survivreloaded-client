@@ -7,14 +7,14 @@ var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
+var $ = require("./jquery.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
 var GameInput = GameConfig.Input;
 var EmoteSlot = GameConfig.EmoteSlot;
-var GameObject = require("./8649e148.js");
-var mapHelpers = require("./7510cc08.js");
-var math = require("./10899aea.js");
+var GameObject = require("./gameObject.js");
+var mapHelpers = require("./mapHelpers.js");
+var math = require("./math.js");
 var net = require("./300e2704.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
@@ -65,7 +65,7 @@ var numberBeacons = 1; //Beacons per quest
 
 /**
  * 
- * @param {*} pixi 
+ * @param {import("./pixi.js")} pixi
  * @param {*} audioManager 
  * @param {*} localization 
  * @param {*} config 

@@ -1,7 +1,7 @@
 "use strict";
 
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var baseDef = require("./d5ec3c16.js");

@@ -2,7 +2,7 @@
 
 
 var coldet = require("./34e32c48.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 
 //

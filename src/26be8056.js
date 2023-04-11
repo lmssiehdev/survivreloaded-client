@@ -7,7 +7,7 @@ var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
+var $ = require("./jquery.js");
 var net = require("./300e2704.js");
 var util = require("./1901e2d9.js");
 var api = require("./259eae5b.js");

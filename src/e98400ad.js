@@ -11,10 +11,10 @@ var _keys2 = _interopRequireDefault(_keys);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var $ = require("./8ee62bea.js");
-var PIXI = require("./8b1dfb45.js");
-var GameConfig = require("./989ad62a.js");
-var math = require("./10899aea.js");
+var $ = require("./jquery.js");
+var PIXI = require("./pixi.js");
+var GameConfig = require("./gameConfig.js");
+var math = require("./math.js");
 var util = require("./1901e2d9.js");
 var v2 = require("./c2a798c8.js");
 var device = require("./ce29f17f.js");

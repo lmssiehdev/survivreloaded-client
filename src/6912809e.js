@@ -3,10 +3,10 @@
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var coldet = require("./34e32c48.js");
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var Spline = require("./7b5bbf6e.js");
 var v2 = require("./c2a798c8.js");
 

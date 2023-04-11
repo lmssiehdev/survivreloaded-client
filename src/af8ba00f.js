@@ -12,9 +12,9 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var collider = require("./6b42806d.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
-var PIXI = require("./8b1dfb45.js");
+var PIXI = require("./pixi.js");
 
 var kShapes = {
     Line: 0,

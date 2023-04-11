@@ -10,7 +10,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
  * Shoot a burst of projectiles based on the attack hold time
  */
 
-var math = require("./10899aea.js");
+var math = require("./math.js");
 
 var SkillsEnum = require("./e6306c81.js");
 var AnimationData = require("./1c877798.js");

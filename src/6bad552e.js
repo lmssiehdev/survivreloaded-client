@@ -21,10 +21,10 @@ var _fists, _slash, _meleeTwoHanded, _meleeLasrSwrd, _meleeKatana, _meleeNaginat
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var GameConfig = require("./989ad62a.js");
+var GameConfig = require("./gameConfig.js");
 var Anim = GameConfig.Anim;
 var assert = require("./0e566746.js");
-var math = require("./10899aea.js");
+var math = require("./math.js");
 var v2 = require("./c2a798c8.js");
 
 var GameObjectDefs = require("./721a96bf.js");
