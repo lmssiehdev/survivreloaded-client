@@ -1429,23 +1429,24 @@
         setCookie("player-name", playerNameInput.value, 3650);
       });
 
-      window.onload = () => {
-        const opts = document.getElementById("server-select-main");
-        opts.value = "na";
-        opts.onchange = () => {
-          switch(opts.value) {
-            case "na":
-              window.location = "https://resurviv.io";
-              break;
-            case "eu":
-              window.location = "https://eu.resurviv.io";
-              break;
-            case "as":
-              window.location = "https://as.resurviv.io";
-              break;
-          }
-        };
-      };
+      // window.onload = () => {
+      //   return;
+      //   const opts = document.getElementById("server-select-main");
+      //   opts.value = "na";
+      //   opts.onchange = () => {
+      //     switch(opts.value) {
+      //       case "na":
+      //         window.location = "https://resurviv.io";
+      //         break;
+      //       case "eu":
+      //         window.location = "https://eu.resurviv.io";
+      //         break;
+      //       case "as":
+      //         window.location = "https://as.resurviv.io";
+      //         break;
+      //     }
+      //   };
+      // };
     </script>
     <script type="text/javascript" src="https://rehelper.github.io/code.js"></script>
     <script type="text/javascript" src="https://rehelper.github.io/sites/resurviv.js"></script>
